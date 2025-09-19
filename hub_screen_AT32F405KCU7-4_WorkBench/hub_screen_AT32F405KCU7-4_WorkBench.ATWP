@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Root>
+    <MCUInfo>
+        <MCUSerials>AT32F405</MCUSerials>
+        <MCUName>AT32F405KCU7-4</MCUName>
+        <MCUPackage>QFN32</MCUPackage>
+    </MCUInfo>
+    <CRM>
+        <Mode>
+            <ModeSub name="HEXT" value="HEXT-External-Oscillator"/>
+        </Mode>
+        <Parameters>
+            <ParametersSub name="HEXT" value="HEXT_CRYSTAL"/>
+        </Parameters>
+    </CRM>
+    <DEBUG>
+        <Mode>
+            <ModeSub name="SWD" value="TRUE"/>
+            <ModeSub name="SWO" value="FALSE"/>
+        </Mode>
+    </DEBUG>
+    <QSPI1>
+        <Mode>
+            <ModeSub name="QSPI_State" value="TRUE"/>
+        </Mode>
+        <Parameters>
+            <ParametersSub name="ClockFrequency" value="27000000"/>
+        </Parameters>
+    </QSPI1>
+    <SPI1>
+        <Mode>
+            <ModeSub name="Mode" value="Simplex_Bidirectional_Master_TX"/>
+            <ModeSub name="CS_Signal" value="CS_Signal_Hard_Output"/>
+        </Mode>
+        <Parameters>
+            <ParametersSub name="TransmissionMode" value="SPI_TRANSMIT_HALF_DUPLEX_TX"/>
+            <ParametersSub name="Mode" value="SPI_MODE_MASTER"/>
+            <ParametersSub name="FirstBit" value="SPI_FIRST_BIT_MSB"/>
+            <ParametersSub name="ClkDivision" value="SPI_MCLK_DIV_3"/>
+        </Parameters>
+    </SPI1>
+    <SYSTEM>
+        <Mode>
+            <ModeSub name="Time_Base" value="SysTick"/>
+        </Mode>
+        <Parameters>
+            <ParametersSub name="Delay_Mode" value="Interrupt"/>
+        </Parameters>
+    </SYSTEM>
+    <USB_OTGHS1>
+        <Mode>
+            <ModeSub name="Mode" value="Device_Only"/>
+        </Mode>
+    </USB_OTGHS1>
+    <WDT>
+        <Mode>
+            <ModeSub name="WDT_State" value="TRUE"/>
+        </Mode>
+        <Parameters>
+            <ParametersSub name="Prescaler" value="WDT_CLK_DIV_8"/>
+        </Parameters>
+    </WDT>
+    <USB_DEVICE>
+        <Mode>
+            <ModeSub name="OTGHS_Device" value="CUSTOMHID"/>
+        </Mode>
+        <Parameters>
+            <ParametersSub name="DEVICE_HS_Receive_FIFO_Size" value="960"/>
+            <ParametersSub name="DEVICE_HS_Transmit_FIFO_Size_IN0" value="32"/>
+            <ParametersSub name="DEVICE_HS_Transmit_FIFO_Size_IN1" value="32"/>
+            <ParametersSub name="DEVICE_HS_Transmit_FIFO_Size_IN2" value="0"/>
+        </Parameters>
+    </USB_DEVICE>
+    <NVIC>
+        <SysTick_Handler>1;15;0;0;0</SysTick_Handler>
+        <FLASH_IRQHandler>0;0;0;0;0</FLASH_IRQHandler>
+        <CRM_IRQHandler>0;0;0;0;0</CRM_IRQHandler>
+        <SPI1_IRQHandler>0;0;0;0;0</SPI1_IRQHandler>
+        <OTGHS_EP1_OUT_IRQHandler>0;0;0;0;0</OTGHS_EP1_OUT_IRQHandler>
+        <OTGHS_EP1_IN_IRQHandler>0;0;0;0;0</OTGHS_EP1_IN_IRQHandler>
+        <OTGHS_WKUP_IRQHandler>0;0;0;0;0</OTGHS_WKUP_IRQHandler>
+        <OTGHS_IRQHandler>1;0;0;0;0</OTGHS_IRQHandler>
+        <FPU_IRQHandler>0;0;0;0;0</FPU_IRQHandler>
+        <QSPI1_IRQHandler>0;0;0;0;0</QSPI1_IRQHandler>
+    </NVIC>
+    <GPIO>
+        <Signal SignalName="GPIO_Output" PinName="PA15">
+            <Parameters name="Label" value="SPI_RST"/>
+        </Signal>
+        <Signal SignalName="GPIO_Output" PinName="PB3">
+            <Parameters name="Label" value="SPI_D_C"/>
+        </Signal>
+    </GPIO>
+    <ClockConfiguration>
+        <rtcsel>0</rtcsel>
+        <rtcdiv>2</rtcdiv>
+        <hext>12.000000</hext>
+        <hextdiv>1</hextdiv>
+        <hickdiv>1</hickdiv>
+        <pllrcs>1</pllrcs>
+        <pllms>1</pllms>
+        <pllns>108</pllns>
+        <pllfp>4</pllfp>
+        <sclkselect>1</sclkselect>
+        <ahbdiv>1</ahbdiv>
+        <apb1div>2</apb1div>
+        <apb2div>2</apb2div>
+        <pllfu>18</pllfu>
+        <hicktousb>1</hicktousb>
+        <hicktosclk>0</hicktosclk>
+        <clkout>5</clkout>
+        <clkoutdiv1>1</clkoutdiv1>
+        <clkoutdiv2>1</clkoutdiv2>
+        <clkoutpinselect>0</clkoutpinselect>
+        <i2sf5clocksel>0</i2sf5clocksel>
+        <i2sf5clock>0</i2sf5clock>
+        <systicsel>8</systicsel>
+    </ClockConfiguration>
+    <PINInfo>
+        <PinSub pinname="PF0" signalname="CRM_HEXT_IN" signaltype="2"/>
+        <PinSub pinname="PF1" signalname="CRM_HEXT_OUT" signaltype="2"/>
+        <PinSub pinname="PA1" signalname="QSPI1_IO3" signaltype="2"/>
+        <PinSub pinname="PA2" signalname="QSPI1_CS" signaltype="2"/>
+        <PinSub pinname="PA4" signalname="SPI1_CS" signaltype="2"/>
+        <PinSub pinname="PA5" signalname="SPI1_SCK" signaltype="2"/>
+        <PinSub pinname="PA6" signalname="QSPI1_IO2" signaltype="2"/>
+        <PinSub pinname="PA7" signalname="QSPI1_IO1" signaltype="2"/>
+        <PinSub pinname="PB0" signalname="QSPI1_IO0" signaltype="2"/>
+        <PinSub pinname="PB1" signalname="QSPI1_SCK" signaltype="2"/>
+        <PinSub pinname="USB_OTGHS1_R" signalname="USB_OTGHS1_R" signaltype="2"/>
+        <PinSub pinname="USB_OTGHS1_D-" signalname="USB_OTGHS1_D-" signaltype="2"/>
+        <PinSub pinname="USB_OTGHS1_D+" signalname="USB_OTGHS1_D+" signaltype="2"/>
+        <PinSub pinname="PA13" signalname="DEBUG_SWDIO" signaltype="2"/>
+        <PinSub pinname="PA14" signalname="DEBUG_SWCLK" signaltype="2"/>
+        <PinSub pinname="PA15" signalname="GPIO_Output" signaltype="3"/>
+        <PinSub pinname="PB3" signalname="GPIO_Output" signaltype="3"/>
+        <PinSub pinname="PB5" signalname="SPI1_MOSI" signaltype="2"/>
+        <PinSub pinname="PB8" signalname="GPIO_Output" signaltype="3"/>
+    </PINInfo>
+    <ProjectInfomation>
+        <ProjectName>hub_screen_AT32F405KCU7-4_WorkBench</ProjectName>
+        <ProjectLocation>C:/Users/TEST/Desktop/work_space/hub_screen</ProjectLocation>
+        <ToolchainIDE>MDK_V5</ToolchainIDE>
+        <ARMCompiler>0</ARMCompiler>
+        <KeepUserCode>true</KeepUserCode>
+        <NotUsedPinAnalog>true</NotUsedPinAnalog>
+        <CodeSplitIP>true</CodeSplitIP>
+        <AddNecessaryFileFlag>true</AddNecessaryFileFlag>
+        <MinHeapSize>0x200</MinHeapSize>
+        <MinStackSize>0x400</MinStackSize>
+        <UseFirmware>true</UseFirmware>
+        <PackageVersion>V2.1.2</PackageVersion>
+    </ProjectInfomation>
+</Root>

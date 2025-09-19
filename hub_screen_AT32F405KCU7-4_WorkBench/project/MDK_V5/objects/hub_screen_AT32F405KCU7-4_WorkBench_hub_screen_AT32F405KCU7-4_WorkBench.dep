@@ -1,0 +1,730 @@
+Dependencies for Project 'hub_screen_AT32F405KCU7-4_WorkBench', Target 'hub_screen_AT32F405KCU7-4_WorkBench': (DO NOT MODIFY !)
+CompilerVersion: 6210000::V6.21::ARMCLANG
+F (..\src\at32f402_405_int.c)(0x68D0D36E)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-gdwarf-4 -O0 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier -I ../../libraries/drivers/inc -I ../../libraries/cmsis/cm4/core_support -I ../../libraries/cmsis/cm4/device_support -I ../inc -I ../../middlewares/usb_drivers/inc -I ../../user_code-ID:/app_program/kile5/packge/ArteryTek/AT32F402_405_DFP/2.1.1/Device/Include-D__UVISION_VERSION="539" -DAT32F405KCU7_4 -DAT32F405KCU7_4 -DUSE_STDPERIPH_DRIVER-o ./objects/at32f402_405_int.o -MD)
+I (..\inc\at32f402_405_int.h)(0x68D0D36E)
+I (..\..\libraries\cmsis\cm4\device_support\at32f402_405.h)(0x67EA421C)
+I (..\..\libraries\cmsis\cm4\core_support\core_cm4.h)(0x67EA421C)
+I (D:\app_program\kile5\core\ARM\ARMCLANG\include\stdint.h)(0x6569B012)
+I (C:\Users\TEST\Desktop\1work_space\hub_screen\hub_screen_AT32F405KCU7-4_WorkBench\libraries\cmsis\cm4\core_support\cmsis_version.h)(0x67EA421C)
+I (C:\Users\TEST\Desktop\1work_space\hub_screen\hub_screen_AT32F405KCU7-4_WorkBench\libraries\cmsis\cm4\core_support\cmsis_compiler.h)(0x67EA421C)
+I (C:\Users\TEST\Desktop\1work_space\hub_screen\hub_screen_AT32F405KCU7-4_WorkBench\libraries\cmsis\cm4\core_support\cmsis_armclang.h)(0x67EA421C)
+I (C:\Users\TEST\Desktop\1work_space\hub_screen\hub_screen_AT32F405KCU7-4_WorkBench\libraries\cmsis\cm4\core_support\mpu_armv7.h)(0x67EA421C)
+I (..\..\libraries\cmsis\cm4\device_support\system_at32f402_405.h)(0x67EA421C)
+I (..\..\libraries\drivers\inc\at32f402_405_def.h)(0x67EA421D)
+I (..\inc\at32f402_405_conf.h)(0x68D0D36E)
+I (..\..\libraries\drivers\inc\at32f402_405_crm.h)(0x67EA421D)
+I (..\..\libraries\drivers\inc\at32f402_405_debug.h)(0x67EA421D)
+I (..\..\libraries\drivers\inc\at32f402_405_exint.h)(0x67EA421D)
+I (..\..\libraries\drivers\inc\at32f402_405_flash.h)(0x67EA421D)
+I (..\..\libraries\drivers\inc\at32f402_405_gpio.h)(0x67EA421D)
+I (..\..\libraries\drivers\inc\at32f402_405_misc.h)(0x67EA421D)
+I (..\..\libraries\drivers\inc\at32f402_405_pwc.h)(0x67EA421D)
+I (..\..\libraries\drivers\inc\at32f402_405_qspi.h)(0x67EA421D)
+I (..\..\libraries\drivers\inc\at32f402_405_spi.h)(0x67EA421D)
+I (..\..\libraries\drivers\inc\at32f402_405_usb.h)(0x67EA421D)
+I (..\..\libraries\drivers\inc\at32f402_405_wdt.h)(0x67EA421D)
+I (..\inc\wk_system.h)(0x68D0D449)
+F (..\src\at32f402_405_wk_config.c)(0x68D0D36E)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-gdwarf-4 -O0 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier -I ../../libraries/drivers/inc -I ../../libraries/cmsis/cm4/core_support -I ../../libraries/cmsis/cm4/device_support -I ../inc -I ../../middlewares/usb_drivers/inc -I ../../user_code-ID:/app_program/kile5/packge/ArteryTek/AT32F402_405_DFP/2.1.1/Device/Include-D__UVISION_VERSION="539" -DAT32F405KCU7_4 -DAT32F405KCU7_4 -DUSE_STDPERIPH_DRIVER-o ./objects/at32f402_405_wk_config.o -MD)
+I (..\inc\at32f402_405_wk_config.h)(0x68D0D36E)
+I (D:\app_program\kile5\core\ARM\ARMCLANG\include\stdio.h)(0x68E8B7E4)
+I (..\..\libraries\cmsis\cm4\device_support\at32f402_405.h)(0x67EA421C)
+I (..\..\libraries\cmsis\cm4\core_support\core_cm4.h)(0x67EA421C)
+I (D:\app_program\kile5\core\ARM\ARMCLANG\include\stdint.h)(0x6569B012)
+I (C:\Users\TEST\Desktop\1work_space\hub_screen\hub_screen_AT32F405KCU7-4_WorkBench\libraries\cmsis\cm4\core_support\cmsis_version.h)(0x67EA421C)
+I (C:\Users\TEST\Desktop\1work_space\hub_screen\hub_screen_AT32F405KCU7-4_WorkBench\libraries\cmsis\cm4\core_support\cmsis_compiler.h)(0x67EA421C)
+I (C:\Users\TEST\Desktop\1work_space\hub_screen\hub_screen_AT32F405KCU7-4_WorkBench\libraries\cmsis\cm4\core_support\cmsis_armclang.h)(0x67EA421C)
+I (C:\Users\TEST\Desktop\1work_space\hub_screen\hub_screen_AT32F405KCU7-4_WorkBench\libraries\cmsis\cm4\core_support\mpu_armv7.h)(0x67EA421C)
+I (..\..\libraries\cmsis\cm4\device_support\system_at32f402_405.h)(0x67EA421C)
+I (..\..\libraries\drivers\inc\at32f402_405_def.h)(0x67EA421D)
+I (..\inc\at32f402_405_conf.h)(0x68D0D36E)
+I (..\..\libraries\drivers\inc\at32f402_405_crm.h)(0x67EA421D)
+I (..\..\libraries\drivers\inc\at32f402_405_debug.h)(0x67EA421D)
+I (..\..\libraries\drivers\inc\at32f402_405_exint.h)(0x67EA421D)
+I (..\..\libraries\drivers\inc\at32f402_405_flash.h)(0x67EA421D)
+I (..\..\libraries\drivers\inc\at32f402_405_gpio.h)(0x67EA421D)
+I (..\..\libraries\drivers\inc\at32f402_405_misc.h)(0x67EA421D)
+I (..\..\libraries\drivers\inc\at32f402_405_pwc.h)(0x67EA421D)
+I (..\..\libraries\drivers\inc\at32f402_405_qspi.h)(0x67EA421D)
+I (..\..\libraries\drivers\inc\at32f402_405_spi.h)(0x67EA421D)
+I (..\..\libraries\drivers\inc\at32f402_405_usb.h)(0x67EA421D)
+I (..\..\libraries\drivers\inc\at32f402_405_wdt.h)(0x67EA421D)
+F (..\src\main.c)(0x68F1B253)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-gdwarf-4 -O0 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier -I ../../libraries/drivers/inc -I ../../libraries/cmsis/cm4/core_support -I ../../libraries/cmsis/cm4/device_support -I ../inc -I ../../middlewares/usb_drivers/inc -I ../../user_code-ID:/app_program/kile5/packge/ArteryTek/AT32F402_405_DFP/2.1.1/Device/Include-D__UVISION_VERSION="539" -DAT32F405KCU7_4 -DAT32F405KCU7_4 -DUSE_STDPERIPH_DRIVER-o ./objects/main.o -MD)
+I (D:\app_program\kile5\core\ARM\ARMCLANG\include\stdio.h)(0x68E8B7E4)
+I (..\..\libraries\cmsis\cm4\device_support\at32f402_405.h)(0x67EA421C)
+I (..\..\libraries\cmsis\cm4\core_support\core_cm4.h)(0x67EA421C)
+I (D:\app_program\kile5\core\ARM\ARMCLANG\include\stdint.h)(0x6569B012)
+I (C:\Users\TEST\Desktop\1work_space\hub_screen\hub_screen_AT32F405KCU7-4_WorkBench\libraries\cmsis\cm4\core_support\cmsis_version.h)(0x67EA421C)
+I (C:\Users\TEST\Desktop\1work_space\hub_screen\hub_screen_AT32F405KCU7-4_WorkBench\libraries\cmsis\cm4\core_support\cmsis_compiler.h)(0x67EA421C)
+I (C:\Users\TEST\Desktop\1work_space\hub_screen\hub_screen_AT32F405KCU7-4_WorkBench\libraries\cmsis\cm4\core_support\cmsis_armclang.h)(0x67EA421C)
+I (C:\Users\TEST\Desktop\1work_space\hub_screen\hub_screen_AT32F405KCU7-4_WorkBench\libraries\cmsis\cm4\core_support\mpu_armv7.h)(0x67EA421C)
+I (..\..\libraries\cmsis\cm4\device_support\system_at32f402_405.h)(0x67EA421C)
+I (..\..\libraries\drivers\inc\at32f402_405_def.h)(0x67EA421D)
+I (..\inc\at32f402_405_conf.h)(0x68D0D36E)
+I (..\..\libraries\drivers\inc\at32f402_405_crm.h)(0x67EA421D)
+I (..\..\libraries\drivers\inc\at32f402_405_debug.h)(0x67EA421D)
+I (..\..\libraries\drivers\inc\at32f402_405_exint.h)(0x67EA421D)
+I (..\..\libraries\drivers\inc\at32f402_405_flash.h)(0x67EA421D)
+I (..\..\libraries\drivers\inc\at32f402_405_gpio.h)(0x67EA421D)
+I (..\..\libraries\drivers\inc\at32f402_405_misc.h)(0x67EA421D)
+I (..\..\libraries\drivers\inc\at32f402_405_pwc.h)(0x67EA421D)
+I (..\..\libraries\drivers\inc\at32f402_405_qspi.h)(0x67EA421D)
+I (..\..\libraries\drivers\inc\at32f402_405_spi.h)(0x67EA421D)
+I (..\..\libraries\drivers\inc\at32f402_405_usb.h)(0x67EA421D)
+I (..\..\libraries\drivers\inc\at32f402_405_wdt.h)(0x67EA421D)
+I (..\inc\wk_spi.h\.\inc\wk_usb.h3.\inc\wk_wdt.hh.\inc\wk_gpio.h)(0x00000000)
+I (..\inc\usb_app.h..\inc\wk_system.hn.\..\user_code\lcd_spi.h)(0x00000000)
+I (..\inc\at32f402_405_int.h_.\..\user_code\get_current_time.h)(0x00000000)
+F (..\src\wk_system.c)(0x68D0D449)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-gdwarf-4 -O0 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier -I ../../libraries/drivers/inc -I ../../libraries/cmsis/cm4/core_support -I ../../libraries/cmsis/cm4/device_support -I ../inc -I ../../middlewares/usb_drivers/inc -I ../../user_code-ID:/app_program/kile5/packge/ArteryTek/AT32F402_405_DFP/2.1.1/Device/Include-D__UVISION_VERSION="539" -DAT32F405KCU7_4 -DAT32F405KCU7_4 -DUSE_STDPERIPH_DRIVER-o ./objects/wk_system.o -MD)
+I (..\..\libraries\cmsis\cm4\device_support\at32f402_405.h)(0x67EA421C)
+I (..\..\libraries\cmsis\cm4\core_support\core_cm4.h)(0x67EA421C)
+I (D:\app_program\kile5\core\ARM\ARMCLANG\include\stdint.h)(0x6569B012)
+I (C:\Users\TEST\Desktop\1work_space\hub_screen\hub_screen_AT32F405KCU7-4_WorkBench\libraries\cmsis\cm4\core_support\cmsis_version.h)(0x67EA421C)
+I (C:\Users\TEST\Desktop\1work_space\hub_screen\hub_screen_AT32F405KCU7-4_WorkBench\libraries\cmsis\cm4\core_support\cmsis_compiler.h)(0x67EA421C)
+I (C:\Users\TEST\Desktop\1work_space\hub_screen\hub_screen_AT32F405KCU7-4_WorkBench\libraries\cmsis\cm4\core_support\cmsis_armclang.h)(0x67EA421C)
+I (C:\Users\TEST\Desktop\1work_space\hub_screen\hub_screen_AT32F405KCU7-4_WorkBench\libraries\cmsis\cm4\core_support\mpu_armv7.h)(0x67EA421C)
+I (..\..\libraries\cmsis\cm4\device_support\system_at32f402_405.h)(0x67EA421C)
+I (..\..\libraries\drivers\inc\at32f402_405_def.h)(0x67EA421D)
+I (..\inc\at32f402_405_conf.h)(0x68D0D36E)
+I (..\..\libraries\drivers\inc\at32f402_405_crm.h)(0x67EA421D)
+I (..\..\libraries\drivers\inc\at32f402_405_debug.h)(0x67EA421D)
+I (..\..\libraries\drivers\inc\at32f402_405_exint.h)(0x67EA421D)
+I (..\..\libraries\drivers\inc\at32f402_405_flash.h)(0x67EA421D)
+I (..\..\libraries\drivers\inc\at32f402_405_gpio.h)(0x67EA421D)
+I (..\..\libraries\drivers\inc\at32f402_405_misc.h)(0x67EA421D)
+I (..\..\libraries\drivers\inc\at32f402_405_pwc.h)(0x67EA421D)
+I (..\..\libraries\drivers\inc\at32f402_405_qspi.h)(0x67EA421D)
+I (..\..\libraries\drivers\inc\at32f402_405_spi.h)(0x67EA421D)
+I (..\..\libraries\drivers\inc\at32f402_405_usb.h)(0x67EA421D)
+I (..\..\libraries\drivers\inc\at32f402_405_wdt.h)(0x67EA421D)
+F (../src/usb_app.c)(0x68D0D36E)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-gdwarf-4 -O0 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier -I ../../libraries/drivers/inc -I ../../libraries/cmsis/cm4/core_support -I ../../libraries/cmsis/cm4/device_support -I ../inc -I ../../middlewares/usb_drivers/inc -I ../../user_code-ID:/app_program/kile5/packge/ArteryTek/AT32F402_405_DFP/2.1.1/Device/Include-D__UVISION_VERSION="539" -DAT32F405KCU7_4 -DAT32F405KCU7_4 -DUSE_STDPERIPH_DRIVER-o ./objects/usb_app.o -MD)
+I (..\..\libraries\cmsis\cm4\device_support\at32f402_405.h)(0x67EA421C)
+I (..\..\libraries\cmsis\cm4\core_support\core_cm4.h)(0x67EA421C)
+I (D:\app_program\kile5\core\ARM\ARMCLANG\include\stdint.h)(0x6569B012)
+I (C:\Users\TEST\Desktop\1work_space\hub_screen\hub_screen_AT32F405KCU7-4_WorkBench\libraries\cmsis\cm4\core_support\cmsis_version.h)(0x67EA421C)
+I (C:\Users\TEST\Desktop\1work_space\hub_screen\hub_screen_AT32F405KCU7-4_WorkBench\libraries\cmsis\cm4\core_support\cmsis_compiler.h)(0x67EA421C)
+I (C:\Users\TEST\Desktop\1work_space\hub_screen\hub_screen_AT32F405KCU7-4_WorkBench\libraries\cmsis\cm4\core_support\cmsis_armclang.h)(0x67EA421C)
+I (C:\Users\TEST\Desktop\1work_space\hub_screen\hub_screen_AT32F405KCU7-4_WorkBench\libraries\cmsis\cm4\core_support\mpu_armv7.h)(0x67EA421C)
+I (..\..\libraries\cmsis\cm4\device_support\system_at32f402_405.h)(0x67EA421C)
+I (..\..\libraries\drivers\inc\at32f402_405_def.h)(0x67EA421D)
+I (..\inc\at32f402_405_conf.h)(0x68D0D36E)
+I (..\..\libraries\drivers\inc\at32f402_405_crm.h)(0x67EA421D)
+I (..\..\libraries\drivers\inc\at32f402_405_debug.h)(0x67EA421D)
+I (..\..\libraries\drivers\inc\at32f402_405_exint.h)(0x67EA421D)
+I (..\..\libraries\drivers\inc\at32f402_405_flash.h)(0x67EA421D)
+I (..\..\libraries\drivers\inc\at32f402_405_gpio.h)(0x67EA421D)
+I (..\..\libraries\drivers\inc\at32f402_405_misc.h)(0x67EA421D)
+I (..\..\libraries\drivers\inc\at32f402_405_pwc.h)(0x67EA421D)
+I (..\..\libraries\drivers\inc\at32f402_405_qspi.h)(0x67EA421D)
+I (..\..\libraries\drivers\inc\at32f402_405_spi.h)(0x67EA421D)
+I (..\..\libraries\drivers\inc\at32f402_405_usb.h)(0x67EA421D)
+I (..\..\libraries\drivers\inc\at32f402_405_wdt.h)(0x67EA421D)
+I (D:\app_program\kile5\core\ARM\ARMCLANG\include\string.h)(0x68E8B7E4)
+I (D:\app_program\kile5\core\ARM\ARMCLANG\include\stdio.h)(0x68E8B7E4)
+I (..\..\middlewares\usb_drivers\inc\usb_core.h)(0x67EA421D)
+I (..\..\middlewares\usb_drivers\inc\usb_std.h)(0x67EA421D)
+I (..\..\middlewares\usb_drivers\inc\usbd_core.he.\inc\wk_system.h)(0x00000000)
+I (..\..\middlewares\usb_drivers\inc\usbd_int.hh.\inc\custom_hid_class.h)(0x00000000)
+I (..\inc\custom_hid_desc.hi.\inc\at32f402_405_wk_config.h)(0x00000000)
+F (..\src\wk_qspi.c)(0x68D0D36E)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-gdwarf-4 -O0 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier -I ../../libraries/drivers/inc -I ../../libraries/cmsis/cm4/core_support -I ../../libraries/cmsis/cm4/device_support -I ../inc -I ../../middlewares/usb_drivers/inc -I ../../user_code-ID:/app_program/kile5/packge/ArteryTek/AT32F402_405_DFP/2.1.1/Device/Include-D__UVISION_VERSION="539" -DAT32F405KCU7_4 -DAT32F405KCU7_4 -DUSE_STDPERIPH_DRIVER-o ./objects/wk_qspi.o -MD)
+I (..\inc\at32f402_405_wk_config.h)(0x68D0D36E)
+I (D:\app_program\kile5\core\ARM\ARMCLANG\include\stdio.h)(0x68E8B7E4)
+I (..\..\libraries\cmsis\cm4\device_support\at32f402_405.h)(0x67EA421C)
+I (..\..\libraries\cmsis\cm4\core_support\core_cm4.h)(0x67EA421C)
+I (D:\app_program\kile5\core\ARM\ARMCLANG\include\stdint.h)(0x6569B012)
+I (C:\Users\TEST\Desktop\1work_space\hub_screen\hub_screen_AT32F405KCU7-4_WorkBench\libraries\cmsis\cm4\core_support\cmsis_version.h)(0x67EA421C)
+I (C:\Users\TEST\Desktop\1work_space\hub_screen\hub_screen_AT32F405KCU7-4_WorkBench\libraries\cmsis\cm4\core_support\cmsis_compiler.h)(0x67EA421C)
+I (C:\Users\TEST\Desktop\1work_space\hub_screen\hub_screen_AT32F405KCU7-4_WorkBench\libraries\cmsis\cm4\core_support\cmsis_armclang.h)(0x67EA421C)
+I (C:\Users\TEST\Desktop\1work_space\hub_screen\hub_screen_AT32F405KCU7-4_WorkBench\libraries\cmsis\cm4\core_support\mpu_armv7.h)(0x67EA421C)
+I (..\..\libraries\cmsis\cm4\device_support\system_at32f402_405.h)(0x67EA421C)
+I (..\..\libraries\drivers\inc\at32f402_405_def.h)(0x67EA421D)
+I (..\inc\at32f402_405_conf.h)(0x68D0D36E)
+I (..\..\libraries\drivers\inc\at32f402_405_crm.h)(0x67EA421D)
+I (..\..\libraries\drivers\inc\at32f402_405_debug.h)(0x67EA421D)
+I (..\..\libraries\drivers\inc\at32f402_405_exint.h)(0x67EA421D)
+I (..\..\libraries\drivers\inc\at32f402_405_flash.h)(0x67EA421D)
+I (..\..\libraries\drivers\inc\at32f402_405_gpio.h)(0x67EA421D)
+I (..\..\libraries\drivers\inc\at32f402_405_misc.h)(0x67EA421D)
+I (..\..\libraries\drivers\inc\at32f402_405_pwc.h)(0x67EA421D)
+I (..\..\libraries\drivers\inc\at32f402_405_qspi.h)(0x67EA421D)
+I (..\..\libraries\drivers\inc\at32f402_405_spi.h)(0x67EA421D)
+I (..\..\libraries\drivers\inc\at32f402_405_usb.h)(0x67EA421D)
+I (..\..\libraries\drivers\inc\at32f402_405_wdt.h)(0x67EA421D)
+F (..\src\wk_spi.c)(0x68D3887E)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-gdwarf-4 -O0 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier -I ../../libraries/drivers/inc -I ../../libraries/cmsis/cm4/core_support -I ../../libraries/cmsis/cm4/device_support -I ../inc -I ../../middlewares/usb_drivers/inc -I ../../user_code-ID:/app_program/kile5/packge/ArteryTek/AT32F402_405_DFP/2.1.1/Device/Include-D__UVISION_VERSION="539" -DAT32F405KCU7_4 -DAT32F405KCU7_4 -DUSE_STDPERIPH_DRIVER-o ./objects/wk_spi.o -MD)
+I (..\inc\at32f402_405_wk_config.h)(0x68D0D36E)
+I (D:\app_program\kile5\core\ARM\ARMCLANG\include\stdio.h)(0x68E8B7E4)
+I (..\..\libraries\cmsis\cm4\device_support\at32f402_405.h)(0x67EA421C)
+I (..\..\libraries\cmsis\cm4\core_support\core_cm4.h)(0x67EA421C)
+I (D:\app_program\kile5\core\ARM\ARMCLANG\include\stdint.h)(0x6569B012)
+I (C:\Users\TEST\Desktop\1work_space\hub_screen\hub_screen_AT32F405KCU7-4_WorkBench\libraries\cmsis\cm4\core_support\cmsis_version.h)(0x67EA421C)
+I (C:\Users\TEST\Desktop\1work_space\hub_screen\hub_screen_AT32F405KCU7-4_WorkBench\libraries\cmsis\cm4\core_support\cmsis_compiler.h)(0x67EA421C)
+I (C:\Users\TEST\Desktop\1work_space\hub_screen\hub_screen_AT32F405KCU7-4_WorkBench\libraries\cmsis\cm4\core_support\cmsis_armclang.h)(0x67EA421C)
+I (C:\Users\TEST\Desktop\1work_space\hub_screen\hub_screen_AT32F405KCU7-4_WorkBench\libraries\cmsis\cm4\core_support\mpu_armv7.h)(0x67EA421C)
+I (..\..\libraries\cmsis\cm4\device_support\system_at32f402_405.h)(0x67EA421C)
+I (..\..\libraries\drivers\inc\at32f402_405_def.h)(0x67EA421D)
+I (..\inc\at32f402_405_conf.h)(0x68D0D36E)
+I (..\..\libraries\drivers\inc\at32f402_405_crm.h)(0x67EA421D)
+I (..\..\libraries\drivers\inc\at32f402_405_debug.h)(0x67EA421D)
+I (..\..\libraries\drivers\inc\at32f402_405_exint.h)(0x67EA421D)
+I (..\..\libraries\drivers\inc\at32f402_405_flash.h)(0x67EA421D)
+I (..\..\libraries\drivers\inc\at32f402_405_gpio.h)(0x67EA421D)
+I (..\..\libraries\drivers\inc\at32f402_405_misc.h)(0x67EA421D)
+I (..\..\libraries\drivers\inc\at32f402_405_pwc.h)(0x67EA421D)
+I (..\..\libraries\drivers\inc\at32f402_405_qspi.h)(0x67EA421D)
+I (..\..\libraries\drivers\inc\at32f402_405_spi.h)(0x67EA421D)
+I (..\..\libraries\drivers\inc\at32f402_405_usb.h)(0x67EA421D)
+I (..\..\libraries\drivers\inc\at32f402_405_wdt.h)(0x67EA421D)
+F (..\src\wk_usb.c)(0x68D0D36E)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-gdwarf-4 -O0 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier -I ../../libraries/drivers/inc -I ../../libraries/cmsis/cm4/core_support -I ../../libraries/cmsis/cm4/device_support -I ../inc -I ../../middlewares/usb_drivers/inc -I ../../user_code-ID:/app_program/kile5/packge/ArteryTek/AT32F402_405_DFP/2.1.1/Device/Include-D__UVISION_VERSION="539" -DAT32F405KCU7_4 -DAT32F405KCU7_4 -DUSE_STDPERIPH_DRIVER-o ./objects/wk_usb.o -MD)
+I (..\inc\at32f402_405_wk_config.h)(0x68D0D36E)
+I (D:\app_program\kile5\core\ARM\ARMCLANG\include\stdio.h)(0x68E8B7E4)
+I (..\..\libraries\cmsis\cm4\device_support\at32f402_405.h)(0x67EA421C)
+I (..\..\libraries\cmsis\cm4\core_support\core_cm4.h)(0x67EA421C)
+I (D:\app_program\kile5\core\ARM\ARMCLANG\include\stdint.h)(0x6569B012)
+I (C:\Users\TEST\Desktop\1work_space\hub_screen\hub_screen_AT32F405KCU7-4_WorkBench\libraries\cmsis\cm4\core_support\cmsis_version.h)(0x67EA421C)
+I (C:\Users\TEST\Desktop\1work_space\hub_screen\hub_screen_AT32F405KCU7-4_WorkBench\libraries\cmsis\cm4\core_support\cmsis_compiler.h)(0x67EA421C)
+I (C:\Users\TEST\Desktop\1work_space\hub_screen\hub_screen_AT32F405KCU7-4_WorkBench\libraries\cmsis\cm4\core_support\cmsis_armclang.h)(0x67EA421C)
+I (C:\Users\TEST\Desktop\1work_space\hub_screen\hub_screen_AT32F405KCU7-4_WorkBench\libraries\cmsis\cm4\core_support\mpu_armv7.h)(0x67EA421C)
+I (..\..\libraries\cmsis\cm4\device_support\system_at32f402_405.h)(0x67EA421C)
+I (..\..\libraries\drivers\inc\at32f402_405_def.h)(0x67EA421D)
+I (..\inc\at32f402_405_conf.h)(0x68D0D36E)
+I (..\..\libraries\drivers\inc\at32f402_405_crm.h)(0x67EA421D)
+I (..\..\libraries\drivers\inc\at32f402_405_debug.h)(0x67EA421D)
+I (..\..\libraries\drivers\inc\at32f402_405_exint.h)(0x67EA421D)
+I (..\..\libraries\drivers\inc\at32f402_405_flash.h)(0x67EA421D)
+I (..\..\libraries\drivers\inc\at32f402_405_gpio.h)(0x67EA421D)
+I (..\..\libraries\drivers\inc\at32f402_405_misc.h)(0x67EA421D)
+I (..\..\libraries\drivers\inc\at32f402_405_pwc.h)(0x67EA421D)
+I (..\..\libraries\drivers\inc\at32f402_405_qspi.h)(0x67EA421D)
+I (..\..\libraries\drivers\inc\at32f402_405_spi.h)(0x67EA421D)
+I (..\..\libraries\drivers\inc\at32f402_405_usb.h)(0x67EA421D)
+I (..\..\libraries\drivers\inc\at32f402_405_wdt.h)(0x67EA421D)
+F (..\src\wk_gpio.c)(0x68D0D36E)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-gdwarf-4 -O0 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier -I ../../libraries/drivers/inc -I ../../libraries/cmsis/cm4/core_support -I ../../libraries/cmsis/cm4/device_support -I ../inc -I ../../middlewares/usb_drivers/inc -I ../../user_code-ID:/app_program/kile5/packge/ArteryTek/AT32F402_405_DFP/2.1.1/Device/Include-D__UVISION_VERSION="539" -DAT32F405KCU7_4 -DAT32F405KCU7_4 -DUSE_STDPERIPH_DRIVER-o ./objects/wk_gpio.o -MD)
+I (..\inc\at32f402_405_wk_config.h)(0x68D0D36E)
+I (D:\app_program\kile5\core\ARM\ARMCLANG\include\stdio.h)(0x68E8B7E4)
+I (..\..\libraries\cmsis\cm4\device_support\at32f402_405.h)(0x67EA421C)
+I (..\..\libraries\cmsis\cm4\core_support\core_cm4.h)(0x67EA421C)
+I (D:\app_program\kile5\core\ARM\ARMCLANG\include\stdint.h)(0x6569B012)
+I (C:\Users\TEST\Desktop\1work_space\hub_screen\hub_screen_AT32F405KCU7-4_WorkBench\libraries\cmsis\cm4\core_support\cmsis_version.h)(0x67EA421C)
+I (C:\Users\TEST\Desktop\1work_space\hub_screen\hub_screen_AT32F405KCU7-4_WorkBench\libraries\cmsis\cm4\core_support\cmsis_compiler.h)(0x67EA421C)
+I (C:\Users\TEST\Desktop\1work_space\hub_screen\hub_screen_AT32F405KCU7-4_WorkBench\libraries\cmsis\cm4\core_support\cmsis_armclang.h)(0x67EA421C)
+I (C:\Users\TEST\Desktop\1work_space\hub_screen\hub_screen_AT32F405KCU7-4_WorkBench\libraries\cmsis\cm4\core_support\mpu_armv7.h)(0x67EA421C)
+I (..\..\libraries\cmsis\cm4\device_support\system_at32f402_405.h)(0x67EA421C)
+I (..\..\libraries\drivers\inc\at32f402_405_def.h)(0x67EA421D)
+I (..\inc\at32f402_405_conf.h)(0x68D0D36E)
+I (..\..\libraries\drivers\inc\at32f402_405_crm.h)(0x67EA421D)
+I (..\..\libraries\drivers\inc\at32f402_405_debug.h)(0x67EA421D)
+I (..\..\libraries\drivers\inc\at32f402_405_exint.h)(0x67EA421D)
+I (..\..\libraries\drivers\inc\at32f402_405_flash.h)(0x67EA421D)
+I (..\..\libraries\drivers\inc\at32f402_405_gpio.h)(0x67EA421D)
+I (..\..\libraries\drivers\inc\at32f402_405_misc.h)(0x67EA421D)
+I (..\..\libraries\drivers\inc\at32f402_405_pwc.h)(0x67EA421D)
+I (..\..\libraries\drivers\inc\at32f402_405_qspi.h)(0x67EA421D)
+I (..\..\libraries\drivers\inc\at32f402_405_spi.h)(0x67EA421D)
+I (..\..\libraries\drivers\inc\at32f402_405_usb.h)(0x67EA421D)
+I (..\..\libraries\drivers\inc\at32f402_405_wdt.h)(0x67EA421D)
+F (..\src\wk_wdt.c)(0x68D0D36E)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-gdwarf-4 -O0 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier -I ../../libraries/drivers/inc -I ../../libraries/cmsis/cm4/core_support -I ../../libraries/cmsis/cm4/device_support -I ../inc -I ../../middlewares/usb_drivers/inc -I ../../user_code-ID:/app_program/kile5/packge/ArteryTek/AT32F402_405_DFP/2.1.1/Device/Include-D__UVISION_VERSION="539" -DAT32F405KCU7_4 -DAT32F405KCU7_4 -DUSE_STDPERIPH_DRIVER-o ./objects/wk_wdt.o -MD)
+I (..\inc\at32f402_405_wk_config.h)(0x68D0D36E)
+I (D:\app_program\kile5\core\ARM\ARMCLANG\include\stdio.h)(0x68E8B7E4)
+I (..\..\libraries\cmsis\cm4\device_support\at32f402_405.h)(0x67EA421C)
+I (..\..\libraries\cmsis\cm4\core_support\core_cm4.h)(0x67EA421C)
+I (D:\app_program\kile5\core\ARM\ARMCLANG\include\stdint.h)(0x6569B012)
+I (C:\Users\TEST\Desktop\1work_space\hub_screen\hub_screen_AT32F405KCU7-4_WorkBench\libraries\cmsis\cm4\core_support\cmsis_version.h)(0x67EA421C)
+I (C:\Users\TEST\Desktop\1work_space\hub_screen\hub_screen_AT32F405KCU7-4_WorkBench\libraries\cmsis\cm4\core_support\cmsis_compiler.h)(0x67EA421C)
+I (C:\Users\TEST\Desktop\1work_space\hub_screen\hub_screen_AT32F405KCU7-4_WorkBench\libraries\cmsis\cm4\core_support\cmsis_armclang.h)(0x67EA421C)
+I (C:\Users\TEST\Desktop\1work_space\hub_screen\hub_screen_AT32F405KCU7-4_WorkBench\libraries\cmsis\cm4\core_support\mpu_armv7.h)(0x67EA421C)
+I (..\..\libraries\cmsis\cm4\device_support\system_at32f402_405.h)(0x67EA421C)
+I (..\..\libraries\drivers\inc\at32f402_405_def.h)(0x67EA421D)
+I (..\inc\at32f402_405_conf.h)(0x68D0D36E)
+I (..\..\libraries\drivers\inc\at32f402_405_crm.h)(0x67EA421D)
+I (..\..\libraries\drivers\inc\at32f402_405_debug.h)(0x67EA421D)
+I (..\..\libraries\drivers\inc\at32f402_405_exint.h)(0x67EA421D)
+I (..\..\libraries\drivers\inc\at32f402_405_flash.h)(0x67EA421D)
+I (..\..\libraries\drivers\inc\at32f402_405_gpio.h)(0x67EA421D)
+I (..\..\libraries\drivers\inc\at32f402_405_misc.h)(0x67EA421D)
+I (..\..\libraries\drivers\inc\at32f402_405_pwc.h)(0x67EA421D)
+I (..\..\libraries\drivers\inc\at32f402_405_qspi.h)(0x67EA421D)
+I (..\..\libraries\drivers\inc\at32f402_405_spi.h)(0x67EA421D)
+I (..\..\libraries\drivers\inc\at32f402_405_usb.h)(0x67EA421D)
+I (..\..\libraries\drivers\inc\at32f402_405_wdt.h)(0x67EA421D)
+F (..\..\libraries\drivers\src\at32f402_405_crm.c)(0x67EA421D)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-gdwarf-4 -O0 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier -I ../../libraries/drivers/inc -I ../../libraries/cmsis/cm4/core_support -I ../../libraries/cmsis/cm4/device_support -I ../inc -I ../../middlewares/usb_drivers/inc -I ../../user_code-ID:/app_program/kile5/packge/ArteryTek/AT32F402_405_DFP/2.1.1/Device/Include-D__UVISION_VERSION="539" -DAT32F405KCU7_4 -DAT32F405KCU7_4 -DUSE_STDPERIPH_DRIVER-o ./objects/at32f402_405_crm.o -MD)
+I (..\inc\at32f402_405_conf.h)(0x68D0D36E)
+I (..\..\libraries\drivers\inc\at32f402_405_crm.h)(0x67EA421D)
+I (..\..\libraries\cmsis\cm4\device_support\at32f402_405.h)(0x67EA421C)
+I (..\..\libraries\cmsis\cm4\core_support\core_cm4.h)(0x67EA421C)
+I (D:\app_program\kile5\core\ARM\ARMCLANG\include\stdint.h)(0x6569B012)
+I (C:\Users\TEST\Desktop\1work_space\hub_screen\hub_screen_AT32F405KCU7-4_WorkBench\libraries\cmsis\cm4\core_support\cmsis_version.h)(0x67EA421C)
+I (C:\Users\TEST\Desktop\1work_space\hub_screen\hub_screen_AT32F405KCU7-4_WorkBench\libraries\cmsis\cm4\core_support\cmsis_compiler.h)(0x67EA421C)
+I (C:\Users\TEST\Desktop\1work_space\hub_screen\hub_screen_AT32F405KCU7-4_WorkBench\libraries\cmsis\cm4\core_support\cmsis_armclang.h)(0x67EA421C)
+I (C:\Users\TEST\Desktop\1work_space\hub_screen\hub_screen_AT32F405KCU7-4_WorkBench\libraries\cmsis\cm4\core_support\mpu_armv7.h)(0x67EA421C)
+I (..\..\libraries\cmsis\cm4\device_support\system_at32f402_405.h)(0x67EA421C)
+I (..\..\libraries\drivers\inc\at32f402_405_def.h)(0x67EA421D)
+I (..\..\libraries\drivers\inc\at32f402_405_debug.h)(0x67EA421D)
+I (..\..\libraries\drivers\inc\at32f402_405_exint.h)(0x67EA421D)
+I (..\..\libraries\drivers\inc\at32f402_405_flash.h)(0x67EA421D)
+I (..\..\libraries\drivers\inc\at32f402_405_gpio.h)(0x67EA421D)
+I (..\..\libraries\drivers\inc\at32f402_405_misc.h)(0x67EA421D)
+I (..\..\libraries\drivers\inc\at32f402_405_pwc.h)(0x67EA421D)
+I (..\..\libraries\drivers\inc\at32f402_405_qspi.h)(0x67EA421D)
+I (..\..\libraries\drivers\inc\at32f402_405_spi.h)(0x67EA421D)
+I (..\..\libraries\drivers\inc\at32f402_405_usb.h)(0x67EA421D)
+I (..\..\libraries\drivers\inc\at32f402_405_wdt.h)(0x67EA421D)
+F (..\..\libraries\drivers\src\at32f402_405_gpio.c)(0x67EA421D)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-gdwarf-4 -O0 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier -I ../../libraries/drivers/inc -I ../../libraries/cmsis/cm4/core_support -I ../../libraries/cmsis/cm4/device_support -I ../inc -I ../../middlewares/usb_drivers/inc -I ../../user_code-ID:/app_program/kile5/packge/ArteryTek/AT32F402_405_DFP/2.1.1/Device/Include-D__UVISION_VERSION="539" -DAT32F405KCU7_4 -DAT32F405KCU7_4 -DUSE_STDPERIPH_DRIVER-o ./objects/at32f402_405_gpio.o -MD)
+I (..\inc\at32f402_405_conf.h)(0x68D0D36E)
+I (..\..\libraries\drivers\inc\at32f402_405_crm.h)(0x67EA421D)
+I (..\..\libraries\cmsis\cm4\device_support\at32f402_405.h)(0x67EA421C)
+I (..\..\libraries\cmsis\cm4\core_support\core_cm4.h)(0x67EA421C)
+I (D:\app_program\kile5\core\ARM\ARMCLANG\include\stdint.h)(0x6569B012)
+I (C:\Users\TEST\Desktop\1work_space\hub_screen\hub_screen_AT32F405KCU7-4_WorkBench\libraries\cmsis\cm4\core_support\cmsis_version.h)(0x67EA421C)
+I (C:\Users\TEST\Desktop\1work_space\hub_screen\hub_screen_AT32F405KCU7-4_WorkBench\libraries\cmsis\cm4\core_support\cmsis_compiler.h)(0x67EA421C)
+I (C:\Users\TEST\Desktop\1work_space\hub_screen\hub_screen_AT32F405KCU7-4_WorkBench\libraries\cmsis\cm4\core_support\cmsis_armclang.h)(0x67EA421C)
+I (C:\Users\TEST\Desktop\1work_space\hub_screen\hub_screen_AT32F405KCU7-4_WorkBench\libraries\cmsis\cm4\core_support\mpu_armv7.h)(0x67EA421C)
+I (..\..\libraries\cmsis\cm4\device_support\system_at32f402_405.h)(0x67EA421C)
+I (..\..\libraries\drivers\inc\at32f402_405_def.h)(0x67EA421D)
+I (..\..\libraries\drivers\inc\at32f402_405_debug.h)(0x67EA421D)
+I (..\..\libraries\drivers\inc\at32f402_405_exint.h)(0x67EA421D)
+I (..\..\libraries\drivers\inc\at32f402_405_flash.h)(0x67EA421D)
+I (..\..\libraries\drivers\inc\at32f402_405_gpio.h)(0x67EA421D)
+I (..\..\libraries\drivers\inc\at32f402_405_misc.h)(0x67EA421D)
+I (..\..\libraries\drivers\inc\at32f402_405_pwc.h)(0x67EA421D)
+I (..\..\libraries\drivers\inc\at32f402_405_qspi.h)(0x67EA421D)
+I (..\..\libraries\drivers\inc\at32f402_405_spi.h)(0x67EA421D)
+I (..\..\libraries\drivers\inc\at32f402_405_usb.h)(0x67EA421D)
+I (..\..\libraries\drivers\inc\at32f402_405_wdt.h)(0x67EA421D)
+F (..\..\libraries\drivers\src\at32f402_405_pwc.c)(0x67EA421D)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-gdwarf-4 -O0 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier -I ../../libraries/drivers/inc -I ../../libraries/cmsis/cm4/core_support -I ../../libraries/cmsis/cm4/device_support -I ../inc -I ../../middlewares/usb_drivers/inc -I ../../user_code-ID:/app_program/kile5/packge/ArteryTek/AT32F402_405_DFP/2.1.1/Device/Include-D__UVISION_VERSION="539" -DAT32F405KCU7_4 -DAT32F405KCU7_4 -DUSE_STDPERIPH_DRIVER-o ./objects/at32f402_405_pwc.o -MD)
+I (..\inc\at32f402_405_conf.h)(0x68D0D36E)
+I (..\..\libraries\drivers\inc\at32f402_405_crm.h)(0x67EA421D)
+I (..\..\libraries\cmsis\cm4\device_support\at32f402_405.h)(0x67EA421C)
+I (..\..\libraries\cmsis\cm4\core_support\core_cm4.h)(0x67EA421C)
+I (D:\app_program\kile5\core\ARM\ARMCLANG\include\stdint.h)(0x6569B012)
+I (C:\Users\TEST\Desktop\1work_space\hub_screen\hub_screen_AT32F405KCU7-4_WorkBench\libraries\cmsis\cm4\core_support\cmsis_version.h)(0x67EA421C)
+I (C:\Users\TEST\Desktop\1work_space\hub_screen\hub_screen_AT32F405KCU7-4_WorkBench\libraries\cmsis\cm4\core_support\cmsis_compiler.h)(0x67EA421C)
+I (C:\Users\TEST\Desktop\1work_space\hub_screen\hub_screen_AT32F405KCU7-4_WorkBench\libraries\cmsis\cm4\core_support\cmsis_armclang.h)(0x67EA421C)
+I (C:\Users\TEST\Desktop\1work_space\hub_screen\hub_screen_AT32F405KCU7-4_WorkBench\libraries\cmsis\cm4\core_support\mpu_armv7.h)(0x67EA421C)
+I (..\..\libraries\cmsis\cm4\device_support\system_at32f402_405.h)(0x67EA421C)
+I (..\..\libraries\drivers\inc\at32f402_405_def.h)(0x67EA421D)
+I (..\..\libraries\drivers\inc\at32f402_405_debug.h)(0x67EA421D)
+I (..\..\libraries\drivers\inc\at32f402_405_exint.h)(0x67EA421D)
+I (..\..\libraries\drivers\inc\at32f402_405_flash.h)(0x67EA421D)
+I (..\..\libraries\drivers\inc\at32f402_405_gpio.h)(0x67EA421D)
+I (..\..\libraries\drivers\inc\at32f402_405_misc.h)(0x67EA421D)
+I (..\..\libraries\drivers\inc\at32f402_405_pwc.h)(0x67EA421D)
+I (..\..\libraries\drivers\inc\at32f402_405_qspi.h)(0x67EA421D)
+I (..\..\libraries\drivers\inc\at32f402_405_spi.h)(0x67EA421D)
+I (..\..\libraries\drivers\inc\at32f402_405_usb.h)(0x67EA421D)
+I (..\..\libraries\drivers\inc\at32f402_405_wdt.h)(0x67EA421D)
+F (..\..\libraries\drivers\src\at32f402_405_spi.c)(0x68F0BC91)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-gdwarf-4 -O0 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier -I ../../libraries/drivers/inc -I ../../libraries/cmsis/cm4/core_support -I ../../libraries/cmsis/cm4/device_support -I ../inc -I ../../middlewares/usb_drivers/inc -I ../../user_code-ID:/app_program/kile5/packge/ArteryTek/AT32F402_405_DFP/2.1.1/Device/Include-D__UVISION_VERSION="539" -DAT32F405KCU7_4 -DAT32F405KCU7_4 -DUSE_STDPERIPH_DRIVER-o ./objects/at32f402_405_spi.o -MD)
+I (..\inc\at32f402_405_conf.h)(0x68D0D36E)
+I (..\..\libraries\drivers\inc\at32f402_405_crm.h)(0x67EA421D)
+I (..\..\libraries\cmsis\cm4\device_support\at32f402_405.h)(0x67EA421C)
+I (..\..\libraries\cmsis\cm4\core_support\core_cm4.h)(0x67EA421C)
+I (D:\app_program\kile5\core\ARM\ARMCLANG\include\stdint.h)(0x6569B012)
+I (C:\Users\TEST\Desktop\1work_space\hub_screen\hub_screen_AT32F405KCU7-4_WorkBench\libraries\cmsis\cm4\core_support\cmsis_version.h)(0x67EA421C)
+I (C:\Users\TEST\Desktop\1work_space\hub_screen\hub_screen_AT32F405KCU7-4_WorkBench\libraries\cmsis\cm4\core_support\cmsis_compiler.h)(0x67EA421C)
+I (C:\Users\TEST\Desktop\1work_space\hub_screen\hub_screen_AT32F405KCU7-4_WorkBench\libraries\cmsis\cm4\core_support\cmsis_armclang.h)(0x67EA421C)
+I (C:\Users\TEST\Desktop\1work_space\hub_screen\hub_screen_AT32F405KCU7-4_WorkBench\libraries\cmsis\cm4\core_support\mpu_armv7.h)(0x67EA421C)
+I (..\..\libraries\cmsis\cm4\device_support\system_at32f402_405.h)(0x67EA421C)
+I (..\..\libraries\drivers\inc\at32f402_405_def.h)(0x67EA421D)
+I (..\..\libraries\drivers\inc\at32f402_405_debug.h)(0x67EA421D)
+I (..\..\libraries\drivers\inc\at32f402_405_exint.h)(0x67EA421D)
+I (..\..\libraries\drivers\inc\at32f402_405_flash.h)(0x67EA421D)
+I (..\..\libraries\drivers\inc\at32f402_405_gpio.h)(0x67EA421D)
+I (..\..\libraries\drivers\inc\at32f402_405_misc.h)(0x67EA421D)
+I (..\..\libraries\drivers\inc\at32f402_405_pwc.h)(0x67EA421D)
+I (..\..\libraries\drivers\inc\at32f402_405_qspi.h)(0x67EA421D)
+I (..\..\libraries\drivers\inc\at32f402_405_spi.h)(0x67EA421D)
+I (..\..\libraries\drivers\inc\at32f402_405_usb.h)(0x67EA421D)
+I (..\..\libraries\drivers\inc\at32f402_405_wdt.h)(0x67EA421D)
+F (..\..\libraries\drivers\src\at32f402_405_debug.c)(0x67EA421D)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-gdwarf-4 -O0 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier -I ../../libraries/drivers/inc -I ../../libraries/cmsis/cm4/core_support -I ../../libraries/cmsis/cm4/device_support -I ../inc -I ../../middlewares/usb_drivers/inc -I ../../user_code-ID:/app_program/kile5/packge/ArteryTek/AT32F402_405_DFP/2.1.1/Device/Include-D__UVISION_VERSION="539" -DAT32F405KCU7_4 -DAT32F405KCU7_4 -DUSE_STDPERIPH_DRIVER-o ./objects/at32f402_405_debug.o -MD)
+I (..\inc\at32f402_405_conf.h)(0x68D0D36E)
+I (..\..\libraries\drivers\inc\at32f402_405_crm.h)(0x67EA421D)
+I (..\..\libraries\cmsis\cm4\device_support\at32f402_405.h)(0x67EA421C)
+I (..\..\libraries\cmsis\cm4\core_support\core_cm4.h)(0x67EA421C)
+I (D:\app_program\kile5\core\ARM\ARMCLANG\include\stdint.h)(0x6569B012)
+I (C:\Users\TEST\Desktop\1work_space\hub_screen\hub_screen_AT32F405KCU7-4_WorkBench\libraries\cmsis\cm4\core_support\cmsis_version.h)(0x67EA421C)
+I (C:\Users\TEST\Desktop\1work_space\hub_screen\hub_screen_AT32F405KCU7-4_WorkBench\libraries\cmsis\cm4\core_support\cmsis_compiler.h)(0x67EA421C)
+I (C:\Users\TEST\Desktop\1work_space\hub_screen\hub_screen_AT32F405KCU7-4_WorkBench\libraries\cmsis\cm4\core_support\cmsis_armclang.h)(0x67EA421C)
+I (C:\Users\TEST\Desktop\1work_space\hub_screen\hub_screen_AT32F405KCU7-4_WorkBench\libraries\cmsis\cm4\core_support\mpu_armv7.h)(0x67EA421C)
+I (..\..\libraries\cmsis\cm4\device_support\system_at32f402_405.h)(0x67EA421C)
+I (..\..\libraries\drivers\inc\at32f402_405_def.h)(0x67EA421D)
+I (..\..\libraries\drivers\inc\at32f402_405_debug.h)(0x67EA421D)
+I (..\..\libraries\drivers\inc\at32f402_405_exint.h)(0x67EA421D)
+I (..\..\libraries\drivers\inc\at32f402_405_flash.h)(0x67EA421D)
+I (..\..\libraries\drivers\inc\at32f402_405_gpio.h)(0x67EA421D)
+I (..\..\libraries\drivers\inc\at32f402_405_misc.h)(0x67EA421D)
+I (..\..\libraries\drivers\inc\at32f402_405_pwc.h)(0x67EA421D)
+I (..\..\libraries\drivers\inc\at32f402_405_qspi.h)(0x67EA421D)
+I (..\..\libraries\drivers\inc\at32f402_405_spi.h)(0x67EA421D)
+I (..\..\libraries\drivers\inc\at32f402_405_usb.h)(0x67EA421D)
+I (..\..\libraries\drivers\inc\at32f402_405_wdt.h)(0x67EA421D)
+F (..\..\libraries\drivers\src\at32f402_405_flash.c)(0x67EA421D)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-gdwarf-4 -O0 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier -I ../../libraries/drivers/inc -I ../../libraries/cmsis/cm4/core_support -I ../../libraries/cmsis/cm4/device_support -I ../inc -I ../../middlewares/usb_drivers/inc -I ../../user_code-ID:/app_program/kile5/packge/ArteryTek/AT32F402_405_DFP/2.1.1/Device/Include-D__UVISION_VERSION="539" -DAT32F405KCU7_4 -DAT32F405KCU7_4 -DUSE_STDPERIPH_DRIVER-o ./objects/at32f402_405_flash.o -MD)
+I (..\inc\at32f402_405_conf.h)(0x68D0D36E)
+I (..\..\libraries\drivers\inc\at32f402_405_crm.h)(0x67EA421D)
+I (..\..\libraries\cmsis\cm4\device_support\at32f402_405.h)(0x67EA421C)
+I (..\..\libraries\cmsis\cm4\core_support\core_cm4.h)(0x67EA421C)
+I (D:\app_program\kile5\core\ARM\ARMCLANG\include\stdint.h)(0x6569B012)
+I (C:\Users\TEST\Desktop\1work_space\hub_screen\hub_screen_AT32F405KCU7-4_WorkBench\libraries\cmsis\cm4\core_support\cmsis_version.h)(0x67EA421C)
+I (C:\Users\TEST\Desktop\1work_space\hub_screen\hub_screen_AT32F405KCU7-4_WorkBench\libraries\cmsis\cm4\core_support\cmsis_compiler.h)(0x67EA421C)
+I (C:\Users\TEST\Desktop\1work_space\hub_screen\hub_screen_AT32F405KCU7-4_WorkBench\libraries\cmsis\cm4\core_support\cmsis_armclang.h)(0x67EA421C)
+I (C:\Users\TEST\Desktop\1work_space\hub_screen\hub_screen_AT32F405KCU7-4_WorkBench\libraries\cmsis\cm4\core_support\mpu_armv7.h)(0x67EA421C)
+I (..\..\libraries\cmsis\cm4\device_support\system_at32f402_405.h)(0x67EA421C)
+I (..\..\libraries\drivers\inc\at32f402_405_def.h)(0x67EA421D)
+I (..\..\libraries\drivers\inc\at32f402_405_debug.h)(0x67EA421D)
+I (..\..\libraries\drivers\inc\at32f402_405_exint.h)(0x67EA421D)
+I (..\..\libraries\drivers\inc\at32f402_405_flash.h)(0x67EA421D)
+I (..\..\libraries\drivers\inc\at32f402_405_gpio.h)(0x67EA421D)
+I (..\..\libraries\drivers\inc\at32f402_405_misc.h)(0x67EA421D)
+I (..\..\libraries\drivers\inc\at32f402_405_pwc.h)(0x67EA421D)
+I (..\..\libraries\drivers\inc\at32f402_405_qspi.h)(0x67EA421D)
+I (..\..\libraries\drivers\inc\at32f402_405_spi.h)(0x67EA421D)
+I (..\..\libraries\drivers\inc\at32f402_405_usb.h)(0x67EA421D)
+I (..\..\libraries\drivers\inc\at32f402_405_wdt.h)(0x67EA421D)
+F (..\..\libraries\drivers\src\at32f402_405_wdt.c)(0x67EA421D)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-gdwarf-4 -O0 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier -I ../../libraries/drivers/inc -I ../../libraries/cmsis/cm4/core_support -I ../../libraries/cmsis/cm4/device_support -I ../inc -I ../../middlewares/usb_drivers/inc -I ../../user_code-ID:/app_program/kile5/packge/ArteryTek/AT32F402_405_DFP/2.1.1/Device/Include-D__UVISION_VERSION="539" -DAT32F405KCU7_4 -DAT32F405KCU7_4 -DUSE_STDPERIPH_DRIVER-o ./objects/at32f402_405_wdt.o -MD)
+I (..\inc\at32f402_405_conf.h)(0x68D0D36E)
+I (..\..\libraries\drivers\inc\at32f402_405_crm.h)(0x67EA421D)
+I (..\..\libraries\cmsis\cm4\device_support\at32f402_405.h)(0x67EA421C)
+I (..\..\libraries\cmsis\cm4\core_support\core_cm4.h)(0x67EA421C)
+I (D:\app_program\kile5\core\ARM\ARMCLANG\include\stdint.h)(0x6569B012)
+I (C:\Users\TEST\Desktop\1work_space\hub_screen\hub_screen_AT32F405KCU7-4_WorkBench\libraries\cmsis\cm4\core_support\cmsis_version.h)(0x67EA421C)
+I (C:\Users\TEST\Desktop\1work_space\hub_screen\hub_screen_AT32F405KCU7-4_WorkBench\libraries\cmsis\cm4\core_support\cmsis_compiler.h)(0x67EA421C)
+I (C:\Users\TEST\Desktop\1work_space\hub_screen\hub_screen_AT32F405KCU7-4_WorkBench\libraries\cmsis\cm4\core_support\cmsis_armclang.h)(0x67EA421C)
+I (C:\Users\TEST\Desktop\1work_space\hub_screen\hub_screen_AT32F405KCU7-4_WorkBench\libraries\cmsis\cm4\core_support\mpu_armv7.h)(0x67EA421C)
+I (..\..\libraries\cmsis\cm4\device_support\system_at32f402_405.h)(0x67EA421C)
+I (..\..\libraries\drivers\inc\at32f402_405_def.h)(0x67EA421D)
+I (..\..\libraries\drivers\inc\at32f402_405_debug.h)(0x67EA421D)
+I (..\..\libraries\drivers\inc\at32f402_405_exint.h)(0x67EA421D)
+I (..\..\libraries\drivers\inc\at32f402_405_flash.h)(0x67EA421D)
+I (..\..\libraries\drivers\inc\at32f402_405_gpio.h)(0x67EA421D)
+I (..\..\libraries\drivers\inc\at32f402_405_misc.h)(0x67EA421D)
+I (..\..\libraries\drivers\inc\at32f402_405_pwc.h)(0x67EA421D)
+I (..\..\libraries\drivers\inc\at32f402_405_qspi.h)(0x67EA421D)
+I (..\..\libraries\drivers\inc\at32f402_405_spi.h)(0x67EA421D)
+I (..\..\libraries\drivers\inc\at32f402_405_usb.h)(0x67EA421D)
+I (..\..\libraries\drivers\inc\at32f402_405_wdt.h)(0x67EA421D)
+F (..\..\libraries\drivers\src\at32f402_405_exint.c)(0x67EA421D)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-gdwarf-4 -O0 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier -I ../../libraries/drivers/inc -I ../../libraries/cmsis/cm4/core_support -I ../../libraries/cmsis/cm4/device_support -I ../inc -I ../../middlewares/usb_drivers/inc -I ../../user_code-ID:/app_program/kile5/packge/ArteryTek/AT32F402_405_DFP/2.1.1/Device/Include-D__UVISION_VERSION="539" -DAT32F405KCU7_4 -DAT32F405KCU7_4 -DUSE_STDPERIPH_DRIVER-o ./objects/at32f402_405_exint.o -MD)
+I (..\inc\at32f402_405_conf.h)(0x68D0D36E)
+I (..\..\libraries\drivers\inc\at32f402_405_crm.h)(0x67EA421D)
+I (..\..\libraries\cmsis\cm4\device_support\at32f402_405.h)(0x67EA421C)
+I (..\..\libraries\cmsis\cm4\core_support\core_cm4.h)(0x67EA421C)
+I (D:\app_program\kile5\core\ARM\ARMCLANG\include\stdint.h)(0x6569B012)
+I (C:\Users\TEST\Desktop\1work_space\hub_screen\hub_screen_AT32F405KCU7-4_WorkBench\libraries\cmsis\cm4\core_support\cmsis_version.h)(0x67EA421C)
+I (C:\Users\TEST\Desktop\1work_space\hub_screen\hub_screen_AT32F405KCU7-4_WorkBench\libraries\cmsis\cm4\core_support\cmsis_compiler.h)(0x67EA421C)
+I (C:\Users\TEST\Desktop\1work_space\hub_screen\hub_screen_AT32F405KCU7-4_WorkBench\libraries\cmsis\cm4\core_support\cmsis_armclang.h)(0x67EA421C)
+I (C:\Users\TEST\Desktop\1work_space\hub_screen\hub_screen_AT32F405KCU7-4_WorkBench\libraries\cmsis\cm4\core_support\mpu_armv7.h)(0x67EA421C)
+I (..\..\libraries\cmsis\cm4\device_support\system_at32f402_405.h)(0x67EA421C)
+I (..\..\libraries\drivers\inc\at32f402_405_def.h)(0x67EA421D)
+I (..\..\libraries\drivers\inc\at32f402_405_debug.h)(0x67EA421D)
+I (..\..\libraries\drivers\inc\at32f402_405_exint.h)(0x67EA421D)
+I (..\..\libraries\drivers\inc\at32f402_405_flash.h)(0x67EA421D)
+I (..\..\libraries\drivers\inc\at32f402_405_gpio.h)(0x67EA421D)
+I (..\..\libraries\drivers\inc\at32f402_405_misc.h)(0x67EA421D)
+I (..\..\libraries\drivers\inc\at32f402_405_pwc.h)(0x67EA421D)
+I (..\..\libraries\drivers\inc\at32f402_405_qspi.h)(0x67EA421D)
+I (..\..\libraries\drivers\inc\at32f402_405_spi.h)(0x67EA421D)
+I (..\..\libraries\drivers\inc\at32f402_405_usb.h)(0x67EA421D)
+I (..\..\libraries\drivers\inc\at32f402_405_wdt.h)(0x67EA421D)
+F (..\..\libraries\drivers\src\at32f402_405_misc.c)(0x67EA421D)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-gdwarf-4 -O0 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier -I ../../libraries/drivers/inc -I ../../libraries/cmsis/cm4/core_support -I ../../libraries/cmsis/cm4/device_support -I ../inc -I ../../middlewares/usb_drivers/inc -I ../../user_code-ID:/app_program/kile5/packge/ArteryTek/AT32F402_405_DFP/2.1.1/Device/Include-D__UVISION_VERSION="539" -DAT32F405KCU7_4 -DAT32F405KCU7_4 -DUSE_STDPERIPH_DRIVER-o ./objects/at32f402_405_misc.o -MD)
+I (..\inc\at32f402_405_conf.h)(0x68D0D36E)
+I (..\..\libraries\drivers\inc\at32f402_405_crm.h)(0x67EA421D)
+I (..\..\libraries\cmsis\cm4\device_support\at32f402_405.h)(0x67EA421C)
+I (..\..\libraries\cmsis\cm4\core_support\core_cm4.h)(0x67EA421C)
+I (D:\app_program\kile5\core\ARM\ARMCLANG\include\stdint.h)(0x6569B012)
+I (C:\Users\TEST\Desktop\1work_space\hub_screen\hub_screen_AT32F405KCU7-4_WorkBench\libraries\cmsis\cm4\core_support\cmsis_version.h)(0x67EA421C)
+I (C:\Users\TEST\Desktop\1work_space\hub_screen\hub_screen_AT32F405KCU7-4_WorkBench\libraries\cmsis\cm4\core_support\cmsis_compiler.h)(0x67EA421C)
+I (C:\Users\TEST\Desktop\1work_space\hub_screen\hub_screen_AT32F405KCU7-4_WorkBench\libraries\cmsis\cm4\core_support\cmsis_armclang.h)(0x67EA421C)
+I (C:\Users\TEST\Desktop\1work_space\hub_screen\hub_screen_AT32F405KCU7-4_WorkBench\libraries\cmsis\cm4\core_support\mpu_armv7.h)(0x67EA421C)
+I (..\..\libraries\cmsis\cm4\device_support\system_at32f402_405.h)(0x67EA421C)
+I (..\..\libraries\drivers\inc\at32f402_405_def.h)(0x67EA421D)
+I (..\..\libraries\drivers\inc\at32f402_405_debug.h)(0x67EA421D)
+I (..\..\libraries\drivers\inc\at32f402_405_exint.h)(0x67EA421D)
+I (..\..\libraries\drivers\inc\at32f402_405_flash.h)(0x67EA421D)
+I (..\..\libraries\drivers\inc\at32f402_405_gpio.h)(0x67EA421D)
+I (..\..\libraries\drivers\inc\at32f402_405_misc.h)(0x67EA421D)
+I (..\..\libraries\drivers\inc\at32f402_405_pwc.h)(0x67EA421D)
+I (..\..\libraries\drivers\inc\at32f402_405_qspi.h)(0x67EA421D)
+I (..\..\libraries\drivers\inc\at32f402_405_spi.h)(0x67EA421D)
+I (..\..\libraries\drivers\inc\at32f402_405_usb.h)(0x67EA421D)
+I (..\..\libraries\drivers\inc\at32f402_405_wdt.h)(0x67EA421D)
+F (..\..\libraries\drivers\src\at32f402_405_usb.c)(0x67EA421D)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-gdwarf-4 -O0 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier -I ../../libraries/drivers/inc -I ../../libraries/cmsis/cm4/core_support -I ../../libraries/cmsis/cm4/device_support -I ../inc -I ../../middlewares/usb_drivers/inc -I ../../user_code-ID:/app_program/kile5/packge/ArteryTek/AT32F402_405_DFP/2.1.1/Device/Include-D__UVISION_VERSION="539" -DAT32F405KCU7_4 -DAT32F405KCU7_4 -DUSE_STDPERIPH_DRIVER-o ./objects/at32f402_405_usb.o -MD)
+I (..\inc\at32f402_405_conf.h)(0x68D0D36E)
+I (..\..\libraries\drivers\inc\at32f402_405_crm.h)(0x67EA421D)
+I (..\..\libraries\cmsis\cm4\device_support\at32f402_405.h)(0x67EA421C)
+I (..\..\libraries\cmsis\cm4\core_support\core_cm4.h)(0x67EA421C)
+I (D:\app_program\kile5\core\ARM\ARMCLANG\include\stdint.h)(0x6569B012)
+I (C:\Users\TEST\Desktop\1work_space\hub_screen\hub_screen_AT32F405KCU7-4_WorkBench\libraries\cmsis\cm4\core_support\cmsis_version.h)(0x67EA421C)
+I (C:\Users\TEST\Desktop\1work_space\hub_screen\hub_screen_AT32F405KCU7-4_WorkBench\libraries\cmsis\cm4\core_support\cmsis_compiler.h)(0x67EA421C)
+I (C:\Users\TEST\Desktop\1work_space\hub_screen\hub_screen_AT32F405KCU7-4_WorkBench\libraries\cmsis\cm4\core_support\cmsis_armclang.h)(0x67EA421C)
+I (C:\Users\TEST\Desktop\1work_space\hub_screen\hub_screen_AT32F405KCU7-4_WorkBench\libraries\cmsis\cm4\core_support\mpu_armv7.h)(0x67EA421C)
+I (..\..\libraries\cmsis\cm4\device_support\system_at32f402_405.h)(0x67EA421C)
+I (..\..\libraries\drivers\inc\at32f402_405_def.h)(0x67EA421D)
+I (..\..\libraries\drivers\inc\at32f402_405_debug.h)(0x67EA421D)
+I (..\..\libraries\drivers\inc\at32f402_405_exint.h)(0x67EA421D)
+I (..\..\libraries\drivers\inc\at32f402_405_flash.h)(0x67EA421D)
+I (..\..\libraries\drivers\inc\at32f402_405_gpio.h)(0x67EA421D)
+I (..\..\libraries\drivers\inc\at32f402_405_misc.h)(0x67EA421D)
+I (..\..\libraries\drivers\inc\at32f402_405_pwc.h)(0x67EA421D)
+I (..\..\libraries\drivers\inc\at32f402_405_qspi.h)(0x67EA421D)
+I (..\..\libraries\drivers\inc\at32f402_405_spi.h)(0x67EA421D)
+I (..\..\libraries\drivers\inc\at32f402_405_usb.h)(0x67EA421D)
+I (..\..\libraries\drivers\inc\at32f402_405_wdt.h)(0x67EA421D)
+F (..\..\libraries\drivers\src\at32f402_405_qspi.c)(0x67EA421D)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-gdwarf-4 -O0 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier -I ../../libraries/drivers/inc -I ../../libraries/cmsis/cm4/core_support -I ../../libraries/cmsis/cm4/device_support -I ../inc -I ../../middlewares/usb_drivers/inc -I ../../user_code-ID:/app_program/kile5/packge/ArteryTek/AT32F402_405_DFP/2.1.1/Device/Include-D__UVISION_VERSION="539" -DAT32F405KCU7_4 -DAT32F405KCU7_4 -DUSE_STDPERIPH_DRIVER-o ./objects/at32f402_405_qspi.o -MD)
+I (..\inc\at32f402_405_conf.h)(0x68D0D36E)
+I (..\..\libraries\drivers\inc\at32f402_405_crm.h)(0x67EA421D)
+I (..\..\libraries\cmsis\cm4\device_support\at32f402_405.h)(0x67EA421C)
+I (..\..\libraries\cmsis\cm4\core_support\core_cm4.h)(0x67EA421C)
+I (D:\app_program\kile5\core\ARM\ARMCLANG\include\stdint.h)(0x6569B012)
+I (C:\Users\TEST\Desktop\1work_space\hub_screen\hub_screen_AT32F405KCU7-4_WorkBench\libraries\cmsis\cm4\core_support\cmsis_version.h)(0x67EA421C)
+I (C:\Users\TEST\Desktop\1work_space\hub_screen\hub_screen_AT32F405KCU7-4_WorkBench\libraries\cmsis\cm4\core_support\cmsis_compiler.h)(0x67EA421C)
+I (C:\Users\TEST\Desktop\1work_space\hub_screen\hub_screen_AT32F405KCU7-4_WorkBench\libraries\cmsis\cm4\core_support\cmsis_armclang.h)(0x67EA421C)
+I (C:\Users\TEST\Desktop\1work_space\hub_screen\hub_screen_AT32F405KCU7-4_WorkBench\libraries\cmsis\cm4\core_support\mpu_armv7.h)(0x67EA421C)
+I (..\..\libraries\cmsis\cm4\device_support\system_at32f402_405.h)(0x67EA421C)
+I (..\..\libraries\drivers\inc\at32f402_405_def.h)(0x67EA421D)
+I (..\..\libraries\drivers\inc\at32f402_405_debug.h)(0x67EA421D)
+I (..\..\libraries\drivers\inc\at32f402_405_exint.h)(0x67EA421D)
+I (..\..\libraries\drivers\inc\at32f402_405_flash.h)(0x67EA421D)
+I (..\..\libraries\drivers\inc\at32f402_405_gpio.h)(0x67EA421D)
+I (..\..\libraries\drivers\inc\at32f402_405_misc.h)(0x67EA421D)
+I (..\..\libraries\drivers\inc\at32f402_405_pwc.h)(0x67EA421D)
+I (..\..\libraries\drivers\inc\at32f402_405_qspi.h)(0x67EA421D)
+I (..\..\libraries\drivers\inc\at32f402_405_spi.h)(0x67EA421D)
+I (..\..\libraries\drivers\inc\at32f402_405_usb.h)(0x67EA421D)
+I (..\..\libraries\drivers\inc\at32f402_405_wdt.h)(0x67EA421D)
+F (.\startup_at32f402_405.s)(0x68D0D36E)(--cpu Cortex-M4.fp.sp -g --diag_suppress=A1950W-ID:\app_program\kile5\packge\ArteryTek\AT32F402_405_DFP\2.1.1\Device\Include--pd "__UVISION_VERSION SETA 539"--pd "AT32F405KCU7_4 SETA 1"--list .\listings\startup_at32f402_405.lst--xref -o .\objects\startup_at32f402_405.o--depend .\objects\startup_at32f402_405.d)
+F (..\..\libraries\cmsis\cm4\device_support\system_at32f402_405.c)(0x67EA421C)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-gdwarf-4 -O0 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier -I ../../libraries/drivers/inc -I ../../libraries/cmsis/cm4/core_support -I ../../libraries/cmsis/cm4/device_support -I ../inc -I ../../middlewares/usb_drivers/inc -I ../../user_code-ID:/app_program/kile5/packge/ArteryTek/AT32F402_405_DFP/2.1.1/Device/Include-D__UVISION_VERSION="539" -DAT32F405KCU7_4 -DAT32F405KCU7_4 -DUSE_STDPERIPH_DRIVER-o ./objects/system_at32f402_405.o -MD)
+I (..\..\libraries\cmsis\cm4\device_support\at32f402_405.h)(0x67EA421C)
+I (..\..\libraries\cmsis\cm4\core_support\core_cm4.h)(0x67EA421C)
+I (D:\app_program\kile5\core\ARM\ARMCLANG\include\stdint.h)(0x6569B012)
+I (C:\Users\TEST\Desktop\1work_space\hub_screen\hub_screen_AT32F405KCU7-4_WorkBench\libraries\cmsis\cm4\core_support\cmsis_version.h)(0x67EA421C)
+I (C:\Users\TEST\Desktop\1work_space\hub_screen\hub_screen_AT32F405KCU7-4_WorkBench\libraries\cmsis\cm4\core_support\cmsis_compiler.h)(0x67EA421C)
+I (C:\Users\TEST\Desktop\1work_space\hub_screen\hub_screen_AT32F405KCU7-4_WorkBench\libraries\cmsis\cm4\core_support\cmsis_armclang.h)(0x67EA421C)
+I (C:\Users\TEST\Desktop\1work_space\hub_screen\hub_screen_AT32F405KCU7-4_WorkBench\libraries\cmsis\cm4\core_support\mpu_armv7.h)(0x67EA421C)
+I (..\..\libraries\cmsis\cm4\device_support\system_at32f402_405.h)(0x67EA421C)
+I (..\..\libraries\drivers\inc\at32f402_405_def.h)(0x67EA421D)
+I (..\inc\at32f402_405_conf.h)(0x68D0D36E)
+I (..\..\libraries\drivers\inc\at32f402_405_crm.h)(0x67EA421D)
+I (..\..\libraries\drivers\inc\at32f402_405_debug.h)(0x67EA421D)
+I (..\..\libraries\drivers\inc\at32f402_405_exint.h)(0x67EA421D)
+I (..\..\libraries\drivers\inc\at32f402_405_flash.h)(0x67EA421D)
+I (..\..\libraries\drivers\inc\at32f402_405_gpio.h)(0x67EA421D)
+I (..\..\libraries\drivers\inc\at32f402_405_misc.h)(0x67EA421D)
+I (..\..\libraries\drivers\inc\at32f402_405_pwc.h)(0x67EA421D)
+I (..\..\libraries\drivers\inc\at32f402_405_qspi.h)(0x67EA421D)
+I (..\..\libraries\drivers\inc\at32f402_405_spi.h)(0x67EA421D)
+I (..\..\libraries\drivers\inc\at32f402_405_usb.h)(0x67EA421D)
+I (..\..\libraries\drivers\inc\at32f402_405_wdt.h)(0x67EA421D)
+F (../../middlewares/usb_drivers/src/usb_core.c)(0x67EA421D)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-gdwarf-4 -O0 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier -I ../../libraries/drivers/inc -I ../../libraries/cmsis/cm4/core_support -I ../../libraries/cmsis/cm4/device_support -I ../inc -I ../../middlewares/usb_drivers/inc -I ../../user_code-ID:/app_program/kile5/packge/ArteryTek/AT32F402_405_DFP/2.1.1/Device/Include-D__UVISION_VERSION="539" -DAT32F405KCU7_4 -DAT32F405KCU7_4 -DUSE_STDPERIPH_DRIVER-o ./objects/usb_core.o -MD)
+I (..\..\middlewares\usb_drivers\inc\usb_core.h)(0x67EA421D)
+I (..\..\middlewares\usb_drivers\inc\usb_std.hh.\inc\usb_conf.h)(0x00000000)
+I (..\..\libraries\cmsis\cm4\device_support\at32f402_405.h)(0x67EA421C)
+I (..\..\libraries\cmsis\cm4\core_support\core_cm4.h)(0x67EA421C)
+I (D:\app_program\kile5\core\ARM\ARMCLANG\include\stdint.h)(0x6569B012)
+I (C:\Users\TEST\Desktop\1work_space\hub_screen\hub_screen_AT32F405KCU7-4_WorkBench\libraries\cmsis\cm4\core_support\cmsis_version.h)(0x67EA421C)
+I (C:\Users\TEST\Desktop\1work_space\hub_screen\hub_screen_AT32F405KCU7-4_WorkBench\libraries\cmsis\cm4\core_support\cmsis_compiler.h)(0x67EA421C)
+I (C:\Users\TEST\Desktop\1work_space\hub_screen\hub_screen_AT32F405KCU7-4_WorkBench\libraries\cmsis\cm4\core_support\cmsis_armclang.h)(0x67EA421C)
+I (C:\Users\TEST\Desktop\1work_space\hub_screen\hub_screen_AT32F405KCU7-4_WorkBench\libraries\cmsis\cm4\core_support\mpu_armv7.h)(0x67EA421C)
+I (..\..\libraries\cmsis\cm4\device_support\system_at32f402_405.h)(0x67EA421C)
+I (..\..\libraries\drivers\inc\at32f402_405_def.h)(0x67EA421D)
+I (..\inc\at32f402_405_conf.h)(0x68D0D36E)
+I (..\..\libraries\drivers\inc\at32f402_405_crm.h)(0x67EA421D)
+I (..\..\libraries\drivers\inc\at32f402_405_debug.h)(0x67EA421D)
+I (..\..\libraries\drivers\inc\at32f402_405_exint.h)(0x67EA421D)
+I (..\..\libraries\drivers\inc\at32f402_405_flash.h)(0x67EA421D)
+I (..\..\libraries\drivers\inc\at32f402_405_gpio.h)(0x67EA421D)
+I (..\..\libraries\drivers\inc\at32f402_405_misc.h)(0x67EA421D)
+I (..\..\libraries\drivers\inc\at32f402_405_pwc.h)(0x67EA421D)
+I (..\..\libraries\drivers\inc\at32f402_405_qspi.h)(0x67EA421D)
+I (..\..\libraries\drivers\inc\at32f402_405_spi.h)(0x67EA421D)
+I (..\..\libraries\drivers\inc\at32f402_405_usb.h)(0x67EA421D)
+I (..\..\libraries\drivers\inc\at32f402_405_wdt.h)(0x67EA421D)
+I (D:\app_program\kile5\core\ARM\ARMCLANG\include\string.h)(0x68E8B7E4)
+I (D:\app_program\kile5\core\ARM\ARMCLANG\include\stdio.h)(0x68E8B7E4)
+I (..\..\middlewares\usb_drivers\inc\usbd_core.h)(0x67EA421D)
+F (../../middlewares/usb_drivers/src/usbd_core.c)(0x67EA421D)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-gdwarf-4 -O0 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier -I ../../libraries/drivers/inc -I ../../libraries/cmsis/cm4/core_support -I ../../libraries/cmsis/cm4/device_support -I ../inc -I ../../middlewares/usb_drivers/inc -I ../../user_code-ID:/app_program/kile5/packge/ArteryTek/AT32F402_405_DFP/2.1.1/Device/Include-D__UVISION_VERSION="539" -DAT32F405KCU7_4 -DAT32F405KCU7_4 -DUSE_STDPERIPH_DRIVER-o ./objects/usbd_core.o -MD)
+I (..\..\middlewares\usb_drivers\inc\usb_core.h)(0x67EA421D)
+I (..\..\middlewares\usb_drivers\inc\usb_std.hh.\inc\usb_conf.h)(0x00000000)
+I (..\..\libraries\cmsis\cm4\device_support\at32f402_405.h)(0x67EA421C)
+I (..\..\libraries\cmsis\cm4\core_support\core_cm4.h)(0x67EA421C)
+I (D:\app_program\kile5\core\ARM\ARMCLANG\include\stdint.h)(0x6569B012)
+I (C:\Users\TEST\Desktop\1work_space\hub_screen\hub_screen_AT32F405KCU7-4_WorkBench\libraries\cmsis\cm4\core_support\cmsis_version.h)(0x67EA421C)
+I (C:\Users\TEST\Desktop\1work_space\hub_screen\hub_screen_AT32F405KCU7-4_WorkBench\libraries\cmsis\cm4\core_support\cmsis_compiler.h)(0x67EA421C)
+I (C:\Users\TEST\Desktop\1work_space\hub_screen\hub_screen_AT32F405KCU7-4_WorkBench\libraries\cmsis\cm4\core_support\cmsis_armclang.h)(0x67EA421C)
+I (C:\Users\TEST\Desktop\1work_space\hub_screen\hub_screen_AT32F405KCU7-4_WorkBench\libraries\cmsis\cm4\core_support\mpu_armv7.h)(0x67EA421C)
+I (..\..\libraries\cmsis\cm4\device_support\system_at32f402_405.h)(0x67EA421C)
+I (..\..\libraries\drivers\inc\at32f402_405_def.h)(0x67EA421D)
+I (..\inc\at32f402_405_conf.h)(0x68D0D36E)
+I (..\..\libraries\drivers\inc\at32f402_405_crm.h)(0x67EA421D)
+I (..\..\libraries\drivers\inc\at32f402_405_debug.h)(0x67EA421D)
+I (..\..\libraries\drivers\inc\at32f402_405_exint.h)(0x67EA421D)
+I (..\..\libraries\drivers\inc\at32f402_405_flash.h)(0x67EA421D)
+I (..\..\libraries\drivers\inc\at32f402_405_gpio.h)(0x67EA421D)
+I (..\..\libraries\drivers\inc\at32f402_405_misc.h)(0x67EA421D)
+I (..\..\libraries\drivers\inc\at32f402_405_pwc.h)(0x67EA421D)
+I (..\..\libraries\drivers\inc\at32f402_405_qspi.h)(0x67EA421D)
+I (..\..\libraries\drivers\inc\at32f402_405_spi.h)(0x67EA421D)
+I (..\..\libraries\drivers\inc\at32f402_405_usb.h)(0x67EA421D)
+I (..\..\libraries\drivers\inc\at32f402_405_wdt.h)(0x67EA421D)
+I (D:\app_program\kile5\core\ARM\ARMCLANG\include\string.h)(0x68E8B7E4)
+I (D:\app_program\kile5\core\ARM\ARMCLANG\include\stdio.h)(0x68E8B7E4)
+I (..\..\middlewares\usb_drivers\inc\usbd_core.h)(0x67EA421D)
+I (..\..\middlewares\usb_drivers\inc\usbd_sdr.h)(0x67EA421D)
+F (../../middlewares/usb_drivers/src/usbd_int.c)(0x67EA421D)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-gdwarf-4 -O0 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier -I ../../libraries/drivers/inc -I ../../libraries/cmsis/cm4/core_support -I ../../libraries/cmsis/cm4/device_support -I ../inc -I ../../middlewares/usb_drivers/inc -I ../../user_code-ID:/app_program/kile5/packge/ArteryTek/AT32F402_405_DFP/2.1.1/Device/Include-D__UVISION_VERSION="539" -DAT32F405KCU7_4 -DAT32F405KCU7_4 -DUSE_STDPERIPH_DRIVER-o ./objects/usbd_int.o -MD)
+I (..\..\middlewares\usb_drivers\inc\usbd_int.h)(0x67EA421D)
+I (..\..\middlewares\usb_drivers\inc\usbd_core.h)(0x67EA421D)
+I (..\..\libraries\cmsis\cm4\device_support\at32f402_405.h)(0x67EA421C)
+I (..\..\libraries\cmsis\cm4\core_support\core_cm4.h)(0x67EA421C)
+I (D:\app_program\kile5\core\ARM\ARMCLANG\include\stdint.h)(0x6569B012)
+I (C:\Users\TEST\Desktop\1work_space\hub_screen\hub_screen_AT32F405KCU7-4_WorkBench\libraries\cmsis\cm4\core_support\cmsis_version.h)(0x67EA421C)
+I (C:\Users\TEST\Desktop\1work_space\hub_screen\hub_screen_AT32F405KCU7-4_WorkBench\libraries\cmsis\cm4\core_support\cmsis_compiler.h)(0x67EA421C)
+I (C:\Users\TEST\Desktop\1work_space\hub_screen\hub_screen_AT32F405KCU7-4_WorkBench\libraries\cmsis\cm4\core_support\cmsis_armclang.h)(0x67EA421C)
+I (C:\Users\TEST\Desktop\1work_space\hub_screen\hub_screen_AT32F405KCU7-4_WorkBench\libraries\cmsis\cm4\core_support\mpu_armv7.h)(0x67EA421C)
+I (..\..\libraries\cmsis\cm4\device_support\system_at32f402_405.h)(0x67EA421C)
+I (..\..\libraries\drivers\inc\at32f402_405_def.h)(0x67EA421D)
+I (..\inc\at32f402_405_conf.h)(0x68D0D36E)
+I (..\..\libraries\drivers\inc\at32f402_405_crm.h)(0x67EA421D)
+I (..\..\libraries\drivers\inc\at32f402_405_debug.h)(0x67EA421D)
+I (..\..\libraries\drivers\inc\at32f402_405_exint.h)(0x67EA421D)
+I (..\..\libraries\drivers\inc\at32f402_405_flash.h)(0x67EA421D)
+I (..\..\libraries\drivers\inc\at32f402_405_gpio.h)(0x67EA421D)
+I (..\..\libraries\drivers\inc\at32f402_405_misc.h)(0x67EA421D)
+I (..\..\libraries\drivers\inc\at32f402_405_pwc.h)(0x67EA421D)
+I (..\..\libraries\drivers\inc\at32f402_405_qspi.h)(0x67EA421D)
+I (..\..\libraries\drivers\inc\at32f402_405_spi.h)(0x67EA421D)
+I (..\..\libraries\drivers\inc\at32f402_405_usb.h)(0x67EA421D)
+I (..\..\libraries\drivers\inc\at32f402_405_wdt.h)(0x67EA421D)
+I (D:\app_program\kile5\core\ARM\ARMCLANG\include\string.h)(0x68E8B7E4)
+I (D:\app_program\kile5\core\ARM\ARMCLANG\include\stdio.h)(0x68E8B7E4)
+I (..\..\middlewares\usb_drivers\inc\usb_std.h)(0x67EA421D)
+I (..\..\middlewares\usb_drivers\inc\usb_core.h)(0x67EA421D)
+F (../../middlewares/usb_drivers/src/usbd_sdr.c)(0x67EA421D)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-gdwarf-4 -O0 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier -I ../../libraries/drivers/inc -I ../../libraries/cmsis/cm4/core_support -I ../../libraries/cmsis/cm4/device_support -I ../inc -I ../../middlewares/usb_drivers/inc -I ../../user_code-ID:/app_program/kile5/packge/ArteryTek/AT32F402_405_DFP/2.1.1/Device/Include-D__UVISION_VERSION="539" -DAT32F405KCU7_4 -DAT32F405KCU7_4 -DUSE_STDPERIPH_DRIVER-o ./objects/usbd_sdr.o -MD)
+I (..\..\middlewares\usb_drivers\inc\usbd_sdr.h)(0x67EA421D)
+I (..\..\libraries\cmsis\cm4\device_support\at32f402_405.h)(0x67EA421C)
+I (..\..\libraries\cmsis\cm4\core_support\core_cm4.h)(0x67EA421C)
+I (D:\app_program\kile5\core\ARM\ARMCLANG\include\stdint.h)(0x6569B012)
+I (C:\Users\TEST\Desktop\1work_space\hub_screen\hub_screen_AT32F405KCU7-4_WorkBench\libraries\cmsis\cm4\core_support\cmsis_version.h)(0x67EA421C)
+I (C:\Users\TEST\Desktop\1work_space\hub_screen\hub_screen_AT32F405KCU7-4_WorkBench\libraries\cmsis\cm4\core_support\cmsis_compiler.h)(0x67EA421C)
+I (C:\Users\TEST\Desktop\1work_space\hub_screen\hub_screen_AT32F405KCU7-4_WorkBench\libraries\cmsis\cm4\core_support\cmsis_armclang.h)(0x67EA421C)
+I (C:\Users\TEST\Desktop\1work_space\hub_screen\hub_screen_AT32F405KCU7-4_WorkBench\libraries\cmsis\cm4\core_support\mpu_armv7.h)(0x67EA421C)
+I (..\..\libraries\cmsis\cm4\device_support\system_at32f402_405.h)(0x67EA421C)
+I (..\..\libraries\drivers\inc\at32f402_405_def.h)(0x67EA421D)
+I (..\inc\at32f402_405_conf.h)(0x68D0D36E)
+I (..\..\libraries\drivers\inc\at32f402_405_crm.h)(0x67EA421D)
+I (..\..\libraries\drivers\inc\at32f402_405_debug.h)(0x67EA421D)
+I (..\..\libraries\drivers\inc\at32f402_405_exint.h)(0x67EA421D)
+I (..\..\libraries\drivers\inc\at32f402_405_flash.h)(0x67EA421D)
+I (..\..\libraries\drivers\inc\at32f402_405_gpio.h)(0x67EA421D)
+I (..\..\libraries\drivers\inc\at32f402_405_misc.h)(0x67EA421D)
+I (..\..\libraries\drivers\inc\at32f402_405_pwc.h)(0x67EA421D)
+I (..\..\libraries\drivers\inc\at32f402_405_qspi.h)(0x67EA421D)
+I (..\..\libraries\drivers\inc\at32f402_405_spi.h)(0x67EA421D)
+I (..\..\libraries\drivers\inc\at32f402_405_usb.h)(0x67EA421D)
+I (..\..\libraries\drivers\inc\at32f402_405_wdt.h)(0x67EA421D)
+I (D:\app_program\kile5\core\ARM\ARMCLANG\include\string.h)(0x68E8B7E4)
+I (D:\app_program\kile5\core\ARM\ARMCLANG\include\stdio.h)(0x68E8B7E4)
+I (..\..\middlewares\usb_drivers\inc\usb_core.h)(0x67EA421D)
+I (..\..\middlewares\usb_drivers\inc\usb_std.h)(0x67EA421D)
+I (..\..\middlewares\usb_drivers\inc\usbd_core.h)(0x67EA421D)
+F (..\..\user_code\lcd_spi.c)(0x68F1B27E)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-gdwarf-4 -O0 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier -I ../../libraries/drivers/inc -I ../../libraries/cmsis/cm4/core_support -I ../../libraries/cmsis/cm4/device_support -I ../inc -I ../../middlewares/usb_drivers/inc -I ../../user_code-ID:/app_program/kile5/packge/ArteryTek/AT32F402_405_DFP/2.1.1/Device/Include-D__UVISION_VERSION="539" -DAT32F405KCU7_4 -DAT32F405KCU7_4 -DUSE_STDPERIPH_DRIVER-o ./objects/lcd_spi.o -MD)
+I (..\inc\wk_spi.h\.\inc\at32f402_405_wk_config.h)(0x00000000)
+I (D:\app_program\kile5\core\ARM\ARMCLANG\include\stdio.h)(0x68E8B7E4)
+I (..\..\libraries\cmsis\cm4\device_support\at32f402_405.h)(0x67EA421C)
+I (..\..\libraries\cmsis\cm4\core_support\core_cm4.h)(0x67EA421C)
+I (D:\app_program\kile5\core\ARM\ARMCLANG\include\stdint.h)(0x6569B012)
+I (C:\Users\TEST\Desktop\1work_space\hub_screen\hub_screen_AT32F405KCU7-4_WorkBench\libraries\cmsis\cm4\core_support\cmsis_version.h)(0x67EA421C)
+I (C:\Users\TEST\Desktop\1work_space\hub_screen\hub_screen_AT32F405KCU7-4_WorkBench\libraries\cmsis\cm4\core_support\cmsis_compiler.h)(0x67EA421C)
+I (C:\Users\TEST\Desktop\1work_space\hub_screen\hub_screen_AT32F405KCU7-4_WorkBench\libraries\cmsis\cm4\core_support\cmsis_armclang.h)(0x67EA421C)
+I (C:\Users\TEST\Desktop\1work_space\hub_screen\hub_screen_AT32F405KCU7-4_WorkBench\libraries\cmsis\cm4\core_support\mpu_armv7.h)(0x67EA421C)
+I (..\..\libraries\cmsis\cm4\device_support\system_at32f402_405.h)(0x67EA421C)
+I (..\..\libraries\drivers\inc\at32f402_405_def.h)(0x67EA421D)
+I (..\inc\at32f402_405_conf.h)(0x68D0D36E)
+I (..\..\libraries\drivers\inc\at32f402_405_crm.h)(0x67EA421D)
+I (..\..\libraries\drivers\inc\at32f402_405_debug.h)(0x67EA421D)
+I (..\..\libraries\drivers\inc\at32f402_405_exint.h)(0x67EA421D)
+I (..\..\libraries\drivers\inc\at32f402_405_flash.h)(0x67EA421D)
+I (..\..\libraries\drivers\inc\at32f402_405_gpio.h)(0x67EA421D)
+I (..\..\libraries\drivers\inc\at32f402_405_misc.h)(0x67EA421D)
+I (..\..\libraries\drivers\inc\at32f402_405_pwc.h)(0x67EA421D)
+I (..\..\libraries\drivers\inc\at32f402_405_qspi.h)(0x67EA421D)
+I (..\..\libraries\drivers\inc\at32f402_405_spi.h)(0x67EA421D)
+I (..\..\libraries\drivers\inc\at32f402_405_usb.h)(0x67EA421D)
+I (..\..\libraries\drivers\inc\at32f402_405_wdt.h)(0x67EA421D)
+I (..\inc\at32f402_405_int.h)(0x68D0D36E)
+F (..\..\user_code\lcd_spi.h)(0x68F0FAC5)()
+F (..\..\user_code\get_current_time.c)(0x68D0D273)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-gdwarf-4 -O0 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier -I ../../libraries/drivers/inc -I ../../libraries/cmsis/cm4/core_support -I ../../libraries/cmsis/cm4/device_support -I ../inc -I ../../middlewares/usb_drivers/inc -I ../../user_code-ID:/app_program/kile5/packge/ArteryTek/AT32F402_405_DFP/2.1.1/Device/Include-D__UVISION_VERSION="539" -DAT32F405KCU7_4 -DAT32F405KCU7_4 -DUSE_STDPERIPH_DRIVER-o ./objects/get_current_time.o -MD)
+I (..\..\user_code\get_current_time.h)(0x68D0D274)
+I (D:\app_program\kile5\core\ARM\ARMCLANG\include\stdint.h)(0x6569B012)
+I (..\inc\wk_system.h)(0x68D0D449)
+I (..\..\libraries\cmsis\cm4\device_support\at32f402_405.h)(0x67EA421C)
+I (..\..\libraries\cmsis\cm4\core_support\core_cm4.h)(0x67EA421C)
+I (C:\Users\TEST\Desktop\1work_space\hub_screen\hub_screen_AT32F405KCU7-4_WorkBench\libraries\cmsis\cm4\core_support\cmsis_version.h)(0x67EA421C)
+I (C:\Users\TEST\Desktop\1work_space\hub_screen\hub_screen_AT32F405KCU7-4_WorkBench\libraries\cmsis\cm4\core_support\cmsis_compiler.h)(0x67EA421C)
+I (C:\Users\TEST\Desktop\1work_space\hub_screen\hub_screen_AT32F405KCU7-4_WorkBench\libraries\cmsis\cm4\core_support\cmsis_armclang.h)(0x67EA421C)
+I (C:\Users\TEST\Desktop\1work_space\hub_screen\hub_screen_AT32F405KCU7-4_WorkBench\libraries\cmsis\cm4\core_support\mpu_armv7.h)(0x67EA421C)
+I (..\..\libraries\cmsis\cm4\device_support\system_at32f402_405.h)(0x67EA421C)
+I (..\..\libraries\drivers\inc\at32f402_405_def.h)(0x67EA421D)
+I (..\inc\at32f402_405_conf.h)(0x68D0D36E)
+I (..\..\libraries\drivers\inc\at32f402_405_crm.h)(0x67EA421D)
+I (..\..\libraries\drivers\inc\at32f402_405_debug.h)(0x67EA421D)
+I (..\..\libraries\drivers\inc\at32f402_405_exint.h)(0x67EA421D)
+I (..\..\libraries\drivers\inc\at32f402_405_flash.h)(0x67EA421D)
+I (..\..\libraries\drivers\inc\at32f402_405_gpio.h)(0x67EA421D)
+I (..\..\libraries\drivers\inc\at32f402_405_misc.h)(0x67EA421D)
+I (..\..\libraries\drivers\inc\at32f402_405_pwc.h)(0x67EA421D)
+I (..\..\libraries\drivers\inc\at32f402_405_qspi.h)(0x67EA421D)
+I (..\..\libraries\drivers\inc\at32f402_405_spi.h)(0x67EA421D)
+I (..\..\libraries\drivers\inc\at32f402_405_usb.h)(0x67EA421D)
+I (..\..\libraries\drivers\inc\at32f402_405_wdt.h)(0x67EA421D)
+F (..\..\user_code\get_current_time.h)(0x68D0D274)()
+F (../src/custom_hid_class.c)(0x68D0D36E)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-gdwarf-4 -O0 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier -I ../../libraries/drivers/inc -I ../../libraries/cmsis/cm4/core_support -I ../../libraries/cmsis/cm4/device_support -I ../inc -I ../../middlewares/usb_drivers/inc -I ../../user_code-ID:/app_program/kile5/packge/ArteryTek/AT32F402_405_DFP/2.1.1/Device/Include-D__UVISION_VERSION="539" -DAT32F405KCU7_4 -DAT32F405KCU7_4 -DUSE_STDPERIPH_DRIVER-o ./objects/custom_hid_class.o -MD)
+I (..\..\middlewares\usb_drivers\inc\usbd_core.hh.\inc\usb_conf.h)(0x00000000)
+I (..\..\libraries\cmsis\cm4\device_support\at32f402_405.h)(0x67EA421C)
+I (..\..\libraries\cmsis\cm4\core_support\core_cm4.h)(0x67EA421C)
+I (D:\app_program\kile5\core\ARM\ARMCLANG\include\stdint.h)(0x6569B012)
+I (C:\Users\TEST\Desktop\1work_space\hub_screen\hub_screen_AT32F405KCU7-4_WorkBench\libraries\cmsis\cm4\core_support\cmsis_version.h)(0x67EA421C)
+I (C:\Users\TEST\Desktop\1work_space\hub_screen\hub_screen_AT32F405KCU7-4_WorkBench\libraries\cmsis\cm4\core_support\cmsis_compiler.h)(0x67EA421C)
+I (C:\Users\TEST\Desktop\1work_space\hub_screen\hub_screen_AT32F405KCU7-4_WorkBench\libraries\cmsis\cm4\core_support\cmsis_armclang.h)(0x67EA421C)
+I (C:\Users\TEST\Desktop\1work_space\hub_screen\hub_screen_AT32F405KCU7-4_WorkBench\libraries\cmsis\cm4\core_support\mpu_armv7.h)(0x67EA421C)
+I (..\..\libraries\cmsis\cm4\device_support\system_at32f402_405.h)(0x67EA421C)
+I (..\..\libraries\drivers\inc\at32f402_405_def.h)(0x67EA421D)
+I (..\inc\at32f402_405_conf.h)(0x68D0D36E)
+I (..\..\libraries\drivers\inc\at32f402_405_crm.h)(0x67EA421D)
+I (..\..\libraries\drivers\inc\at32f402_405_debug.h)(0x67EA421D)
+I (..\..\libraries\drivers\inc\at32f402_405_exint.h)(0x67EA421D)
+I (..\..\libraries\drivers\inc\at32f402_405_flash.h)(0x67EA421D)
+I (..\..\libraries\drivers\inc\at32f402_405_gpio.h)(0x67EA421D)
+I (..\..\libraries\drivers\inc\at32f402_405_misc.h)(0x67EA421D)
+I (..\..\libraries\drivers\inc\at32f402_405_pwc.h)(0x67EA421D)
+I (..\..\libraries\drivers\inc\at32f402_405_qspi.h)(0x67EA421D)
+I (..\..\libraries\drivers\inc\at32f402_405_spi.h)(0x67EA421D)
+I (..\..\libraries\drivers\inc\at32f402_405_usb.h)(0x67EA421D)
+I (..\..\libraries\drivers\inc\at32f402_405_wdt.h)(0x67EA421D)
+I (D:\app_program\kile5\core\ARM\ARMCLANG\include\string.h)(0x68E8B7E4)
+I (D:\app_program\kile5\core\ARM\ARMCLANG\include\stdio.h)(0x68E8B7E4)
+I (..\..\middlewares\usb_drivers\inc\usb_std.hu.\inc\custom_hid_class.h)(0x00000000)
+I (..\inc\custom_hid_desc.h)(0x68D0D36E)
+F (../src/custom_hid_desc.c)(0x67EA421D)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-gdwarf-4 -O0 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier -I ../../libraries/drivers/inc -I ../../libraries/cmsis/cm4/core_support -I ../../libraries/cmsis/cm4/device_support -I ../inc -I ../../middlewares/usb_drivers/inc -I ../../user_code-ID:/app_program/kile5/packge/ArteryTek/AT32F402_405_DFP/2.1.1/Device/Include-D__UVISION_VERSION="539" -DAT32F405KCU7_4 -DAT32F405KCU7_4 -DUSE_STDPERIPH_DRIVER-o ./objects/custom_hid_desc.o -MD)
+I (..\..\middlewares\usb_drivers\inc\usb_std.hu.\inc\usb_conf.h)(0x00000000)
+I (..\..\libraries\cmsis\cm4\device_support\at32f402_405.h)(0x67EA421C)
+I (..\..\libraries\cmsis\cm4\core_support\core_cm4.h)(0x67EA421C)
+I (D:\app_program\kile5\core\ARM\ARMCLANG\include\stdint.h)(0x6569B012)
+I (C:\Users\TEST\Desktop\1work_space\hub_screen\hub_screen_AT32F405KCU7-4_WorkBench\libraries\cmsis\cm4\core_support\cmsis_version.h)(0x67EA421C)
+I (C:\Users\TEST\Desktop\1work_space\hub_screen\hub_screen_AT32F405KCU7-4_WorkBench\libraries\cmsis\cm4\core_support\cmsis_compiler.h)(0x67EA421C)
+I (C:\Users\TEST\Desktop\1work_space\hub_screen\hub_screen_AT32F405KCU7-4_WorkBench\libraries\cmsis\cm4\core_support\cmsis_armclang.h)(0x67EA421C)
+I (C:\Users\TEST\Desktop\1work_space\hub_screen\hub_screen_AT32F405KCU7-4_WorkBench\libraries\cmsis\cm4\core_support\mpu_armv7.h)(0x67EA421C)
+I (..\..\libraries\cmsis\cm4\device_support\system_at32f402_405.h)(0x67EA421C)
+I (..\..\libraries\drivers\inc\at32f402_405_def.h)(0x67EA421D)
+I (..\inc\at32f402_405_conf.h)(0x68D0D36E)
+I (..\..\libraries\drivers\inc\at32f402_405_crm.h)(0x67EA421D)
+I (..\..\libraries\drivers\inc\at32f402_405_debug.h)(0x67EA421D)
+I (..\..\libraries\drivers\inc\at32f402_405_exint.h)(0x67EA421D)
+I (..\..\libraries\drivers\inc\at32f402_405_flash.h)(0x67EA421D)
+I (..\..\libraries\drivers\inc\at32f402_405_gpio.h)(0x67EA421D)
+I (..\..\libraries\drivers\inc\at32f402_405_misc.h)(0x67EA421D)
+I (..\..\libraries\drivers\inc\at32f402_405_pwc.h)(0x67EA421D)
+I (..\..\libraries\drivers\inc\at32f402_405_qspi.h)(0x67EA421D)
+I (..\..\libraries\drivers\inc\at32f402_405_spi.h)(0x67EA421D)
+I (..\..\libraries\drivers\inc\at32f402_405_usb.h)(0x67EA421D)
+I (..\..\libraries\drivers\inc\at32f402_405_wdt.h)(0x67EA421D)
+I (D:\app_program\kile5\core\ARM\ARMCLANG\include\string.h)(0x68E8B7E4)
+I (D:\app_program\kile5\core\ARM\ARMCLANG\include\stdio.h)(0x68E8B7E4)
+I (..\..\middlewares\usb_drivers\inc\usbd_sdr.h)(0x67EA421D)
+I (..\..\middlewares\usb_drivers\inc\usb_core.h)(0x67EA421D)
+I (..\..\middlewares\usb_drivers\inc\usbd_core.he.\inc\custom_hid_desc.h)(0x00000000)
+I (..\inc\custom_hid_class.h)(0x67EA421D)
