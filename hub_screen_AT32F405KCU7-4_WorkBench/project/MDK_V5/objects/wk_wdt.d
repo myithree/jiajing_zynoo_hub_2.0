@@ -1,24 +1,37 @@
-./objects/wk_wdt.o: ..\src\wk_wdt.c ..\inc\wk_wdt.h \
-  ..\inc\at32f402_405_wk_config.h \
-  D:\app_program\kile5\core\ARM\ARMCLANG\include\stdio.h \
-  ..\..\libraries\cmsis\cm4\device_support\at32f402_405.h \
-  ..\..\libraries\cmsis\cm4\core_support\core_cm4.h \
-  D:\app_program\kile5\core\ARM\ARMCLANG\include\stdint.h \
-  C:\Users\TEST\Desktop\1work_space\hub_screen\hub_screen_AT32F405KCU7-4_WorkBench\libraries\cmsis\cm4\core_support\cmsis_version.h \
-  C:\Users\TEST\Desktop\1work_space\hub_screen\hub_screen_AT32F405KCU7-4_WorkBench\libraries\cmsis\cm4\core_support\cmsis_compiler.h \
-  C:\Users\TEST\Desktop\1work_space\hub_screen\hub_screen_AT32F405KCU7-4_WorkBench\libraries\cmsis\cm4\core_support\cmsis_armclang.h \
-  C:\Users\TEST\Desktop\1work_space\hub_screen\hub_screen_AT32F405KCU7-4_WorkBench\libraries\cmsis\cm4\core_support\mpu_armv7.h \
-  ..\..\libraries\cmsis\cm4\device_support\system_at32f402_405.h \
-  ..\..\libraries\drivers\inc\at32f402_405_def.h \
-  ..\inc\at32f402_405_conf.h \
-  ..\..\libraries\drivers\inc\at32f402_405_crm.h \
-  ..\..\libraries\drivers\inc\at32f402_405_debug.h \
-  ..\..\libraries\drivers\inc\at32f402_405_exint.h \
-  ..\..\libraries\drivers\inc\at32f402_405_flash.h \
-  ..\..\libraries\drivers\inc\at32f402_405_gpio.h \
-  ..\..\libraries\drivers\inc\at32f402_405_misc.h \
-  ..\..\libraries\drivers\inc\at32f402_405_pwc.h \
-  ..\..\libraries\drivers\inc\at32f402_405_qspi.h \
-  ..\..\libraries\drivers\inc\at32f402_405_spi.h \
-  ..\..\libraries\drivers\inc\at32f402_405_usb.h \
-  ..\..\libraries\drivers\inc\at32f402_405_wdt.h
+.\objects\wk_wdt.o: ..\src\wk_wdt.c
+.\objects\wk_wdt.o: ..\inc\wk_wdt.h
+.\objects\wk_wdt.o: ..\inc\at32f402_405_wk_config.h
+.\objects\wk_wdt.o: D:\app_program\kile5\core\ARM\ARMCC\Bin\..\include\stdio.h
+.\objects\wk_wdt.o: ..\..\libraries\cmsis\cm4\device_support\at32f402_405.h
+.\objects\wk_wdt.o: ..\..\libraries\cmsis\cm4\core_support\core_cm4.h
+.\objects\wk_wdt.o: D:\app_program\kile5\core\ARM\ARMCC\Bin\..\include\stdint.h
+.\objects\wk_wdt.o: ..\..\libraries\cmsis\cm4\core_support\cmsis_version.h
+.\objects\wk_wdt.o: ..\..\libraries\cmsis\cm4\core_support\cmsis_compiler.h
+.\objects\wk_wdt.o: ..\..\libraries\cmsis\cm4\core_support\cmsis_armcc.h
+.\objects\wk_wdt.o: ..\..\libraries\cmsis\cm4\core_support\mpu_armv7.h
+.\objects\wk_wdt.o: ..\..\libraries\cmsis\cm4\device_support\system_at32f402_405.h
+.\objects\wk_wdt.o: ..\..\libraries\drivers\inc\at32f402_405_def.h
+.\objects\wk_wdt.o: ..\inc\at32f402_405_conf.h
+.\objects\wk_wdt.o: ..\..\libraries\drivers\inc\at32f402_405_acc.h
+.\objects\wk_wdt.o: ..\..\libraries\cmsis\cm4\device_support\at32f402_405.h
+.\objects\wk_wdt.o: ..\..\libraries\drivers\inc\at32f402_405_adc.h
+.\objects\wk_wdt.o: ..\..\libraries\drivers\inc\at32f402_405_can.h
+.\objects\wk_wdt.o: ..\..\libraries\drivers\inc\at32f402_405_crc.h
+.\objects\wk_wdt.o: ..\..\libraries\drivers\inc\at32f402_405_crm.h
+.\objects\wk_wdt.o: ..\..\libraries\drivers\inc\at32f402_405_debug.h
+.\objects\wk_wdt.o: ..\..\libraries\drivers\inc\at32f402_405_dma.h
+.\objects\wk_wdt.o: ..\..\libraries\drivers\inc\at32f402_405_ertc.h
+.\objects\wk_wdt.o: ..\..\libraries\drivers\inc\at32f402_405_exint.h
+.\objects\wk_wdt.o: ..\..\libraries\drivers\inc\at32f402_405_flash.h
+.\objects\wk_wdt.o: ..\..\libraries\drivers\inc\at32f402_405_gpio.h
+.\objects\wk_wdt.o: ..\..\libraries\drivers\inc\at32f402_405_i2c.h
+.\objects\wk_wdt.o: ..\..\libraries\drivers\inc\at32f402_405_misc.h
+.\objects\wk_wdt.o: ..\..\libraries\drivers\inc\at32f402_405_pwc.h
+.\objects\wk_wdt.o: ..\..\libraries\drivers\inc\at32f402_405_qspi.h
+.\objects\wk_wdt.o: ..\..\libraries\drivers\inc\at32f402_405_scfg.h
+.\objects\wk_wdt.o: ..\..\libraries\drivers\inc\at32f402_405_spi.h
+.\objects\wk_wdt.o: ..\..\libraries\drivers\inc\at32f402_405_tmr.h
+.\objects\wk_wdt.o: ..\..\libraries\drivers\inc\at32f402_405_usart.h
+.\objects\wk_wdt.o: ..\..\libraries\drivers\inc\at32f402_405_usb.h
+.\objects\wk_wdt.o: ..\..\libraries\drivers\inc\at32f402_405_wdt.h
+.\objects\wk_wdt.o: ..\..\libraries\drivers\inc\at32f402_405_wwdt.h

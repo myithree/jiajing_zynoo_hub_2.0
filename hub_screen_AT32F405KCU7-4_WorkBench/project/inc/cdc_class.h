@@ -1,7 +1,7 @@
 /**
   **************************************************************************
-  * @file     custom_hid_class.h
-  * @brief    usb hid header file
+  * @file     cdc_class.h
+  * @brief    usb cdc class file
   **************************************************************************
   *                       Copyright notice & Disclaimer
   *
@@ -23,8 +23,8 @@
   */
 
  /* define to prevent recursive inclusion -------------------------------------*/
-#ifndef __CUSTOM_HID_CLASS_H
-#define __CUSTOM_HID_CLASS_H
+#ifndef __CDC_CLASS_H
+#define __CDC_CLASS_H
 
 #ifdef __cplusplus
 extern "C" {
@@ -37,61 +37,74 @@ extern "C" {
   * @{
   */
 
-/** @addtogroup USB_custom_hid_class
+/** @addtogroup USB_cdc_class
   * @{
   */
 
-/** @defgroup USB_custom_hid_class_endpoint_definition
+/** @defgroup USB_cdc_class_definition
   * @{
   */
 
 /**
-  * @brief usb custom hid use endpoint define
+  * @brief usb cdc use endpoint define
   */
-#define USBD_CUSTOM_HID_IN_EPT                  0x81
-#define USBD_CUSTOM_HID_OUT_EPT                 0x01
+#define USBD_CDC_INT_EPT                 0x82
+#define USBD_CDC_BULK_IN_EPT             0x81
+#define USBD_CDC_BULK_OUT_EPT            0x01
 
 /**
-  * @brief usb custom hid in and out max packet size define
+  * @brief usb cdc in and out max packet size define
   */
-#define USBD_CUSTOM_IN_MAXPACKET_SIZE           0x40
-#define USBD_CUSTOM_OUT_MAXPACKET_SIZE          0x40
+
+#define USBD_FS_CDC_MAXPACKET_SIZE        0x40
+#define USBD_CDC_IN_MAXPACKET_SIZE        USBD_FS_CDC_MAXPACKET_SIZE
+#define USBD_CDC_OUT_MAXPACKET_SIZE       USBD_FS_CDC_MAXPACKET_SIZE
+#define USBD_CDC_CMD_MAXPACKET_SIZE       0x08
+
+#define USBD_HS_CDC_MAXPACKET_SIZE        0x200
+#define USBD_HS_CDC_IN_MAXPACKET_SIZE     USBD_HS_CDC_MAXPACKET_SIZE
+#define USBD_HS_CDC_OUT_MAXPACKET_SIZE    USBD_HS_CDC_MAXPACKET_SIZE
+#define USBD_HS_CDC_CMD_MAXPACKET_SIZE    0x08
 
 /**
   * @}
   */
 
-/** @defgroup USB_custom_hid_class_request_code_definition
+/** @defgroup USB_cdc_class_exported_types
   * @{
   */
 
+/**
+  * @brief usb cdc class struct
+  */
 typedef struct
 {
-  uint8_t g_rxhid_buff[USBD_CUSTOM_OUT_MAXPACKET_SIZE];
-  uint8_t g_txhid_buff[USBD_CUSTOM_IN_MAXPACKET_SIZE];
-
-  uint32_t hid_protocol;
-  uint32_t hid_set_idle;
   uint32_t alt_setting;
-  
-  uint8_t hid_set_report[64];
-  uint8_t hid_get_report[64];
-  uint8_t hid_state;
-  uint8_t send_state;
-}custom_hid_type;
+  uint8_t *g_rx_buff;
+  uint8_t *g_cmd;
+  uint8_t g_req;
+  uint16_t g_len, g_rxlen;
+  __IO uint8_t g_tx_completed, g_rx_completed;
+  linecoding_type linecoding;
+  uint32_t maxpacket;
+}cdc_struct_type;
+
 
 /**
   * @}
   */
 
-/** @defgroup USB_custom_hid_class_exported_functions
+/** @defgroup USB_cdc_class_exported_functions
   * @{
   */
-extern usbd_class_handler custom_hid_class_handler;
-usb_sts_type custom_hid_class_send_report(void *udev, uint8_t *report, uint16_t len);
+extern usbd_class_handler cdc_class_handler;
+uint16_t usb_vcp_get_rxdata(void *udev, uint8_t *recv_data);
+error_status usb_vcp_send_data(void *udev, uint8_t *send_data, uint16_t len);
+
 /**
   * @}
   */
+
 /**
   * @}
   */
@@ -104,3 +117,7 @@ usb_sts_type custom_hid_class_send_report(void *udev, uint8_t *report, uint16_t 
 #endif
 
 #endif
+
+
+
+

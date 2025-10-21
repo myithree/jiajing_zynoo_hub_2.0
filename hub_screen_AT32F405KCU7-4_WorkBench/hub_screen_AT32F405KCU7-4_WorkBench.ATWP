@@ -5,6 +5,11 @@
         <MCUName>AT32F405KCU7-4</MCUName>
         <MCUPackage>QFN32</MCUPackage>
     </MCUInfo>
+    <CRC>
+        <Mode>
+            <ModeSub name="CRC_State" value="TRUE"/>
+        </Mode>
+    </CRC>
     <CRM>
         <Mode>
             <ModeSub name="HEXT" value="HEXT-External-Oscillator"/>
@@ -24,7 +29,8 @@
             <ModeSub name="QSPI_State" value="TRUE"/>
         </Mode>
         <Parameters>
-            <ParametersSub name="ClockFrequency" value="27000000"/>
+            <ParametersSub name="ClkDivision" value="QSPI_CLK_DIV_4"/>
+            <ParametersSub name="ClockFrequency" value="54000000"/>
         </Parameters>
     </QSPI1>
     <SPI1>
@@ -62,13 +68,14 @@
     </WDT>
     <USB_DEVICE>
         <Mode>
-            <ModeSub name="OTGHS_Device" value="CUSTOMHID"/>
+            <ModeSub name="OTGHS_Device" value="CDC"/>
         </Mode>
         <Parameters>
-            <ParametersSub name="DEVICE_HS_Receive_FIFO_Size" value="960"/>
-            <ParametersSub name="DEVICE_HS_Transmit_FIFO_Size_IN0" value="32"/>
-            <ParametersSub name="DEVICE_HS_Transmit_FIFO_Size_IN1" value="32"/>
-            <ParametersSub name="DEVICE_HS_Transmit_FIFO_Size_IN2" value="0"/>
+            <ParametersSub name="DEVICE_HS_VID" value="0x3886"/>
+            <ParametersSub name="DEVICE_HS_Product_CDC" value="zynoo hub2.0"/>
+            <ParametersSub name="DEVICE_HS_Receive_FIFO_Size" value="128"/>
+            <ParametersSub name="DEVICE_HS_Transmit_FIFO_Size_IN0" value="128"/>
+            <ParametersSub name="DEVICE_HS_Transmit_FIFO_Size_IN1" value="20"/>
         </Parameters>
     </USB_DEVICE>
     <NVIC>
@@ -84,6 +91,24 @@
         <QSPI1_IRQHandler>0;0;0;0;0</QSPI1_IRQHandler>
     </NVIC>
     <GPIO>
+        <Signal SignalName="QSPI1_IO3" PinName="PA1">
+            <Parameters name="GPIO_DriverCapability" value="GPIO_DRIVE_STRENGTH_STRONGER"/>
+        </Signal>
+        <Signal SignalName="QSPI1_CS" PinName="PA2">
+            <Parameters name="GPIO_DriverCapability" value="GPIO_DRIVE_STRENGTH_STRONGER"/>
+        </Signal>
+        <Signal SignalName="QSPI1_IO2" PinName="PA6">
+            <Parameters name="GPIO_DriverCapability" value="GPIO_DRIVE_STRENGTH_STRONGER"/>
+        </Signal>
+        <Signal SignalName="QSPI1_IO1" PinName="PA7">
+            <Parameters name="GPIO_DriverCapability" value="GPIO_DRIVE_STRENGTH_STRONGER"/>
+        </Signal>
+        <Signal SignalName="QSPI1_IO0" PinName="PB0">
+            <Parameters name="GPIO_DriverCapability" value="GPIO_DRIVE_STRENGTH_STRONGER"/>
+        </Signal>
+        <Signal SignalName="QSPI1_SCK" PinName="PB1">
+            <Parameters name="GPIO_DriverCapability" value="GPIO_DRIVE_STRENGTH_STRONGER"/>
+        </Signal>
         <Signal SignalName="GPIO_Output" PinName="PA15">
             <Parameters name="Label" value="SPI_RST"/>
         </Signal>
@@ -139,15 +164,15 @@
     </PINInfo>
     <ProjectInfomation>
         <ProjectName>hub_screen_AT32F405KCU7-4_WorkBench</ProjectName>
-        <ProjectLocation>C:/Users/TEST/Desktop/work_space/hub_screen</ProjectLocation>
+        <ProjectLocation>C:/Users/TEST/Desktop/1work_space/hub_screen</ProjectLocation>
         <ToolchainIDE>MDK_V5</ToolchainIDE>
         <ARMCompiler>0</ARMCompiler>
         <KeepUserCode>true</KeepUserCode>
         <NotUsedPinAnalog>true</NotUsedPinAnalog>
         <CodeSplitIP>true</CodeSplitIP>
-        <AddNecessaryFileFlag>true</AddNecessaryFileFlag>
+        <AddNecessaryFileFlag>false</AddNecessaryFileFlag>
         <MinHeapSize>0x200</MinHeapSize>
-        <MinStackSize>0x400</MinStackSize>
+        <MinStackSize>0x4000</MinStackSize>
         <UseFirmware>true</UseFirmware>
         <PackageVersion>V2.1.2</PackageVersion>
     </ProjectInfomation>

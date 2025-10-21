@@ -1,26 +1,61 @@
-./objects/main.o: ..\src\main.c ..\inc\at32f402_405_wk_config.h \
-  D:\app_program\kile5\core\ARM\ARMCLANG\include\stdio.h \
-  ..\..\libraries\cmsis\cm4\device_support\at32f402_405.h \
-  ..\..\libraries\cmsis\cm4\core_support\core_cm4.h \
-  D:\app_program\kile5\core\ARM\ARMCLANG\include\stdint.h \
-  C:\Users\TEST\Desktop\1work_space\hub_screen\hub_screen_AT32F405KCU7-4_WorkBench\libraries\cmsis\cm4\core_support\cmsis_version.h \
-  C:\Users\TEST\Desktop\1work_space\hub_screen\hub_screen_AT32F405KCU7-4_WorkBench\libraries\cmsis\cm4\core_support\cmsis_compiler.h \
-  C:\Users\TEST\Desktop\1work_space\hub_screen\hub_screen_AT32F405KCU7-4_WorkBench\libraries\cmsis\cm4\core_support\cmsis_armclang.h \
-  C:\Users\TEST\Desktop\1work_space\hub_screen\hub_screen_AT32F405KCU7-4_WorkBench\libraries\cmsis\cm4\core_support\mpu_armv7.h \
-  ..\..\libraries\cmsis\cm4\device_support\system_at32f402_405.h \
-  ..\..\libraries\drivers\inc\at32f402_405_def.h \
-  ..\inc\at32f402_405_conf.h \
-  ..\..\libraries\drivers\inc\at32f402_405_crm.h \
-  ..\..\libraries\drivers\inc\at32f402_405_debug.h \
-  ..\..\libraries\drivers\inc\at32f402_405_exint.h \
-  ..\..\libraries\drivers\inc\at32f402_405_flash.h \
-  ..\..\libraries\drivers\inc\at32f402_405_gpio.h \
-  ..\..\libraries\drivers\inc\at32f402_405_misc.h \
-  ..\..\libraries\drivers\inc\at32f402_405_pwc.h \
-  ..\..\libraries\drivers\inc\at32f402_405_qspi.h \
-  ..\..\libraries\drivers\inc\at32f402_405_spi.h \
-  ..\..\libraries\drivers\inc\at32f402_405_usb.h \
-  ..\..\libraries\drivers\inc\at32f402_405_wdt.h ..\inc\wk_qspi.h \
-  ..\inc\wk_spi.h ..\inc\wk_usb.h ..\inc\wk_wdt.h ..\inc\wk_gpio.h \
-  ..\inc\usb_app.h ..\inc\wk_system.h ..\..\user_code\lcd_spi.h \
-  ..\inc\at32f402_405_int.h ..\..\user_code\get_current_time.h
+.\objects\main.o: ..\src\main.c
+.\objects\main.o: ..\inc\at32f402_405_wk_config.h
+.\objects\main.o: D:\app_program\kile5\core\ARM\ARMCC\Bin\..\include\stdio.h
+.\objects\main.o: ..\..\libraries\cmsis\cm4\device_support\at32f402_405.h
+.\objects\main.o: ..\..\libraries\cmsis\cm4\core_support\core_cm4.h
+.\objects\main.o: D:\app_program\kile5\core\ARM\ARMCC\Bin\..\include\stdint.h
+.\objects\main.o: ..\..\libraries\cmsis\cm4\core_support\cmsis_version.h
+.\objects\main.o: ..\..\libraries\cmsis\cm4\core_support\cmsis_compiler.h
+.\objects\main.o: ..\..\libraries\cmsis\cm4\core_support\cmsis_armcc.h
+.\objects\main.o: ..\..\libraries\cmsis\cm4\core_support\mpu_armv7.h
+.\objects\main.o: ..\..\libraries\cmsis\cm4\device_support\system_at32f402_405.h
+.\objects\main.o: ..\..\libraries\drivers\inc\at32f402_405_def.h
+.\objects\main.o: ..\inc\at32f402_405_conf.h
+.\objects\main.o: ..\..\libraries\drivers\inc\at32f402_405_acc.h
+.\objects\main.o: ..\..\libraries\cmsis\cm4\device_support\at32f402_405.h
+.\objects\main.o: ..\..\libraries\drivers\inc\at32f402_405_adc.h
+.\objects\main.o: ..\..\libraries\drivers\inc\at32f402_405_can.h
+.\objects\main.o: ..\..\libraries\drivers\inc\at32f402_405_crc.h
+.\objects\main.o: ..\..\libraries\drivers\inc\at32f402_405_crm.h
+.\objects\main.o: ..\..\libraries\drivers\inc\at32f402_405_debug.h
+.\objects\main.o: ..\..\libraries\drivers\inc\at32f402_405_dma.h
+.\objects\main.o: ..\..\libraries\drivers\inc\at32f402_405_ertc.h
+.\objects\main.o: ..\..\libraries\drivers\inc\at32f402_405_exint.h
+.\objects\main.o: ..\..\libraries\drivers\inc\at32f402_405_flash.h
+.\objects\main.o: ..\..\libraries\drivers\inc\at32f402_405_gpio.h
+.\objects\main.o: ..\..\libraries\drivers\inc\at32f402_405_i2c.h
+.\objects\main.o: ..\..\libraries\drivers\inc\at32f402_405_misc.h
+.\objects\main.o: ..\..\libraries\drivers\inc\at32f402_405_pwc.h
+.\objects\main.o: ..\..\libraries\drivers\inc\at32f402_405_qspi.h
+.\objects\main.o: ..\..\libraries\drivers\inc\at32f402_405_scfg.h
+.\objects\main.o: ..\..\libraries\drivers\inc\at32f402_405_spi.h
+.\objects\main.o: ..\..\libraries\drivers\inc\at32f402_405_tmr.h
+.\objects\main.o: ..\..\libraries\drivers\inc\at32f402_405_usart.h
+.\objects\main.o: ..\..\libraries\drivers\inc\at32f402_405_usb.h
+.\objects\main.o: ..\..\libraries\drivers\inc\at32f402_405_wdt.h
+.\objects\main.o: ..\..\libraries\drivers\inc\at32f402_405_wwdt.h
+.\objects\main.o: ..\inc\wk_crc.h
+.\objects\main.o: ..\inc\wk_qspi.h
+.\objects\main.o: ..\inc\wk_spi.h
+.\objects\main.o: ..\inc\wk_usb.h
+.\objects\main.o: ..\inc\wk_wdt.h
+.\objects\main.o: ..\inc\wk_gpio.h
+.\objects\main.o: ..\inc\usb_app.h
+.\objects\main.o: ..\inc\wk_system.h
+.\objects\main.o: ..\..\user_code\lcd_spi.h
+.\objects\main.o: ..\inc\at32f402_405_int.h
+.\objects\main.o: ..\..\user_code\get_current_time.h
+.\objects\main.o: ..\..\user_code\ff_app.h
+.\objects\main.o: ..\..\source\ff.h
+.\objects\main.o: ..\..\source\ffconf.h
+.\objects\main.o: D:\app_program\kile5\core\ARM\ARMCC\Bin\..\include\string.h
+.\objects\main.o: ..\..\user_code\at32_qspiflash.h
+.\objects\main.o: ..\..\user_code\Agreement.h
+.\objects\main.o: D:\app_program\kile5\core\ARM\ARMCC\Bin\..\include\stdlib.h
+.\objects\main.o: ../../middlewares/usb_drivers/inc/usbd_int.h
+.\objects\main.o: ../../middlewares/usb_drivers/inc/usbd_core.h
+.\objects\main.o: ..\inc\usb_conf.h
+.\objects\main.o: ../../middlewares/usb_drivers/inc/usb_std.h
+.\objects\main.o: ../../middlewares/usb_drivers/inc/usb_core.h
+.\objects\main.o: ..\inc\cdc_class.h
+.\objects\main.o: ..\inc\cdc_desc.h

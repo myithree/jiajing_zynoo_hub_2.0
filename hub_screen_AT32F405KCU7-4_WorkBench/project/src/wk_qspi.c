@@ -46,12 +46,13 @@ void wk_qspi1_init(void)
   gpio_default_para_init(&gpio_init_struct);
 
   /* add user code begin qspi1_init 1 */
-
+/* enable the dma clock */
+  crm_periph_clock_enable(CRM_DMA2_PERIPH_CLOCK, TRUE);
   /* add user code end qspi1_init 1 */
 
   /* configure the SCK pin */
   gpio_pin_mux_config(GPIOB, GPIO_PINS_SOURCE1, GPIO_MUX_11);
-  gpio_init_struct.gpio_drive_strength = GPIO_DRIVE_STRENGTH_MODERATE;
+  gpio_init_struct.gpio_drive_strength = GPIO_DRIVE_STRENGTH_STRONGER;
   gpio_init_struct.gpio_out_type = GPIO_OUTPUT_PUSH_PULL;
   gpio_init_struct.gpio_mode = GPIO_MODE_MUX;
   gpio_init_struct.gpio_pins = GPIO_PINS_1;
@@ -60,7 +61,7 @@ void wk_qspi1_init(void)
 
   /* configure the CS pin */
   gpio_pin_mux_config(GPIOA, GPIO_PINS_SOURCE2, GPIO_MUX_11);
-  gpio_init_struct.gpio_drive_strength = GPIO_DRIVE_STRENGTH_MODERATE;
+  gpio_init_struct.gpio_drive_strength = GPIO_DRIVE_STRENGTH_STRONGER;
   gpio_init_struct.gpio_out_type = GPIO_OUTPUT_PUSH_PULL;
   gpio_init_struct.gpio_mode = GPIO_MODE_MUX;
   gpio_init_struct.gpio_pins = GPIO_PINS_2;
@@ -69,7 +70,7 @@ void wk_qspi1_init(void)
 
   /* configure the IO0 pin */
   gpio_pin_mux_config(GPIOB, GPIO_PINS_SOURCE0, GPIO_MUX_11);
-  gpio_init_struct.gpio_drive_strength = GPIO_DRIVE_STRENGTH_MODERATE;
+  gpio_init_struct.gpio_drive_strength = GPIO_DRIVE_STRENGTH_STRONGER;
   gpio_init_struct.gpio_out_type = GPIO_OUTPUT_PUSH_PULL;
   gpio_init_struct.gpio_mode = GPIO_MODE_MUX;
   gpio_init_struct.gpio_pins = GPIO_PINS_0;
@@ -78,7 +79,7 @@ void wk_qspi1_init(void)
 
   /* configure the IO1 pin */
   gpio_pin_mux_config(GPIOA, GPIO_PINS_SOURCE7, GPIO_MUX_11);
-  gpio_init_struct.gpio_drive_strength = GPIO_DRIVE_STRENGTH_MODERATE;
+  gpio_init_struct.gpio_drive_strength = GPIO_DRIVE_STRENGTH_STRONGER;
   gpio_init_struct.gpio_out_type = GPIO_OUTPUT_PUSH_PULL;
   gpio_init_struct.gpio_mode = GPIO_MODE_MUX;
   gpio_init_struct.gpio_pins = GPIO_PINS_7;
@@ -87,7 +88,7 @@ void wk_qspi1_init(void)
 
   /* configure the IO2 pin */
   gpio_pin_mux_config(GPIOA, GPIO_PINS_SOURCE6, GPIO_MUX_13);
-  gpio_init_struct.gpio_drive_strength = GPIO_DRIVE_STRENGTH_MODERATE;
+  gpio_init_struct.gpio_drive_strength = GPIO_DRIVE_STRENGTH_STRONGER;
   gpio_init_struct.gpio_out_type = GPIO_OUTPUT_PUSH_PULL;
   gpio_init_struct.gpio_mode = GPIO_MODE_MUX;
   gpio_init_struct.gpio_pins = GPIO_PINS_6;
@@ -96,7 +97,7 @@ void wk_qspi1_init(void)
 
   /* configure the IO3 pin */
   gpio_pin_mux_config(GPIOA, GPIO_PINS_SOURCE1, GPIO_MUX_11);
-  gpio_init_struct.gpio_drive_strength = GPIO_DRIVE_STRENGTH_MODERATE;
+  gpio_init_struct.gpio_drive_strength = GPIO_DRIVE_STRENGTH_STRONGER;
   gpio_init_struct.gpio_out_type = GPIO_OUTPUT_PUSH_PULL;
   gpio_init_struct.gpio_mode = GPIO_MODE_MUX;
   gpio_init_struct.gpio_pins = GPIO_PINS_1;
@@ -106,7 +107,7 @@ void wk_qspi1_init(void)
  /* configure param */
   qspi_xip_enable(QSPI1, FALSE);
 
-  qspi_clk_division_set(QSPI1, QSPI_CLK_DIV_8);
+  qspi_clk_division_set(QSPI1, QSPI_CLK_DIV_3);
   
   qspi_sck_mode_set(QSPI1, QSPI_SCK_MODE_0);
 

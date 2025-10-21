@@ -1,25 +1,40 @@
-./objects/lcd_spi.o: ..\..\user_code\lcd_spi.c ..\..\user_code\lcd_spi.h \
-  ..\inc\wk_spi.h ..\inc\at32f402_405_wk_config.h \
-  D:\app_program\kile5\core\ARM\ARMCLANG\include\stdio.h \
-  ..\..\libraries\cmsis\cm4\device_support\at32f402_405.h \
-  ..\..\libraries\cmsis\cm4\core_support\core_cm4.h \
-  D:\app_program\kile5\core\ARM\ARMCLANG\include\stdint.h \
-  C:\Users\TEST\Desktop\1work_space\hub_screen\hub_screen_AT32F405KCU7-4_WorkBench\libraries\cmsis\cm4\core_support\cmsis_version.h \
-  C:\Users\TEST\Desktop\1work_space\hub_screen\hub_screen_AT32F405KCU7-4_WorkBench\libraries\cmsis\cm4\core_support\cmsis_compiler.h \
-  C:\Users\TEST\Desktop\1work_space\hub_screen\hub_screen_AT32F405KCU7-4_WorkBench\libraries\cmsis\cm4\core_support\cmsis_armclang.h \
-  C:\Users\TEST\Desktop\1work_space\hub_screen\hub_screen_AT32F405KCU7-4_WorkBench\libraries\cmsis\cm4\core_support\mpu_armv7.h \
-  ..\..\libraries\cmsis\cm4\device_support\system_at32f402_405.h \
-  ..\..\libraries\drivers\inc\at32f402_405_def.h \
-  ..\inc\at32f402_405_conf.h \
-  ..\..\libraries\drivers\inc\at32f402_405_crm.h \
-  ..\..\libraries\drivers\inc\at32f402_405_debug.h \
-  ..\..\libraries\drivers\inc\at32f402_405_exint.h \
-  ..\..\libraries\drivers\inc\at32f402_405_flash.h \
-  ..\..\libraries\drivers\inc\at32f402_405_gpio.h \
-  ..\..\libraries\drivers\inc\at32f402_405_misc.h \
-  ..\..\libraries\drivers\inc\at32f402_405_pwc.h \
-  ..\..\libraries\drivers\inc\at32f402_405_qspi.h \
-  ..\..\libraries\drivers\inc\at32f402_405_spi.h \
-  ..\..\libraries\drivers\inc\at32f402_405_usb.h \
-  ..\..\libraries\drivers\inc\at32f402_405_wdt.h ..\inc\wk_system.h \
-  ..\inc\at32f402_405_int.h
+.\objects\lcd_spi.o: ..\..\user_code\lcd_spi.c
+.\objects\lcd_spi.o: ..\..\user_code\lcd_spi.h
+.\objects\lcd_spi.o: ..\inc\wk_spi.h
+.\objects\lcd_spi.o: ..\inc\at32f402_405_wk_config.h
+.\objects\lcd_spi.o: D:\app_program\kile5\core\ARM\ARMCC\Bin\..\include\stdio.h
+.\objects\lcd_spi.o: ..\..\libraries\cmsis\cm4\device_support\at32f402_405.h
+.\objects\lcd_spi.o: ..\..\libraries\cmsis\cm4\core_support\core_cm4.h
+.\objects\lcd_spi.o: D:\app_program\kile5\core\ARM\ARMCC\Bin\..\include\stdint.h
+.\objects\lcd_spi.o: ..\..\libraries\cmsis\cm4\core_support\cmsis_version.h
+.\objects\lcd_spi.o: ..\..\libraries\cmsis\cm4\core_support\cmsis_compiler.h
+.\objects\lcd_spi.o: ..\..\libraries\cmsis\cm4\core_support\cmsis_armcc.h
+.\objects\lcd_spi.o: ..\..\libraries\cmsis\cm4\core_support\mpu_armv7.h
+.\objects\lcd_spi.o: ..\..\libraries\cmsis\cm4\device_support\system_at32f402_405.h
+.\objects\lcd_spi.o: ..\..\libraries\drivers\inc\at32f402_405_def.h
+.\objects\lcd_spi.o: ..\inc\at32f402_405_conf.h
+.\objects\lcd_spi.o: ..\..\libraries\drivers\inc\at32f402_405_acc.h
+.\objects\lcd_spi.o: ..\..\libraries\cmsis\cm4\device_support\at32f402_405.h
+.\objects\lcd_spi.o: ..\..\libraries\drivers\inc\at32f402_405_adc.h
+.\objects\lcd_spi.o: ..\..\libraries\drivers\inc\at32f402_405_can.h
+.\objects\lcd_spi.o: ..\..\libraries\drivers\inc\at32f402_405_crc.h
+.\objects\lcd_spi.o: ..\..\libraries\drivers\inc\at32f402_405_crm.h
+.\objects\lcd_spi.o: ..\..\libraries\drivers\inc\at32f402_405_debug.h
+.\objects\lcd_spi.o: ..\..\libraries\drivers\inc\at32f402_405_dma.h
+.\objects\lcd_spi.o: ..\..\libraries\drivers\inc\at32f402_405_ertc.h
+.\objects\lcd_spi.o: ..\..\libraries\drivers\inc\at32f402_405_exint.h
+.\objects\lcd_spi.o: ..\..\libraries\drivers\inc\at32f402_405_flash.h
+.\objects\lcd_spi.o: ..\..\libraries\drivers\inc\at32f402_405_gpio.h
+.\objects\lcd_spi.o: ..\..\libraries\drivers\inc\at32f402_405_i2c.h
+.\objects\lcd_spi.o: ..\..\libraries\drivers\inc\at32f402_405_misc.h
+.\objects\lcd_spi.o: ..\..\libraries\drivers\inc\at32f402_405_pwc.h
+.\objects\lcd_spi.o: ..\..\libraries\drivers\inc\at32f402_405_qspi.h
+.\objects\lcd_spi.o: ..\..\libraries\drivers\inc\at32f402_405_scfg.h
+.\objects\lcd_spi.o: ..\..\libraries\drivers\inc\at32f402_405_spi.h
+.\objects\lcd_spi.o: ..\..\libraries\drivers\inc\at32f402_405_tmr.h
+.\objects\lcd_spi.o: ..\..\libraries\drivers\inc\at32f402_405_usart.h
+.\objects\lcd_spi.o: ..\..\libraries\drivers\inc\at32f402_405_usb.h
+.\objects\lcd_spi.o: ..\..\libraries\drivers\inc\at32f402_405_wdt.h
+.\objects\lcd_spi.o: ..\..\libraries\drivers\inc\at32f402_405_wwdt.h
+.\objects\lcd_spi.o: ..\inc\wk_system.h
+.\objects\lcd_spi.o: ..\inc\at32f402_405_int.h

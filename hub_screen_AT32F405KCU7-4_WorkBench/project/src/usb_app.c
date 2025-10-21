@@ -29,14 +29,15 @@
 #include "wk_system.h"
 
 #include "usbd_int.h"
-#include "custom_hid_class.h"
-#include "custom_hid_desc.h"
+#include "cdc_class.h"
+#include "cdc_desc.h"
 
 #include "at32f402_405_wk_config.h"
 
 /* private includes ----------------------------------------------------------*/
 /* add user code begin private includes */
 
+#include "Agreement.h"
 /* add user code end private includes */
 
 /* private typedef -----------------------------------------------------------*/
@@ -64,8 +65,9 @@
 
 /* add user code end function prototypes */
 
-static otg_core_type otg_core_struct_hs;
+otg_core_type otg_core_struct_hs;
 
+uint32_t usbd_app_buffer_hs[128];
 
 /* private user code ---------------------------------------------------------*/
 /* add user code begin 0 */
@@ -83,12 +85,12 @@ void wk_usb_app_init(void)
 
   /* add user code end usb_app_init 0 */
 
-  /*hs device custom hid*/
+  /*hs device cdc*/
   usbd_init(&otg_core_struct_hs,
             USB_HIGH_SPEED_CORE_ID,
             USB_OTG2_ID,
-            &custom_hid_class_handler,
-            &custom_hid_desc_handler);
+            &cdc_class_handler,
+            &cdc_desc_handler);
 
   /* add user code begin usb_app_init 1 */
 
@@ -106,31 +108,52 @@ void wk_usb_app_task(void)
 
   /* add user code end usb_app_task 0 */
 
+  uint32_t length = 0;
+
+  uint32_t timeout = 0;
+  static uint8_t send_zero_packet_hs = 0;
+
   /* add user code begin usb_app_task 1 */
 
+		Vcp_Rx_Data_length = usb_vcp_get_rxdata(&otg_core_struct_hs.dev, (uint8_t *)Vcp_Rx_Data);
+
+//	if(Vcp_Rx_Data_length > 0 || send_zero_packet_hs == 1)
+//  {
+//    if(Vcp_Rx_Data_length > 0)
+//      send_zero_packet_hs = 1;
+//    if(Vcp_Rx_Data_length == 0)
+//      send_zero_packet_hs = 0;
+//    timeout = 5000000;
+//    do
+//    {
+//      if(usb_vcp_send_data(&otg_core_struct_hs.dev, (uint8_t *)usbd_app_buffer_hs, Vcp_Rx_Data_length) == SUCCESS)
+//      {
+//        break;
+//      }
+//    }while(timeout --);
+//  }
   /* add user code end usb_app_task 1 */
 
-  /* hs device custom hid */
-  /*
-  after the the usb connected, user can use the 'custom_hid_class_send_report' function
-  to report keyboard events, for example,  to report a char led on/off event as follows:
-  
-  ALIGNED_HEAD static uint8_t report_buf[64] ALIGNED_TAIL;
-  if(usbd_connect_state_get(&otg_core_struct_hs.dev) == USB_CONN_STATE_CONFIGURED)
-  {
-    report_buf[0] = HID_REPORT_ID_5;
-    report_buf[1] = 0;
-    custom_hid_class_send_report(&otg_core_struct_hs.dev, report_buf, 64);
-    usb_delay_ms(100);
-    report_buf[0] = HID_REPORT_ID_5;
-    report_buf[1] = 1;
-    custom_hid_class_send_report(&otg_core_struct_hs.dev, report_buf, 64);
-    usb_delay_ms(100);
-  }
-  */
+  /* hs device cdc */
+//  length = usb_vcp_get_rxdata(&otg_core_struct_hs.dev, (uint8_t *)usbd_app_buffer_hs);
+//  if(length > 0 || send_zero_packet_hs == 1)
+//  {
+//    if(length > 0)
+//      send_zero_packet_hs = 1;
+//    if(length == 0)
+//      send_zero_packet_hs = 0;
+//    timeout = 5000000;
+//    do
+//    {
+//      if(usb_vcp_send_data(&otg_core_struct_hs.dev, (uint8_t *)usbd_app_buffer_hs, length) == SUCCESS)
+//      {
+//        break;
+//      }
+//    }while(timeout --);
+//  }
 
   /* add user code begin usb_app_task 2 */
-
+	Get_Vcp_Data(Vcp_Rx_Data);
   /* add user code end usb_app_task 2 */
 }
 

@@ -50,8 +50,6 @@ __WEAK uint32_t wk_timebase_get(void)
   return timebase_ticks;
 }
 
-
-
 /**
   * @brief  this function provides minimum delay (in milliseconds) based
   *         on variable incremented.

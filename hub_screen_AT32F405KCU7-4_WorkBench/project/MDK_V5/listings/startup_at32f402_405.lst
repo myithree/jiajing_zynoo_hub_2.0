@@ -19,25 +19,25 @@ ARM Macro Assembler    Page 1
    11 00000000         ;   <o> Stack Size (in Bytes) <0x0-0xFFFFFFFF:8>
    12 00000000         ; </h>
    13 00000000         
-   14 00000000 00000400 
+   14 00000000 00004000 
                        Stack_Size
-                               EQU              0x00000400
+                               EQU              0x00004000
    15 00000000         
    16 00000000                 AREA             STACK, NOINIT, READWRITE, ALIGN
 =3
    17 00000000         Stack_Mem
                                SPACE            Stack_Size
-   18 00000400         __initial_sp
-   19 00000400         
-   20 00000400         ; <h> Heap Configuration
-   21 00000400         ;   <o>  Heap Size (in Bytes) <0x0-0xFFFFFFFF:8>
-   22 00000400         ; </h>
-   23 00000400         
-   24 00000400 00000200 
+   18 00004000         __initial_sp
+   19 00004000         
+   20 00004000         ; <h> Heap Configuration
+   21 00004000         ;   <o>  Heap Size (in Bytes) <0x0-0xFFFFFFFF:8>
+   22 00004000         ; </h>
+   23 00004000         
+   24 00004000 00000200 
                        Heap_Size
                                EQU              0x00000200
-   25 00000400         
-   26 00000400                 AREA             HEAP, NOINIT, READWRITE, ALIGN=
+   25 00004000         
+   26 00004000                 AREA             HEAP, NOINIT, READWRITE, ALIGN=
 3
    27 00000000         __heap_base
    28 00000000         Heap_Mem
@@ -620,14 +620,14 @@ ARM Macro Assembler    Page 10
               00000000 
               00000000 
               00000000 
-              00000400 
+              00004000 
               00000200 
               00000000 
-Command Line: --debug --xref --diag_suppress=9931,A1950W --cpu=Cortex-M4.fp.sp 
---depend=.\objects\startup_at32f402_405.d -o.\objects\startup_at32f402_405.o -I
-D:\app_program\kile5\packge\ArteryTek\AT32F402_405_DFP\2.1.1\Device\Include --p
-redefine="__UVISION_VERSION SETA 539" --predefine="AT32F405KCU7_4 SETA 1" --lis
-t=.\listings\startup_at32f402_405.lst startup_at32f402_405.s
+Command Line: --debug --xref --diag_suppress=9931 --cpu=Cortex-M4.fp.sp --apcs=
+interwork --depend=.\objects\startup_at32f402_405.d -o.\objects\startup_at32f40
+2_405.o -ID:\app_program\kile5\packge\ArteryTek\AT32F402_405_DFP\2.1.1\Device\I
+nclude --predefine="__UVISION_VERSION SETA 539" --predefine="AT32F405KCU7_4 SET
+A 1" --list=.\listings\startup_at32f402_405.lst startup_at32f402_405.s
 
 
 
@@ -651,7 +651,7 @@ Symbol: Stack_Mem
       At line 392 in file startup_at32f402_405.s
       At line 394 in file startup_at32f402_405.s
 
-__initial_sp 00000400
+__initial_sp 00004000
 
 Symbol: __initial_sp
    Definitions
@@ -1589,7 +1589,7 @@ Symbol: Heap_Size
       At line 28 in file startup_at32f402_405.s
       At line 393 in file startup_at32f402_405.s
 
-Stack_Size 00000400
+Stack_Size 00004000
 
 Symbol: Stack_Size
    Definitions

@@ -86,10 +86,10 @@ extern "C" {
 /* otg hs device fifo 
    otg hs fifo size is 4096 byte
 */
-#define USBD2_RX_SIZE                    960  /*this value is in terms of 4 bytes*/
-#define USBD2_EP0_TX_SIZE                32   /*this value is in terms of 4 bytes*/
-#define USBD2_EP1_TX_SIZE                32  /*this value is in terms of 4 bytes*/
-#define USBD2_EP2_TX_SIZE                0   /*this value is in terms of 4 bytes*/
+#define USBD2_RX_SIZE                    256  /*this value is in terms of 4 bytes*/
+#define USBD2_EP0_TX_SIZE                256   /*this value is in terms of 4 bytes*/
+#define USBD2_EP1_TX_SIZE                256  /*this value is in terms of 4 bytes*/
+#define USBD2_EP2_TX_SIZE                256   /*this value is in terms of 4 bytes*/
 #define USBD2_EP3_TX_SIZE                0   /*this value is in terms of 4 bytes*/
 #define USBD2_EP4_TX_SIZE                0   /*this value is in terms of 4 bytes*/
 #define USBD2_EP5_TX_SIZE                0   /*this value is in terms of 4 bytes*/

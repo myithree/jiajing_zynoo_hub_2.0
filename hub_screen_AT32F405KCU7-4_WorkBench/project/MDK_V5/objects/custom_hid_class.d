@@ -10,17 +10,28 @@
   ..\..\libraries\cmsis\cm4\device_support\system_at32f402_405.h \
   ..\..\libraries\drivers\inc\at32f402_405_def.h \
   ..\inc\at32f402_405_conf.h \
+  ..\..\libraries\drivers\inc\at32f402_405_acc.h \
+  ..\..\libraries\drivers\inc\at32f402_405_adc.h \
+  ..\..\libraries\drivers\inc\at32f402_405_can.h \
+  ..\..\libraries\drivers\inc\at32f402_405_crc.h \
   ..\..\libraries\drivers\inc\at32f402_405_crm.h \
   ..\..\libraries\drivers\inc\at32f402_405_debug.h \
+  ..\..\libraries\drivers\inc\at32f402_405_dma.h \
+  ..\..\libraries\drivers\inc\at32f402_405_ertc.h \
   ..\..\libraries\drivers\inc\at32f402_405_exint.h \
   ..\..\libraries\drivers\inc\at32f402_405_flash.h \
   ..\..\libraries\drivers\inc\at32f402_405_gpio.h \
+  ..\..\libraries\drivers\inc\at32f402_405_i2c.h \
   ..\..\libraries\drivers\inc\at32f402_405_misc.h \
   ..\..\libraries\drivers\inc\at32f402_405_pwc.h \
   ..\..\libraries\drivers\inc\at32f402_405_qspi.h \
+  ..\..\libraries\drivers\inc\at32f402_405_scfg.h \
   ..\..\libraries\drivers\inc\at32f402_405_spi.h \
+  ..\..\libraries\drivers\inc\at32f402_405_tmr.h \
+  ..\..\libraries\drivers\inc\at32f402_405_usart.h \
   ..\..\libraries\drivers\inc\at32f402_405_usb.h \
   ..\..\libraries\drivers\inc\at32f402_405_wdt.h \
+  ..\..\libraries\drivers\inc\at32f402_405_wwdt.h \
   D:\app_program\kile5\core\ARM\ARMCLANG\include\string.h \
   D:\app_program\kile5\core\ARM\ARMCLANG\include\stdio.h \
   ..\..\middlewares\usb_drivers\inc\usb_std.h ..\inc\custom_hid_class.h \

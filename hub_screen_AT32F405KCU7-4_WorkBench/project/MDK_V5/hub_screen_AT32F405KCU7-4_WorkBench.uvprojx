@@ -10,8 +10,8 @@
       <TargetName>hub_screen_AT32F405KCU7-4_WorkBench</TargetName>
       <ToolsetNumber>0x4</ToolsetNumber>
       <ToolsetName>ARM-ADS</ToolsetName>
-      <pCCUsed>6210000::V6.21::ARMCLANG</pCCUsed>
-      <uAC6>1</uAC6>
+      <pCCUsed>5060960::V5.06 update 7 (build 960)::.\ARMCC</pCCUsed>
+      <uAC6>0</uAC6>
       <TargetOption>
         <TargetCommonOption>
           <Device>AT32F405KCU7-4</Device>
@@ -322,13 +322,13 @@
             <PlainCh>0</PlainCh>
             <Ropi>0</Ropi>
             <Rwpi>0</Rwpi>
-            <wLevel>3</wLevel>
+            <wLevel>2</wLevel>
             <uThumb>0</uThumb>
             <uSurpInc>0</uSurpInc>
-            <uC99>0</uC99>
+            <uC99>1</uC99>
             <uGnu>0</uGnu>
             <useXO>0</useXO>
-            <v6Lang>3</v6Lang>
+            <v6Lang>1</v6Lang>
             <v6LangP>3</v6LangP>
             <vShortEn>1</vShortEn>
             <vShortWch>1</vShortWch>
@@ -339,7 +339,7 @@
               <MiscControls></MiscControls>
               <Define>AT32F405KCU7_4,USE_STDPERIPH_DRIVER</Define>
               <Undefine></Undefine>
-              <IncludePath>..\..\libraries\drivers\inc;..\..\libraries\cmsis\cm4\core_support;..\..\libraries\cmsis\cm4\device_support;..\inc;../../middlewares/usb_drivers/inc;..\..\user_code</IncludePath>
+              <IncludePath>..\..\libraries\drivers\inc;..\..\libraries\cmsis\cm4\core_support;..\..\libraries\cmsis\cm4\device_support;..\inc;../../middlewares/usb_drivers/inc;..\..\user_code;..\..\source</IncludePath>
             </VariousControls>
           </Cads>
           <Aads>
@@ -433,6 +433,11 @@
               <FileType>1</FileType>
               <FilePath>..\src\wk_wdt.c</FilePath>
             </File>
+            <File>
+              <FileName>wk_crc.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\src\wk_crc.c</FilePath>
+            </File>
           </Files>
         </Group>
         <Group>
@@ -444,9 +449,29 @@
               <FilePath>..\..\libraries\drivers\src\at32f402_405_crm.c</FilePath>
             </File>
             <File>
+              <FileName>at32f402_405_tmr.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\..\libraries\drivers\src\at32f402_405_tmr.c</FilePath>
+            </File>
+            <File>
+              <FileName>at32f402_405_ertc.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\..\libraries\drivers\src\at32f402_405_ertc.c</FilePath>
+            </File>
+            <File>
               <FileName>at32f402_405_gpio.c</FileName>
               <FileType>1</FileType>
               <FilePath>..\..\libraries\drivers\src\at32f402_405_gpio.c</FilePath>
+            </File>
+            <File>
+              <FileName>at32f402_405_i2c.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\..\libraries\drivers\src\at32f402_405_i2c.c</FilePath>
+            </File>
+            <File>
+              <FileName>at32f402_405_usart.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\..\libraries\drivers\src\at32f402_405_usart.c</FilePath>
             </File>
             <File>
               <FileName>at32f402_405_pwc.c</FileName>
@@ -454,9 +479,19 @@
               <FilePath>..\..\libraries\drivers\src\at32f402_405_pwc.c</FilePath>
             </File>
             <File>
+              <FileName>at32f402_405_adc.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\..\libraries\drivers\src\at32f402_405_adc.c</FilePath>
+            </File>
+            <File>
               <FileName>at32f402_405_spi.c</FileName>
               <FileType>1</FileType>
               <FilePath>..\..\libraries\drivers\src\at32f402_405_spi.c</FilePath>
+            </File>
+            <File>
+              <FileName>at32f402_405_dma.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\..\libraries\drivers\src\at32f402_405_dma.c</FilePath>
             </File>
             <File>
               <FileName>at32f402_405_debug.c</FileName>
@@ -467,6 +502,16 @@
               <FileName>at32f402_405_flash.c</FileName>
               <FileType>1</FileType>
               <FilePath>..\..\libraries\drivers\src\at32f402_405_flash.c</FilePath>
+            </File>
+            <File>
+              <FileName>at32f402_405_crc.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\..\libraries\drivers\src\at32f402_405_crc.c</FilePath>
+            </File>
+            <File>
+              <FileName>at32f402_405_wwdt.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\..\libraries\drivers\src\at32f402_405_wwdt.c</FilePath>
             </File>
             <File>
               <FileName>at32f402_405_wdt.c</FileName>
@@ -484,9 +529,24 @@
               <FilePath>..\..\libraries\drivers\src\at32f402_405_misc.c</FilePath>
             </File>
             <File>
+              <FileName>at32f402_405_scfg.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\..\libraries\drivers\src\at32f402_405_scfg.c</FilePath>
+            </File>
+            <File>
               <FileName>at32f402_405_usb.c</FileName>
               <FileType>1</FileType>
               <FilePath>..\..\libraries\drivers\src\at32f402_405_usb.c</FilePath>
+            </File>
+            <File>
+              <FileName>at32f402_405_acc.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\..\libraries\drivers\src\at32f402_405_acc.c</FilePath>
+            </File>
+            <File>
+              <FileName>at32f402_405_can.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\..\libraries\drivers\src\at32f402_405_can.c</FilePath>
             </File>
             <File>
               <FileName>at32f402_405_qspi.c</FileName>
@@ -549,14 +609,69 @@
               <FilePath>..\..\user_code\lcd_spi.h</FilePath>
             </File>
             <File>
-              <FileName>get_current_time.c</FileName>
+              <FileName>at32_qspiflash.c</FileName>
               <FileType>1</FileType>
-              <FilePath>..\..\user_code\get_current_time.c</FilePath>
+              <FilePath>..\..\user_code\at32_qspiflash.c</FilePath>
             </File>
             <File>
-              <FileName>get_current_time.h</FileName>
+              <FileName>at32_qspiflash.h</FileName>
               <FileType>5</FileType>
-              <FilePath>..\..\user_code\get_current_time.h</FilePath>
+              <FilePath>..\..\user_code\at32_qspiflash.h</FilePath>
+            </File>
+            <File>
+              <FileName>ff_app.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\..\user_code\ff_app.c</FilePath>
+            </File>
+            <File>
+              <FileName>ff_app.h</FileName>
+              <FileType>5</FileType>
+              <FilePath>..\..\user_code\ff_app.h</FilePath>
+            </File>
+            <File>
+              <FileName>Agreement.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\..\user_code\Agreement.c</FilePath>
+            </File>
+            <File>
+              <FileName>Agreement.h</FileName>
+              <FileType>5</FileType>
+              <FilePath>..\..\user_code\Agreement.h</FilePath>
+            </File>
+          </Files>
+        </Group>
+        <Group>
+          <GroupName>fatfs</GroupName>
+          <Files>
+            <File>
+              <FileName>diskio.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\..\source\diskio.c</FilePath>
+            </File>
+            <File>
+              <FileName>diskio.h</FileName>
+              <FileType>5</FileType>
+              <FilePath>..\..\source\diskio.h</FilePath>
+            </File>
+            <File>
+              <FileName>ff.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\..\source\ff.c</FilePath>
+            </File>
+            <File>
+              <FileName>ff.h</FileName>
+              <FileType>5</FileType>
+              <FilePath>..\..\source\ff.h</FilePath>
+            </File>
+            <File>
+              <FileName>ffconf.h</FileName>
+              <FileType>5</FileType>
+              <FilePath>..\..\source\ffconf.h</FilePath>
+            </File>
+            <File>
+              <FileName>ffsystem.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\..\source\ffsystem.c</FilePath>
             </File>
           </Files>
         </Group>
@@ -564,14 +679,14 @@
           <GroupName>usbd_class</GroupName>
           <Files>
             <File>
-              <FileName>custom_hid_class.c</FileName>
+              <FileName>cdc_class.c</FileName>
               <FileType>1</FileType>
-              <FilePath>../src/custom_hid_class.c</FilePath>
+              <FilePath>../src/cdc_class.c</FilePath>
             </File>
             <File>
-              <FileName>custom_hid_desc.c</FileName>
+              <FileName>cdc_desc.c</FileName>
               <FileType>1</FileType>
-              <FilePath>../src/custom_hid_desc.c</FilePath>
+              <FilePath>../src/cdc_desc.c</FilePath>
             </File>
           </Files>
         </Group>

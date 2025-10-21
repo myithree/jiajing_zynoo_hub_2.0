@@ -1,23 +1,34 @@
-./objects/at32f402_405_spi.o: \
-  ..\..\libraries\drivers\src\at32f402_405_spi.c \
-  ..\inc\at32f402_405_conf.h \
-  ..\..\libraries\drivers\inc\at32f402_405_crm.h \
-  ..\..\libraries\cmsis\cm4\device_support\at32f402_405.h \
-  ..\..\libraries\cmsis\cm4\core_support\core_cm4.h \
-  D:\app_program\kile5\core\ARM\ARMCLANG\include\stdint.h \
-  C:\Users\TEST\Desktop\1work_space\hub_screen\hub_screen_AT32F405KCU7-4_WorkBench\libraries\cmsis\cm4\core_support\cmsis_version.h \
-  C:\Users\TEST\Desktop\1work_space\hub_screen\hub_screen_AT32F405KCU7-4_WorkBench\libraries\cmsis\cm4\core_support\cmsis_compiler.h \
-  C:\Users\TEST\Desktop\1work_space\hub_screen\hub_screen_AT32F405KCU7-4_WorkBench\libraries\cmsis\cm4\core_support\cmsis_armclang.h \
-  C:\Users\TEST\Desktop\1work_space\hub_screen\hub_screen_AT32F405KCU7-4_WorkBench\libraries\cmsis\cm4\core_support\mpu_armv7.h \
-  ..\..\libraries\cmsis\cm4\device_support\system_at32f402_405.h \
-  ..\..\libraries\drivers\inc\at32f402_405_def.h \
-  ..\..\libraries\drivers\inc\at32f402_405_debug.h \
-  ..\..\libraries\drivers\inc\at32f402_405_exint.h \
-  ..\..\libraries\drivers\inc\at32f402_405_flash.h \
-  ..\..\libraries\drivers\inc\at32f402_405_gpio.h \
-  ..\..\libraries\drivers\inc\at32f402_405_misc.h \
-  ..\..\libraries\drivers\inc\at32f402_405_pwc.h \
-  ..\..\libraries\drivers\inc\at32f402_405_qspi.h \
-  ..\..\libraries\drivers\inc\at32f402_405_spi.h \
-  ..\..\libraries\drivers\inc\at32f402_405_usb.h \
-  ..\..\libraries\drivers\inc\at32f402_405_wdt.h
+.\objects\at32f402_405_spi.o: ..\..\libraries\drivers\src\at32f402_405_spi.c
+.\objects\at32f402_405_spi.o: ..\inc\at32f402_405_conf.h
+.\objects\at32f402_405_spi.o: ..\..\libraries\drivers\inc\at32f402_405_acc.h
+.\objects\at32f402_405_spi.o: ..\..\libraries\cmsis\cm4\device_support\at32f402_405.h
+.\objects\at32f402_405_spi.o: ..\..\libraries\cmsis\cm4\core_support\core_cm4.h
+.\objects\at32f402_405_spi.o: D:\app_program\kile5\core\ARM\ARMCC\Bin\..\include\stdint.h
+.\objects\at32f402_405_spi.o: ..\..\libraries\cmsis\cm4\core_support\cmsis_version.h
+.\objects\at32f402_405_spi.o: ..\..\libraries\cmsis\cm4\core_support\cmsis_compiler.h
+.\objects\at32f402_405_spi.o: ..\..\libraries\cmsis\cm4\core_support\cmsis_armcc.h
+.\objects\at32f402_405_spi.o: ..\..\libraries\cmsis\cm4\core_support\mpu_armv7.h
+.\objects\at32f402_405_spi.o: ..\..\libraries\cmsis\cm4\device_support\system_at32f402_405.h
+.\objects\at32f402_405_spi.o: ..\..\libraries\drivers\inc\at32f402_405_def.h
+.\objects\at32f402_405_spi.o: ..\inc\at32f402_405_conf.h
+.\objects\at32f402_405_spi.o: ..\..\libraries\drivers\inc\at32f402_405_adc.h
+.\objects\at32f402_405_spi.o: ..\..\libraries\drivers\inc\at32f402_405_can.h
+.\objects\at32f402_405_spi.o: ..\..\libraries\drivers\inc\at32f402_405_crc.h
+.\objects\at32f402_405_spi.o: ..\..\libraries\drivers\inc\at32f402_405_crm.h
+.\objects\at32f402_405_spi.o: ..\..\libraries\drivers\inc\at32f402_405_debug.h
+.\objects\at32f402_405_spi.o: ..\..\libraries\drivers\inc\at32f402_405_dma.h
+.\objects\at32f402_405_spi.o: ..\..\libraries\drivers\inc\at32f402_405_ertc.h
+.\objects\at32f402_405_spi.o: ..\..\libraries\drivers\inc\at32f402_405_exint.h
+.\objects\at32f402_405_spi.o: ..\..\libraries\drivers\inc\at32f402_405_flash.h
+.\objects\at32f402_405_spi.o: ..\..\libraries\drivers\inc\at32f402_405_gpio.h
+.\objects\at32f402_405_spi.o: ..\..\libraries\drivers\inc\at32f402_405_i2c.h
+.\objects\at32f402_405_spi.o: ..\..\libraries\drivers\inc\at32f402_405_misc.h
+.\objects\at32f402_405_spi.o: ..\..\libraries\drivers\inc\at32f402_405_pwc.h
+.\objects\at32f402_405_spi.o: ..\..\libraries\drivers\inc\at32f402_405_qspi.h
+.\objects\at32f402_405_spi.o: ..\..\libraries\drivers\inc\at32f402_405_scfg.h
+.\objects\at32f402_405_spi.o: ..\..\libraries\drivers\inc\at32f402_405_spi.h
+.\objects\at32f402_405_spi.o: ..\..\libraries\drivers\inc\at32f402_405_tmr.h
+.\objects\at32f402_405_spi.o: ..\..\libraries\drivers\inc\at32f402_405_usart.h
+.\objects\at32f402_405_spi.o: ..\..\libraries\drivers\inc\at32f402_405_usb.h
+.\objects\at32f402_405_spi.o: ..\..\libraries\drivers\inc\at32f402_405_wdt.h
+.\objects\at32f402_405_spi.o: ..\..\libraries\drivers\inc\at32f402_405_wwdt.h

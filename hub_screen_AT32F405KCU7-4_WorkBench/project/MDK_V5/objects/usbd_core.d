@@ -1,28 +1,41 @@
-./objects/usbd_core.o: ..\..\middlewares\usb_drivers\src\usbd_core.c \
-  ..\..\middlewares\usb_drivers\inc\usb_core.h \
-  ..\..\middlewares\usb_drivers\inc\usb_std.h ..\inc\usb_conf.h \
-  ..\..\libraries\cmsis\cm4\device_support\at32f402_405.h \
-  ..\..\libraries\cmsis\cm4\core_support\core_cm4.h \
-  D:\app_program\kile5\core\ARM\ARMCLANG\include\stdint.h \
-  C:\Users\TEST\Desktop\1work_space\hub_screen\hub_screen_AT32F405KCU7-4_WorkBench\libraries\cmsis\cm4\core_support\cmsis_version.h \
-  C:\Users\TEST\Desktop\1work_space\hub_screen\hub_screen_AT32F405KCU7-4_WorkBench\libraries\cmsis\cm4\core_support\cmsis_compiler.h \
-  C:\Users\TEST\Desktop\1work_space\hub_screen\hub_screen_AT32F405KCU7-4_WorkBench\libraries\cmsis\cm4\core_support\cmsis_armclang.h \
-  C:\Users\TEST\Desktop\1work_space\hub_screen\hub_screen_AT32F405KCU7-4_WorkBench\libraries\cmsis\cm4\core_support\mpu_armv7.h \
-  ..\..\libraries\cmsis\cm4\device_support\system_at32f402_405.h \
-  ..\..\libraries\drivers\inc\at32f402_405_def.h \
-  ..\inc\at32f402_405_conf.h \
-  ..\..\libraries\drivers\inc\at32f402_405_crm.h \
-  ..\..\libraries\drivers\inc\at32f402_405_debug.h \
-  ..\..\libraries\drivers\inc\at32f402_405_exint.h \
-  ..\..\libraries\drivers\inc\at32f402_405_flash.h \
-  ..\..\libraries\drivers\inc\at32f402_405_gpio.h \
-  ..\..\libraries\drivers\inc\at32f402_405_misc.h \
-  ..\..\libraries\drivers\inc\at32f402_405_pwc.h \
-  ..\..\libraries\drivers\inc\at32f402_405_qspi.h \
-  ..\..\libraries\drivers\inc\at32f402_405_spi.h \
-  ..\..\libraries\drivers\inc\at32f402_405_usb.h \
-  ..\..\libraries\drivers\inc\at32f402_405_wdt.h \
-  D:\app_program\kile5\core\ARM\ARMCLANG\include\string.h \
-  D:\app_program\kile5\core\ARM\ARMCLANG\include\stdio.h \
-  ..\..\middlewares\usb_drivers\inc\usbd_core.h \
-  ..\..\middlewares\usb_drivers\inc\usbd_sdr.h
+.\objects\usbd_core.o: ../../middlewares/usb_drivers/src/usbd_core.c
+.\objects\usbd_core.o: ../../middlewares/usb_drivers/inc/usb_core.h
+.\objects\usbd_core.o: ../../middlewares/usb_drivers/inc/usb_std.h
+.\objects\usbd_core.o: ..\inc\usb_conf.h
+.\objects\usbd_core.o: ..\..\libraries\cmsis\cm4\device_support\at32f402_405.h
+.\objects\usbd_core.o: ..\..\libraries\cmsis\cm4\core_support\core_cm4.h
+.\objects\usbd_core.o: D:\app_program\kile5\core\ARM\ARMCC\Bin\..\include\stdint.h
+.\objects\usbd_core.o: ..\..\libraries\cmsis\cm4\core_support\cmsis_version.h
+.\objects\usbd_core.o: ..\..\libraries\cmsis\cm4\core_support\cmsis_compiler.h
+.\objects\usbd_core.o: ..\..\libraries\cmsis\cm4\core_support\cmsis_armcc.h
+.\objects\usbd_core.o: ..\..\libraries\cmsis\cm4\core_support\mpu_armv7.h
+.\objects\usbd_core.o: ..\..\libraries\cmsis\cm4\device_support\system_at32f402_405.h
+.\objects\usbd_core.o: ..\..\libraries\drivers\inc\at32f402_405_def.h
+.\objects\usbd_core.o: ..\inc\at32f402_405_conf.h
+.\objects\usbd_core.o: ..\..\libraries\drivers\inc\at32f402_405_acc.h
+.\objects\usbd_core.o: ..\..\libraries\cmsis\cm4\device_support\at32f402_405.h
+.\objects\usbd_core.o: ..\..\libraries\drivers\inc\at32f402_405_adc.h
+.\objects\usbd_core.o: ..\..\libraries\drivers\inc\at32f402_405_can.h
+.\objects\usbd_core.o: ..\..\libraries\drivers\inc\at32f402_405_crc.h
+.\objects\usbd_core.o: ..\..\libraries\drivers\inc\at32f402_405_crm.h
+.\objects\usbd_core.o: ..\..\libraries\drivers\inc\at32f402_405_debug.h
+.\objects\usbd_core.o: ..\..\libraries\drivers\inc\at32f402_405_dma.h
+.\objects\usbd_core.o: ..\..\libraries\drivers\inc\at32f402_405_ertc.h
+.\objects\usbd_core.o: ..\..\libraries\drivers\inc\at32f402_405_exint.h
+.\objects\usbd_core.o: ..\..\libraries\drivers\inc\at32f402_405_flash.h
+.\objects\usbd_core.o: ..\..\libraries\drivers\inc\at32f402_405_gpio.h
+.\objects\usbd_core.o: ..\..\libraries\drivers\inc\at32f402_405_i2c.h
+.\objects\usbd_core.o: ..\..\libraries\drivers\inc\at32f402_405_misc.h
+.\objects\usbd_core.o: ..\..\libraries\drivers\inc\at32f402_405_pwc.h
+.\objects\usbd_core.o: ..\..\libraries\drivers\inc\at32f402_405_qspi.h
+.\objects\usbd_core.o: ..\..\libraries\drivers\inc\at32f402_405_scfg.h
+.\objects\usbd_core.o: ..\..\libraries\drivers\inc\at32f402_405_spi.h
+.\objects\usbd_core.o: ..\..\libraries\drivers\inc\at32f402_405_tmr.h
+.\objects\usbd_core.o: ..\..\libraries\drivers\inc\at32f402_405_usart.h
+.\objects\usbd_core.o: ..\..\libraries\drivers\inc\at32f402_405_usb.h
+.\objects\usbd_core.o: ..\..\libraries\drivers\inc\at32f402_405_wdt.h
+.\objects\usbd_core.o: ..\..\libraries\drivers\inc\at32f402_405_wwdt.h
+.\objects\usbd_core.o: D:\app_program\kile5\core\ARM\ARMCC\Bin\..\include\string.h
+.\objects\usbd_core.o: D:\app_program\kile5\core\ARM\ARMCC\Bin\..\include\stdio.h
+.\objects\usbd_core.o: ../../middlewares/usb_drivers/inc/usbd_core.h
+.\objects\usbd_core.o: ../../middlewares/usb_drivers/inc/usbd_sdr.h
