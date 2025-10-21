@@ -7,8 +7,18 @@
 
 
 
-
-
+typedef struct	//LCD相关参数结构体
+{
+	 uint32_t Color;  				//	LCD当前画笔颜色
+	 uint32_t BackColor;			//	背景色
+   uint8_t  ShowNum_Mode;		// 数字显示模式
+   uint8_t  Direction;			//	显示方向
+   uint16_t Width;            // 屏幕像素长度
+   uint16_t Height;           // 屏幕像素宽度	
+   uint8_t  X_Offset;         // X坐标偏移，用于设置屏幕控制器的显存写入方式
+   uint8_t  Y_Offset;         // Y坐标偏移，用于设置屏幕控制器的显存写入方式
+}lcd_struct;
+extern lcd_struct LCD;
 /*----------------------------------------------- 参数宏 -------------------------------------------*/
 
 #define LCD_Width     170	//- 100	// LCD的像素长度
@@ -66,6 +76,8 @@
 
 void  at_spi_transmit(spi_type* spi_x, uint8_t data);
 void at_spi_transmit_16bit(spi_type* spi_x, uint16_t data);
+
+void  LCD_WriteBuff(uint16_t *DataBuff, uint32_t DataSize);
 void  SPI_LCD_Init(void);      // 液晶屏以及SPI初始化   
 
 uint16_t LCD_ReadScanLine(void);

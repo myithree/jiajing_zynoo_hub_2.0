@@ -76,6 +76,7 @@ void flash_qspi_writeenable(void);
 
 void flash_qspi_erasechip(void);
 void flash_qspi_erase_block(uint32_t address);
+void flash_qspi_erase_sector(uint32_t address);
 
 
 void flash_qspi_writebuffer(uint8_t *pbuffer, uint32_t writeaddr, uint16_t numbytetowrite);

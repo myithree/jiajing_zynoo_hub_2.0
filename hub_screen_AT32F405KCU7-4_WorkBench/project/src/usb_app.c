@@ -153,7 +153,7 @@ void wk_usb_app_task(void)
 //  }
 
   /* add user code begin usb_app_task 2 */
-	Get_Vcp_Data(Vcp_Rx_Data);
+	Execute_Command();
   /* add user code end usb_app_task 2 */
 }
 
@@ -194,5 +194,7 @@ void usb_delay_ms(uint32_t ms)
 }
 
 /* add user code begin 1 */
+
+
 
 /* add user code end 1 */

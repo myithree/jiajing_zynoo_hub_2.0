@@ -41,5 +41,5 @@ typedef struct _mode_running_mark_
 extern mode_running_mark dma_status;
 
 void Filesystem_init(void);
-
+void DRAW_IMAGE_QSPI(uint8_t frame);
 #endif

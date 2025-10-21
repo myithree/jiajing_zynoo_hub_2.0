@@ -92,7 +92,6 @@ void wk_spi1_init(void)
 
   /* configure the cs pin output */
   spi_hardware_cs_output_enable(SPI1, TRUE);
-
   /* add user code begin spi1_init 2 */
 
   /* add user code end spi1_init 2 */
