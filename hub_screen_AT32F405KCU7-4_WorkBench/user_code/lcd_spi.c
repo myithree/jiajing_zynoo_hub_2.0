@@ -30,17 +30,7 @@
 uint16_t  LCD_Buff[2];        // LCD缓冲区，16位宽（每个像素点占2字节）
 
 
-struct	//LCD相关参数结构体
-{
-	 uint32_t Color;  				//	LCD当前画笔颜色
-	 uint32_t BackColor;			//	背景色
-   uint8_t  ShowNum_Mode;		// 数字显示模式
-   uint8_t  Direction;			//	显示方向
-   uint16_t Width;            // 屏幕像素长度
-   uint16_t Height;           // 屏幕像素宽度	
-   uint8_t  X_Offset;         // X坐标偏移，用于设置屏幕控制器的显存写入方式
-   uint8_t  Y_Offset;         // Y坐标偏移，用于设置屏幕控制器的显存写入方式
-}LCD;
+lcd_struct LCD;
 
 
 /**
@@ -51,16 +41,40 @@ struct	//LCD相关参数结构体
   */
 void at_spi_switch_to_16bit(void)
 {
-   spi_enable(SPI1, FALSE);                           // 关闭SPI
-   SPI1->ctrl1_bit.fbn = SPI_FRAME_16BIT;	            // 切换成16位数据格式
-   spi_enable(SPI1, TRUE);				                  	// 使能SPI
+   uint16_t i = 0;
+	spi_enable(SPI1, FALSE);                           // 关闭SPI
+	
+	for(i = 0; i < 300; i++)
+		__NOP();
+	
+	SPI1->ctrl1_bit.fbn = SPI_FRAME_16BIT;	            // 切换成16位数据格式
+	
+	for(i = 0; i < 300; i++)
+		__NOP();
+	
+	spi_enable(SPI1, TRUE);				                   	// 使能SPI
+	
+	for(i = 0; i < 300; i++)
+		__NOP();
 }
 
 void at_spi_switch_to_8bit(void)
 {
-   spi_enable(SPI1, FALSE);                           // 关闭SPI
-   SPI1->ctrl1_bit.fbn = SPI_FRAME_8BIT;	            // 切换成8位数据格式
-   spi_enable(SPI1, TRUE);				                   	// 使能SPI
+	uint16_t i = 0;
+	spi_enable(SPI1, FALSE);                           // 关闭SPI
+	
+	for(i = 0; i < 300; i++)
+		__NOP();
+	
+	SPI1->ctrl1_bit.fbn = SPI_FRAME_8BIT;	            // 切换成8位数据格式
+	
+	for(i = 0; i < 300; i++)
+		__NOP();
+	
+	spi_enable(SPI1, TRUE);				                   	// 使能SPI
+	
+	for(i = 0; i < 300; i++)
+		__NOP();
 }
 
 /**
@@ -77,8 +91,7 @@ void at_spi_transmit(spi_type* spi_x, uint8_t data)
 }
 
 void at_spi_transmit_16bit(spi_type* spi_x, uint16_t data)
-{
-  
+{ 
 	while( (spi_x->sts & SPI_I2S_TDBE_FLAG) == 0)
 		;
 	spi_i2s_data_transmit(spi_x, data);	
@@ -146,23 +159,17 @@ void  LCD_WriteData_16bit(uint16_t lcd_data)
 *	
 ****************************************************************************************************************************************/
 
-void  LCD_WriteBuff(uint16_t *DataBuff, uint16_t DataSize)
+void  LCD_WriteBuff(uint16_t *DataBuff, uint32_t DataSize)
 {
 	uint32_t i;
-	
   at_spi_switch_to_16bit();           // 切换成16位数据格式
-	
-	 	// 片选拉低，使能IC
-	
-	for(i=0;i<DataSize;i++)				
+//	at_spi_switch_to_8bit();           // 切换成8位数据格式
+	for(i=0; i < DataSize; i++)				
 	{
 		at_spi_transmit_16bit(SPI1, DataBuff[i]);
-		//    spi_i2s_data_transmit(SPI1, DataBuff[i]);
+		//LCD_WriteData_16bit();
 	}
-		//  while (spi_i2s_flag_get(SPI1, SPI_I2S_BF_FLAG) == SET)
-	 	// 片选拉高	
-	
-  at_spi_switch_to_8bit();           // 切换成8位数据格式
+	at_spi_switch_to_8bit();           // 切换成8位数据格式
 }
 
 /****************************************************************************************************************************************
@@ -334,9 +341,8 @@ void SPI_LCD_Init(void)
 // 以下进行一些驱动的默认设置
    LCD_SetDirection(Direction_V);  	      //	设置显示方向
    LCD_SetColor(LCD_CYAN);               // 设置画笔色  
-	 LCD_SetBackColor(LIGHT_BLUE);           // 设置背景色
-	 LCD_Clear();                           // 清屏
-
+	 LCD_SetBackColor(LCD_WHITE);           // 设置背景色
+   LCD_Clear();                           // 清屏
  
 
 // 全部设置完毕之后，打开背光	
@@ -495,7 +501,7 @@ uint16_t LCD_ReadScanLine(void)
 		SPI1->ctrl1_bit.spien = TRUE; 
  
 
-		GPIOA->cfgr  &= (uint32_t)~(0x03 << (4 * 2));//把GPIOC的PINS_4位置置为零
+		GPIOA->cfgr  &= (uint32_t)~(0x03 << (4 * 2));//把GPIOA的PINS_4位置置为零
 	  GPIOA->cfgr  |= (uint32_t)(GPIO_MODE_OUTPUT << (4 * 2));//将GPIOA的PINS_4设为GPIO_MODE_OUTPUT模式
 		
 		GPIOA->clr = GPIO_PINS_4;//将GPIOC的PINS_4设为低电平
@@ -528,7 +534,7 @@ uint16_t LCD_ReadScanLine(void)
 		
     GPIOA->scr = GPIO_PINS_4;//将GPIOC的PINS_4设为高电平
 		
-		GPIOA->cfgr  &= (uint32_t)~(0x03 << (4 * 2));//把GPIOC的PINS_4位置置为零
+		GPIOA->cfgr  &= (uint32_t)~(0x03 << (4 * 2));//把GPIOA的PINS_4位置置为零
 	  GPIOA->cfgr  |= (uint32_t)(GPIO_MODE_MUX << (4 * 2));//将GPIOA的PINS_4设为GPIO_MODE_MUX模式
 		
 		SPI1->ctrl1_bit.spien = FALSE;//关闭spi
@@ -567,11 +573,7 @@ void LCD_Clear(void)
 	for(i=0;i<LCD.Width*LCD.Height;i++)				
 	{
 		at_spi_transmit_16bit(SPI1, LCD.BackColor);
-//    spi_i2s_data_transmit(SPI1, LCD.BackColor);
-	}
-//	while (spi_i2s_flag_get(SPI1, SPI_I2S_BF_FLAG) == SET)
-//	while( (LCD_SPI.Instance->SR & 0x0080) != RESET);	//	等待通信完成
-	  	// 片选拉高		
+	}	
   at_spi_switch_to_8bit();           // 切换成8位数据格式
 }
 

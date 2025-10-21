@@ -26,6 +26,10 @@
 #define FLASH_SPI_CS_GPIO GPIOA
 // #define FLASH_SPI_CS_GPIO_CLOCK     CRM_GPIOA_PERIPH_CLOCK
 
+// 定义 Flash 操作相关常量
+#define FLASH_PAGE_SIZE 256      // Flash 页大小
+#define FLASH_SECTOR_SIZE 0x1000 // Flash 扇区大小 (4KB)
+
 // W25Q64指令表1
 #define W25Q64_Write_Enable 0x06                     // 写使能
 #define W25Q64_Write_Disable 0x04                    // 写禁止
@@ -76,6 +80,7 @@ void flash_qspi_writeenable(void);
 
 void flash_qspi_erasechip(void);
 void flash_qspi_erase_block(uint32_t address);
+void flash_qspi_erase_sector(uint32_t address);
 
 
 void flash_qspi_writebuffer(uint8_t *pbuffer, uint32_t writeaddr, uint16_t numbytetowrite);

@@ -1,9 +1,7 @@
 #include "at32_qspiflash.h"
 #include "wk_system.h"
 
-// 定义 Flash 操作相关常量
-#define FLASH_PAGE_SIZE 256      // Flash 页大小
-#define FLASH_SECTOR_SIZE 0x1000 // Flash 扇区大小 (4KB)
+
 
 // 静态函数声明
 // static void flash_qspi_writeenable(void);               // 启用写操作
@@ -232,8 +230,7 @@ void qspi_flash_read_xip_dma_set(uint32_t add, uint8_t *buf, uint32_t length)
   dma_channel_enable(DMA2_CHANNEL1, TRUE);
 
   /* wait dma completed */
-  while (dma_flag_get(DMA2_FDT1_FLAG) == RESET)
-    ;
+  while (dma_flag_get(DMA2_FDT1_FLAG) == RESET);
 		dma_flag_clear(DMA2_FDT1_FLAG);
 		dma_channel_enable(DMA2_CHANNEL1, FALSE);
 		qspi_dma_enable(QSPI1, FALSE);
@@ -316,7 +313,6 @@ static void flash_qspi_waitforwriteend(void)
   } while ((flashstatus & 0x01) != RESET); // 检查写入进度标志位
 
   qspi_flag_clear(QSPI1, QSPI_CMDSTS_FLAG);
-  wk_delay_ms(1);
   return;
 }
 
@@ -344,6 +340,46 @@ void flash_qspi_erasechip(void)
  * @param  uint32_t address该地址只能为64k的倍数
  */
 void flash_qspi_erase_block(uint32_t address)
+{
+  qspi_xip_enable(QSPI1, FALSE);
+  // 启用写操作
+  flash_qspi_writeenable();
+
+  // 判断该地址强行转为为64k的倍数
+  address = address - address % (4096*16);
+
+  // 发送芯片擦除指令
+  (&w25q64_cmd_config)->pe_mode_enable = FALSE;
+  (&w25q64_cmd_config)->pe_mode_operate_code = 0;
+  (&w25q64_cmd_config)->instruction_code = W25Q64_Block_Erase_64KB; //
+  (&w25q64_cmd_config)->instruction_length = QSPI_CMD_INSLEN_1_BYTE;
+  (&w25q64_cmd_config)->address_code = address;
+  (&w25q64_cmd_config)->address_length = QSPI_CMD_ADRLEN_4_BYTE;
+  (&w25q64_cmd_config)->data_counter = 0;
+  (&w25q64_cmd_config)->second_dummy_cycle_num = 0;
+  (&w25q64_cmd_config)->operation_mode = QSPI_OPERATE_MODE_111;
+  (&w25q64_cmd_config)->read_status_config = QSPI_RSTSC_SW_ONCE;
+  (&w25q64_cmd_config)->read_status_enable = FALSE;
+  (&w25q64_cmd_config)->write_data_enable = TRUE;
+
+  qspi_cmd_operation_kick(QSPI1, &w25q64_cmd_config);
+
+  while (qspi_flag_get(QSPI1, QSPI_CMDSTS_FLAG) == RESET)
+    ;
+  qspi_flag_clear(QSPI1, QSPI_CMDSTS_FLAG);
+
+  // 等待写入完成
+  flash_qspi_waitforwriteend();
+
+  // 禁用写操作
+  flash_qspi_writedisable();
+}
+
+/**
+ * @brief  擦除单位为4kb的flash存储区域
+ * @param  uint32_t address该地址只能为4k的倍数
+ */
+void flash_qspi_erase_sector(uint32_t address)
 {
   qspi_xip_enable(QSPI1, FALSE);
   // 启用写操作
@@ -389,15 +425,16 @@ void flash_qspi_erase_block(uint32_t address)
  */
 static void flash_qspi_writepage(uint8_t *pbuffer, uint32_t writeaddr, uint16_t numbytetowrite)
 {
+
+	/*!< 等待 FLASH 可以写入 */
+  flash_qspi_waitforwriteend();
   /*!< 启用写入访问到 FLASH */
   flash_qspi_writeenable();
+	QSPI_flash_mode();
   
-  QSPI_flash_mode();
   
   qspi_flash_write_xip_dma_set(writeaddr, pbuffer, numbytetowrite);
-
-  /*!< 等待 FLASH 写入完成 */
-  flash_qspi_waitforwriteend();
+	
 }
 
 /**

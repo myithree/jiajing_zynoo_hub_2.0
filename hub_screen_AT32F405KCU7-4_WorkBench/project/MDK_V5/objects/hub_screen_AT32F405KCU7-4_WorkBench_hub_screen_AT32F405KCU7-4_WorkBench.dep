@@ -71,7 +71,7 @@ I (..\..\libraries\drivers\inc\at32f402_405_usart.h)(0x67EA421D)
 I (..\..\libraries\drivers\inc\at32f402_405_usb.h)(0x67EA421D)
 I (..\..\libraries\drivers\inc\at32f402_405_wdt.h)(0x67EA421D)
 I (..\..\libraries\drivers\inc\at32f402_405_wwdt.h)(0x67EA421D)
-F (..\src\main.c)(0x68F6F744)(--c99 -c --cpu Cortex-M4.fp.sp -g -O0 --apcs=interwork --split_sections -I ..\..\libraries\drivers\inc -I ..\..\libraries\cmsis\cm4\core_support -I ..\..\libraries\cmsis\cm4\device_support -I ..\inc -I ../../middlewares/usb_drivers/inc -I ..\..\user_code -I ..\..\source-ID:\app_program\kile5\packge\ArteryTek\AT32F402_405_DFP\2.1.1\Device\Include-D__UVISION_VERSION="539" -DAT32F405KCU7_4 -DAT32F405KCU7_4 -DUSE_STDPERIPH_DRIVER-o .\objects\main.o --omf_browse .\objects\main.crf --depend .\objects\main.d)
+F (..\src\main.c)(0x68F70F52)(--c99 -c --cpu Cortex-M4.fp.sp -g -O0 --apcs=interwork --split_sections -I ..\..\libraries\drivers\inc -I ..\..\libraries\cmsis\cm4\core_support -I ..\..\libraries\cmsis\cm4\device_support -I ..\inc -I ../../middlewares/usb_drivers/inc -I ..\..\user_code -I ..\..\source-ID:\app_program\kile5\packge\ArteryTek\AT32F402_405_DFP\2.1.1\Device\Include-D__UVISION_VERSION="539" -DAT32F405KCU7_4 -DAT32F405KCU7_4 -DUSE_STDPERIPH_DRIVER-o .\objects\main.o --omf_browse .\objects\main.crf --depend .\objects\main.d)
 I (..\inc\at32f402_405_wk_config.h)(0x68F5F1F5)
 I (D:\app_program\kile5\core\ARM\ARMCC\include\stdio.h)(0x60252374)
 I (..\..\libraries\cmsis\cm4\device_support\at32f402_405.h)(0x67EA421C)
@@ -121,7 +121,7 @@ I (..\..\user_code\ff_app.h)(0x68F208EB)
 I (..\..\source\ff.h)(0x68F1F95A)
 I (..\..\source\ffconf.h)(0x68BE82A6)
 I (D:\app_program\kile5\core\ARM\ARMCC\include\string.h)(0x6025237E)
-I (..\..\user_code\at32_qspiflash.h)(0x68F65710)
+I (..\..\user_code\at32_qspiflash.h)(0x68F700EE)
 I (..\..\user_code\Agreement.h)(0x68F60A58)
 I (D:\app_program\kile5\core\ARM\ARMCC\include\stdlib.h)(0x60252374)
 I (../../middlewares/usb_drivers/inc/usbd_int.h)(0x67EA421D)
@@ -214,7 +214,7 @@ I (D:\app_program\kile5\core\ARM\ARMCC\include\stdlib.h)(0x60252374)
 I (..\..\user_code\ff_app.h)(0x68F208EB)
 I (..\..\source\ff.h)(0x68F1F95A)
 I (..\..\source\ffconf.h)(0x68BE82A6)
-I (..\..\user_code\at32_qspiflash.h)(0x68F65710)
+I (..\..\user_code\at32_qspiflash.h)(0x68F700EE)
 I (..\..\user_code\lcd_spi.h)(0x68F0FAC5)
 I (..\inc\wk_spi.h)(0x68F5F1F5)
 I (..\inc\at32f402_405_int.h)(0x68F5F1F5)
@@ -1393,8 +1393,8 @@ I (..\..\libraries\drivers\inc\at32f402_405_wwdt.h)(0x67EA421D)
 I (..\inc\wk_system.h)(0x68F5F1F5)
 I (..\inc\at32f402_405_int.h)(0x68F5F1F5)
 F (..\..\user_code\lcd_spi.h)(0x68F0FAC5)()
-F (..\..\user_code\at32_qspiflash.c)(0x68F6577A)(--c99 -c --cpu Cortex-M4.fp.sp -g -O0 --apcs=interwork --split_sections -I ..\..\libraries\drivers\inc -I ..\..\libraries\cmsis\cm4\core_support -I ..\..\libraries\cmsis\cm4\device_support -I ..\inc -I ../../middlewares/usb_drivers/inc -I ..\..\user_code -I ..\..\source-ID:\app_program\kile5\packge\ArteryTek\AT32F402_405_DFP\2.1.1\Device\Include-D__UVISION_VERSION="539" -DAT32F405KCU7_4 -DAT32F405KCU7_4 -DUSE_STDPERIPH_DRIVER-o .\objects\at32_qspiflash.o --omf_browse .\objects\at32_qspiflash.crf --depend .\objects\at32_qspiflash.d)
-I (..\..\user_code\at32_qspiflash.h)(0x68F65710)
+F (..\..\user_code\at32_qspiflash.c)(0x68F70286)(--c99 -c --cpu Cortex-M4.fp.sp -g -O0 --apcs=interwork --split_sections -I ..\..\libraries\drivers\inc -I ..\..\libraries\cmsis\cm4\core_support -I ..\..\libraries\cmsis\cm4\device_support -I ..\inc -I ../../middlewares/usb_drivers/inc -I ..\..\user_code -I ..\..\source-ID:\app_program\kile5\packge\ArteryTek\AT32F402_405_DFP\2.1.1\Device\Include-D__UVISION_VERSION="539" -DAT32F405KCU7_4 -DAT32F405KCU7_4 -DUSE_STDPERIPH_DRIVER-o .\objects\at32_qspiflash.o --omf_browse .\objects\at32_qspiflash.crf --depend .\objects\at32_qspiflash.d)
+I (..\..\user_code\at32_qspiflash.h)(0x68F700EE)
 I (..\..\libraries\cmsis\cm4\device_support\at32f402_405.h)(0x67EA421C)
 I (..\..\libraries\cmsis\cm4\core_support\core_cm4.h)(0x67EA421C)
 I (D:\app_program\kile5\core\ARM\ARMCC\include\stdint.h)(0x6025237E)
@@ -1433,8 +1433,8 @@ I (..\inc\at32f402_405_wk_config.h)(0x68F5F1F5)
 I (D:\app_program\kile5\core\ARM\ARMCC\include\stdio.h)(0x60252374)
 I (..\inc\wk_system.h)(0x68F5F1F5)
 I (..\inc\at32f402_405_int.h)(0x68F5F1F5)
-F (..\..\user_code\at32_qspiflash.h)(0x68F65710)()
-F (..\..\user_code\ff_app.c)(0x68F6F7E0)(--c99 -c --cpu Cortex-M4.fp.sp -g -O0 --apcs=interwork --split_sections -I ..\..\libraries\drivers\inc -I ..\..\libraries\cmsis\cm4\core_support -I ..\..\libraries\cmsis\cm4\device_support -I ..\inc -I ../../middlewares/usb_drivers/inc -I ..\..\user_code -I ..\..\source-ID:\app_program\kile5\packge\ArteryTek\AT32F402_405_DFP\2.1.1\Device\Include-D__UVISION_VERSION="539" -DAT32F405KCU7_4 -DAT32F405KCU7_4 -DUSE_STDPERIPH_DRIVER-o .\objects\ff_app.o --omf_browse .\objects\ff_app.crf --depend .\objects\ff_app.d)
+F (..\..\user_code\at32_qspiflash.h)(0x68F700EE)()
+F (..\..\user_code\ff_app.c)(0x68F7004D)(--c99 -c --cpu Cortex-M4.fp.sp -g -O0 --apcs=interwork --split_sections -I ..\..\libraries\drivers\inc -I ..\..\libraries\cmsis\cm4\core_support -I ..\..\libraries\cmsis\cm4\device_support -I ..\inc -I ../../middlewares/usb_drivers/inc -I ..\..\user_code -I ..\..\source-ID:\app_program\kile5\packge\ArteryTek\AT32F402_405_DFP\2.1.1\Device\Include-D__UVISION_VERSION="539" -DAT32F405KCU7_4 -DAT32F405KCU7_4 -DUSE_STDPERIPH_DRIVER-o .\objects\ff_app.o --omf_browse .\objects\ff_app.crf --depend .\objects\ff_app.d)
 I (..\..\user_code\ff_app.h)(0x68F208EB)
 I (..\..\source\ff.h)(0x68F1F95A)
 I (..\..\source\ffconf.h)(0x68BE82A6)
@@ -1473,13 +1473,13 @@ I (..\..\libraries\drivers\inc\at32f402_405_usb.h)(0x67EA421D)
 I (..\..\libraries\drivers\inc\at32f402_405_wdt.h)(0x67EA421D)
 I (..\..\libraries\drivers\inc\at32f402_405_wwdt.h)(0x67EA421D)
 I (D:\app_program\kile5\core\ARM\ARMCC\include\string.h)(0x6025237E)
-I (..\..\user_code\at32_qspiflash.h)(0x68F65710)
+I (..\..\user_code\at32_qspiflash.h)(0x68F700EE)
 I (..\..\user_code\lcd_spi.h)(0x68F0FAC5)
 I (..\inc\wk_spi.h)(0x68F5F1F5)
 I (..\inc\wk_system.h)(0x68F5F1F5)
 I (..\inc\at32f402_405_int.h)(0x68F5F1F5)
 F (..\..\user_code\ff_app.h)(0x68F208EB)()
-F (..\..\user_code\Agreement.c)(0x68F6F612)(--c99 -c --cpu Cortex-M4.fp.sp -g -O0 --apcs=interwork --split_sections -I ..\..\libraries\drivers\inc -I ..\..\libraries\cmsis\cm4\core_support -I ..\..\libraries\cmsis\cm4\device_support -I ..\inc -I ../../middlewares/usb_drivers/inc -I ..\..\user_code -I ..\..\source-ID:\app_program\kile5\packge\ArteryTek\AT32F402_405_DFP\2.1.1\Device\Include-D__UVISION_VERSION="539" -DAT32F405KCU7_4 -DAT32F405KCU7_4 -DUSE_STDPERIPH_DRIVER-o .\objects\agreement.o --omf_browse .\objects\agreement.crf --depend .\objects\agreement.d)
+F (..\..\user_code\Agreement.c)(0x68F6FAD0)(--c99 -c --cpu Cortex-M4.fp.sp -g -O0 --apcs=interwork --split_sections -I ..\..\libraries\drivers\inc -I ..\..\libraries\cmsis\cm4\core_support -I ..\..\libraries\cmsis\cm4\device_support -I ..\inc -I ../../middlewares/usb_drivers/inc -I ..\..\user_code -I ..\..\source-ID:\app_program\kile5\packge\ArteryTek\AT32F402_405_DFP\2.1.1\Device\Include-D__UVISION_VERSION="539" -DAT32F405KCU7_4 -DAT32F405KCU7_4 -DUSE_STDPERIPH_DRIVER-o .\objects\agreement.o --omf_browse .\objects\agreement.crf --depend .\objects\agreement.d)
 I (..\..\user_code\Agreement.h)(0x68F60A58)
 I (D:\app_program\kile5\core\ARM\ARMCC\include\stdlib.h)(0x60252374)
 I (../../middlewares/usb_drivers/inc/usbd_int.h)(0x67EA421D)
@@ -1528,12 +1528,12 @@ I (..\inc\wk_system.h)(0x68F5F1F5)
 I (..\..\user_code\ff_app.h)(0x68F208EB)
 I (..\..\source\ff.h)(0x68F1F95A)
 I (..\..\source\ffconf.h)(0x68BE82A6)
-I (..\..\user_code\at32_qspiflash.h)(0x68F65710)
+I (..\..\user_code\at32_qspiflash.h)(0x68F700EE)
 I (..\..\user_code\lcd_spi.h)(0x68F0FAC5)
 I (..\inc\wk_spi.h)(0x68F5F1F5)
 I (..\inc\at32f402_405_int.h)(0x68F5F1F5)
 F (..\..\user_code\Agreement.h)(0x68F60A58)()
-F (..\..\source\diskio.c)(0x68F65701)(--c99 -c --cpu Cortex-M4.fp.sp -g -O0 --apcs=interwork --split_sections -I ..\..\libraries\drivers\inc -I ..\..\libraries\cmsis\cm4\core_support -I ..\..\libraries\cmsis\cm4\device_support -I ..\inc -I ../../middlewares/usb_drivers/inc -I ..\..\user_code -I ..\..\source-ID:\app_program\kile5\packge\ArteryTek\AT32F402_405_DFP\2.1.1\Device\Include-D__UVISION_VERSION="539" -DAT32F405KCU7_4 -DAT32F405KCU7_4 -DUSE_STDPERIPH_DRIVER-o .\objects\diskio.o --omf_browse .\objects\diskio.crf --depend .\objects\diskio.d)
+F (..\..\source\diskio.c)(0x68F6FE4C)(--c99 -c --cpu Cortex-M4.fp.sp -g -O0 --apcs=interwork --split_sections -I ..\..\libraries\drivers\inc -I ..\..\libraries\cmsis\cm4\core_support -I ..\..\libraries\cmsis\cm4\device_support -I ..\inc -I ../../middlewares/usb_drivers/inc -I ..\..\user_code -I ..\..\source-ID:\app_program\kile5\packge\ArteryTek\AT32F402_405_DFP\2.1.1\Device\Include-D__UVISION_VERSION="539" -DAT32F405KCU7_4 -DAT32F405KCU7_4 -DUSE_STDPERIPH_DRIVER-o .\objects\diskio.o --omf_browse .\objects\diskio.crf --depend .\objects\diskio.d)
 I (..\..\source\ff.h)(0x68F1F95A)
 I (..\..\source\ffconf.h)(0x68BE82A6)
 I (D:\app_program\kile5\core\ARM\ARMCC\include\stdint.h)(0x6025237E)
@@ -1571,7 +1571,7 @@ I (..\..\libraries\drivers\inc\at32f402_405_usart.h)(0x67EA421D)
 I (..\..\libraries\drivers\inc\at32f402_405_usb.h)(0x67EA421D)
 I (..\..\libraries\drivers\inc\at32f402_405_wdt.h)(0x67EA421D)
 I (..\..\libraries\drivers\inc\at32f402_405_wwdt.h)(0x67EA421D)
-I (..\..\user_code\at32_qspiflash.h)(0x68F65710)
+I (..\..\user_code\at32_qspiflash.h)(0x68F700EE)
 I (..\..\user_code\lcd_spi.h)(0x68F0FAC5)
 I (..\inc\wk_spi.h)(0x68F5F1F5)
 I (..\inc\wk_system.h)(0x68F5F1F5)

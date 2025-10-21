@@ -76,7 +76,7 @@ void wk_spi1_init(void)
   gpio_init_struct.gpio_out_type = GPIO_OUTPUT_PUSH_PULL;
   gpio_init_struct.gpio_mode = GPIO_MODE_MUX;
   gpio_init_struct.gpio_pins = GPIO_PINS_4;
-  gpio_init_struct.gpio_pull = GPIO_PULL_NONE;
+  gpio_init_struct.gpio_pull = GPIO_PULL_UP;
   gpio_init(GPIOA, &gpio_init_struct);
 
   /* configure param */
@@ -92,7 +92,6 @@ void wk_spi1_init(void)
 
   /* configure the cs pin output */
   spi_hardware_cs_output_enable(SPI1, TRUE);
-
   /* add user code begin spi1_init 2 */
 
   /* add user code end spi1_init 2 */

@@ -122,11 +122,11 @@ DRESULT disk_read(
 {
 	DRESULT status = RES_PARERR;
 	QSPI_flash_mode();
-	switch (pdrv)
+	switch (pdrv)                     //前面16mb给图片
 	{
 	case material:
-		sector += 0;
-	qspi_flash_read_xip_dma_set(sector << 12, buff, count == 0 ? 4096 : count << 12);
+		sector += 4096;
+	 qspi_flash_read_xip_dma_set(sector << 12, buff, count == 0 ? 4096 : count << 12);
 		status = RES_OK;
 		break;
 
@@ -167,7 +167,7 @@ DRESULT disk_write(
 	switch (pdrv)
 	{
 	case material:
-
+		sector += 4096;
 		while (count--)
 		{
 			write_addr = sector << 12;
@@ -226,9 +226,9 @@ DRESULT disk_ioctl(
 			status = RES_OK;
 			break;
 		case GET_SECTOR_COUNT: // 扇区个数
-			// 大小：7936*4096/1024/1024=31MB
-			// 总共32MB，分给这个区31MB,31*1024(KB)*1024(Byte)/4096=7936，按照最大扇区设置的4096个字节，分了7936个扇区给它
-			*(DWORD *)buff = 7936;
+			// 大小：7936-4096)*4096/1024/1024=31-16MB
+			// 总共32MB，分给这个区31-16MB,31-16)*1024(KB)*1024(Byte)/4096=7936-4096，按照最大扇区设置的4096个字节，分了7936-4096个扇区给它
+			*(DWORD *)buff = 3840;
 			status = RES_OK;
 			break;
 		/* 扇区大小  */
